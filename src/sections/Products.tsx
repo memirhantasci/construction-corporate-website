@@ -162,7 +162,10 @@ export default function Products() {
           </h2>
         </div>
 
-        <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
+
+
+       <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {products.map((product, i) => (
             <div 
               key={i} 
@@ -172,11 +175,14 @@ export default function Products() {
                 window.scrollTo(0, 0);
               }}
             >
-              <div className="overflow-hidden rounded-sm bg-gray-200" style={{ aspectRatio: '4/3' }}>
+              {/* 1. 'will-change-transform' ekleyerek tarayıcıya animasyon olacağını söyledik (titremeyi önler).
+                  2. 'transform-gpu' ile ekran kartını devreye soktuk.
+              */}
+              <div className="overflow-hidden rounded-sm bg-gray-200 relative w-full" style={{ aspectRatio: '4/3' }}>
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="product-img w-full h-full object-cover transition-transform duration-600 group-hover:scale-105"
+                  className="product-img block w-full h-full object-cover transition-transform duration-700 ease-out will-change-transform transform-gpu md:group-hover:scale-105"
                 />
               </div>
               <div className="pt-6">
@@ -189,14 +195,15 @@ export default function Products() {
                 <p className="text-navy-muted mt-2" style={{ fontSize: 16, lineHeight: 1.6 }}>
                   {product.desc}
                 </p>
-                <p className="text-coral mt-4" style={{ fontSize: 14, lineHeight: 1.4, letterSpacing: '0.02em' }}>
+                <div className="text-coral mt-4" style={{ fontSize: 14, lineHeight: 1.4, letterSpacing: '0.02em' }}>
                   <span className="hover:underline uppercase text-xs font-bold">Detaylı Bilgi & İncele →</span>
-                </p>
+                </div>
               </div>
             </div>
           ))}
         </div>
-
+        
+        
         <div className="text-center mt-16">
           <button
             onClick={() => {
