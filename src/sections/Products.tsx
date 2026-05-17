@@ -164,44 +164,46 @@ export default function Products() {
 
 
 
-
-       <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {products.map((product, i) => (
-            <div 
-              key={i} 
-              className="product-card group cursor-pointer"
-              onClick={() => {
-                navigate(`/urunler/${product.id}`);
-                window.scrollTo(0, 0);
-              }}
-            >
-              {/* 1. 'will-change-transform' ekleyerek tarayıcıya animasyon olacağını söyledik (titremeyi önler).
-                  2. 'transform-gpu' ile ekran kartını devreye soktuk.
-              */}
-              <div className="overflow-hidden rounded-sm bg-gray-200 relative w-full" style={{ aspectRatio: '4/3' }}>
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="product-img block w-full h-full object-cover transition-transform duration-700 ease-out will-change-transform transform-gpu md:group-hover:scale-105"
-                />
-              </div>
-              <div className="pt-6">
-                <h3
-                  className="text-navy uppercase"
-                  style={{ fontSize: 24, fontWeight: 400, lineHeight: 1.25, letterSpacing: '-0.01em' }}
-                >
-                  {product.name}
-                </h3>
-                <p className="text-navy-muted mt-2" style={{ fontSize: 16, lineHeight: 1.6 }}>
-                  {product.desc}
-                </p>
-                <div className="text-coral mt-4" style={{ fontSize: 14, lineHeight: 1.4, letterSpacing: '0.02em' }}>
-                  <span className="hover:underline uppercase text-xs font-bold">Detaylı Bilgi & İncele →</span>
-                </div>
-              </div>
-            </div>
-          ))}
+        <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+  {products.map((product, i) => (
+    <div 
+      key={i} 
+      className="product-card group cursor-pointer"
+      onClick={() => {
+        navigate(`/urunler/${product.id}`);
+        window.scrollTo(0, 0);
+      }}
+    >
+      {/* Kutuyu 'isolate' ve 'transform-z-0' ile tamamen stabilize ettik */}
+      <div 
+        className="overflow-hidden rounded-sm bg-gray-100 relative w-full isolate transform-gpu" 
+        style={{ aspectRatio: '4/3', touchAction: 'pan-y' }}
+      >
+        <img
+          src={product.image}
+          alt={product.name}
+          className="product-img absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out will-change-transform md:group-hover:scale-105"
+          loading="lazy"
+        />
+      </div>
+      
+      <div className="pt-6">
+        <h3
+          className="text-navy uppercase"
+          style={{ fontSize: 24, fontWeight: 400, lineHeight: 1.25, letterSpacing: '-0.01em' }}
+        >
+          {product.name}
+        </h3>
+        <p className="text-navy-muted mt-2" style={{ fontSize: 16, lineHeight: 1.6 }}>
+          {product.desc}
+        </p>
+        <div className="text-coral mt-4">
+          <span className="uppercase text-xs font-bold tracking-widest">Detaylı Bilgi & İncele →</span>
         </div>
+      </div>
+    </div>
+  ))}
+</div>
         
         
         <div className="text-center mt-16">
