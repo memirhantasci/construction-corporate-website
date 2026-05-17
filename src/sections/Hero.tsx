@@ -1,0 +1,131 @@
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import SplitType from 'split-type';
+
+gsap.registerPlugin(ScrollTrigger);
+
+export default function Hero() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const headlineRef = useRef<HTMLHeadingElement>(null);
+  const eyebrowRef = useRef<HTMLParagraphElement>(null);
+  const subRef = useRef<HTMLParagraphElement>(null);
+  const ctaRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      // Eyebrow Animasyonu
+      gsap.fromTo(
+        eyebrowRef.current,
+        { opacity: 0, y: 20 },
+        { opacity: 1, y: 0, duration: 0.6, delay: 0.4, ease: 'power2.out' }
+      );
+
+      // Başlık Animasyonu (Karakter bazlı)
+      if (headlineRef.current) {
+        const split = new SplitType(headlineRef.current, { types: 'chars' });
+        if (split.chars) {
+          gsap.fromTo(
+            split.chars,
+            { opacity: 0, y: 30 },
+            { opacity: 1, y: 0, stagger: 0.025, duration: 0.5, ease: 'power3.out', delay: 0.6 }
+          );
+        }
+      }
+
+      // Alt Başlık Animasyonu
+      gsap.fromTo(
+        subRef.current,
+        { opacity: 0, y: 15 },
+        { opacity: 1, y: 0, duration: 0.8, delay: 1.2, ease: 'power2.out' }
+      );
+
+      // Butonlar Animasyonu
+      gsap.fromTo(
+        ctaRef.current,
+        { opacity: 0, y: 15 },
+        { opacity: 1, y: 0, duration: 0.8, delay: 1.4, ease: 'power2.out' }
+      );
+    }, sectionRef);
+
+    return () => ctx.revert();
+  }, []);
+
+  return (
+    <section
+      ref={sectionRef}
+      className="relative min-h-screen flex items-center overflow-hidden bg-navy"
+    >
+      {/* Arka Plan Görseli & Karartma Katmanı */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="/images/hero-bg.jpg" // RESİM: Şık bir alüminyum/cam yapı uygulaması veya modern bir cephe görseli
+          alt="Akın Yapı Sistemleri Arka Plan" 
+          className="w-full h-full object-cover opacity-80"
+        />
+        <div className="absolute inset-0 bg-black/60"></div>
+      </div>
+
+      {/* Metin İçeriği */}
+      <div className="relative z-10 w-full md:w-2/3 flex flex-col justify-center px-8 md:pl-[120px] md:pr-8 py-24">
+        <p
+          ref={eyebrowRef}
+          className="text-coral uppercase mb-6 opacity-0"
+          style={{ fontSize: 14, fontWeight: 500, letterSpacing: '0.04em', lineHeight: 1.4 }}
+        >
+          İSTANBUL'UN LİDER YAPI VE CAM SİSTEMLERİ ÜRETİCİSİ
+        </p>
+
+        <h1
+          ref={headlineRef}
+          className="text-white uppercase"
+          style={{
+            fontSize: 'clamp(40px, 6vw, 90px)',
+            fontWeight: 600,
+            lineHeight: 0.95,
+            letterSpacing: '-0.02em',
+          }}
+        >
+          Modern Yapı
+          <br />
+          Çözümleri
+        </h1>
+
+        <p
+          ref={subRef}
+          className="text-gray-200 opacity-0 max-w-lg mt-7"
+          style={{ fontSize: 18, lineHeight: 1.6, fontWeight: 400 }}
+        >
+          Alüminyum doğramadan cam balkona, motorlu panjurdan sinekliğe kadar yaşam alanlarınız için estetik, dayanıklı ve fonksiyonel çözümler üretiyoruz.
+        </p>
+
+        <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10 opacity-0">
+          <a
+            href="/iletisim"
+            className="inline-block bg-coral text-white font-medium uppercase rounded-full transition-all duration-300 hover:scale-[1.03]"
+            style={{ padding: '14px 32px', fontSize: 16, letterSpacing: '0.08em', fontWeight: 500 }}
+            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#C85A4A')}
+            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#E06B5A')}
+          >
+            BİZE ULAŞIN
+          </a>
+          <a
+            href="/islerimiz"
+            className="text-white uppercase text-sm transition-all duration-400 group inline-flex items-center gap-2"
+            style={{ fontWeight: 500, letterSpacing: '0.05em' }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.letterSpacing = '0.15em';
+              e.currentTarget.style.color = '#E06B5A';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.letterSpacing = '0.05em';
+              e.currentTarget.style.color = 'white';
+            }}
+          >
+            TÜM İŞLERİMİZİ GÖR <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
