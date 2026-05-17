@@ -2,8 +2,8 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
+import { Link } from 'react-router-dom';
 
-gsap.registerPlugin(ScrollTrigger);
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -99,32 +99,36 @@ export default function Hero() {
           Alüminyum doğramadan cam balkona, motorlu panjurdan sinekliğe kadar yaşam alanlarınız için estetik, dayanıklı ve fonksiyonel çözümler üretiyoruz.
         </p>
 
-        <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10 opacity-0">
-          <a
-            href="/iletisim"
-            className="inline-block bg-coral text-white font-medium uppercase rounded-full transition-all duration-300 hover:scale-[1.03]"
-            style={{ padding: '14px 32px', fontSize: 16, letterSpacing: '0.08em', fontWeight: 500 }}
-            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#C85A4A')}
-            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#E06B5A')}
-          >
-            BİZE ULAŞIN
-          </a>
-          <a
-            href="/islerimiz"
-            className="text-white uppercase text-sm transition-all duration-400 group inline-flex items-center gap-2"
-            style={{ fontWeight: 500, letterSpacing: '0.05em' }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.letterSpacing = '0.15em';
-              e.currentTarget.style.color = '#E06B5A';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.letterSpacing = '0.05em';
-              e.currentTarget.style.color = 'white';
-            }}
-          >
-            TÜM İŞLERİMİZİ GÖR <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-          </a>
-        </div>
+       <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10 opacity-0">
+        {/* BİZE ULAŞIN BUTONU */}
+        <Link
+          to="/iletisim"
+          className="inline-block bg-coral text-white font-medium uppercase rounded-full transition-all duration-300 hover:scale-[1.03] hover:bg-[#C85A4A]"
+          style={{ 
+            padding: '14px 32px', 
+            fontSize: 16, 
+            letterSpacing: '0.08em', 
+            fontWeight: 500 
+          }}
+        >
+          BİZE ULAŞIN
+        </Link>
+
+        {/* TÜM İŞLERİMİZİ GÖR BUTONU */}
+        <Link
+          to="/islerimiz"
+          className="text-white uppercase text-sm transition-all duration-300 group inline-flex items-center gap-2 hover:text-coral hover:tracking-[0.15em]"
+          style={{ 
+            fontWeight: 500, 
+            letterSpacing: '0.05em' 
+          }}
+        >
+          TÜM İŞLERİMİZİ GÖR 
+          <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
+            →
+          </span>
+        </Link>
+      </div>
       </div>
     </section>
   );

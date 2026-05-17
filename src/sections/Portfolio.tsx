@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
@@ -103,12 +103,13 @@ export default function Portfolio() {
         </div>
 
         <div className="mt-16 flex justify-center">
-          <button
-            onClick={() => { navigate('/islerimiz'); window.scrollTo(0, 0); }}
-            className="bg-coral text-white font-bold uppercase rounded-full px-12 py-4 transition-all hover:scale-105"
+          <Link
+            to="/album"
+            onClick={() => window.scrollTo(0, 0)}
+            className="bg-coral text-white font-bold uppercase rounded-full px-12 py-4 transition-all hover:scale-105 inline-block"
           >
             TÜM PROJELERİ İNCELE
-          </button>
+          </Link>
         </div>
       </div>
     </section>
