@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
+import { Link } from 'react-router-dom'; // <--- SADECE BU OLSUN
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -138,6 +139,11 @@ export default function About() {
           </div>
 
           {/* Text */}
+
+
+
+
+
           <div ref={contentRef} className="w-full md:w-[55%] flex flex-col justify-center">
             <p className="text-navy-muted" style={{ fontSize: 18, lineHeight: 1.6 }}>
               Akın Yapı Sistemleri olarak, 2008 yılından bu yana İstanbul genelinde yapı çözümleri sunuyoruz. Sadece bir sineklik üreticisi değil; alüminyum doğramadan cam balkona, motorlu panjurdan modern duşakabin sistemlerine kadar geniş bir yelpazede, mekanlarınıza değer katan projeler geliştiriyoruz.
@@ -161,22 +167,24 @@ export default function About() {
                 <p className="text-navy-muted uppercase mt-1" style={{ fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4 }}>Müşteri Memnuniyeti</p>
               </div>
             </div>
-
-            <a
-              href="/iletisim"
-              className="inline-flex items-center gap-2 text-navy uppercase text-sm mt-10 transition-all duration-400 group"
-              style={{ fontWeight: 400, letterSpacing: '0.05em', width: 'fit-content' }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.letterSpacing = '0.15em';
-                e.currentTarget.style.color = '#E06B5A';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.letterSpacing = '0.05em';
-                e.currentTarget.style.color = '#1C1F33';
-              }}
-            >
-              PROJENİZ İÇİN TEKLİF ALIN <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-            </a>
+            <Link
+            to="/iletisim"
+            className="inline-flex items-center gap-2 text-navy uppercase text-sm mt-10 transition-all duration-400 group"
+            style={{ fontWeight: 400, letterSpacing: '0.05em', width: 'fit-content' }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.letterSpacing = '0.15em';
+              e.currentTarget.style.color = '#E06B5A';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.letterSpacing = '0.05em';
+              e.currentTarget.style.color = '#1C1F33';
+            }}
+          >
+            PROJENİZ İÇİN TEKLİF ALIN 
+            <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
+              →
+            </span>
+          </Link>
           </div>
         </div>
       </div>
