@@ -72,7 +72,7 @@ export default function Hero() {
           className="text-coral uppercase mb-6 opacity-0"
           style={{ fontSize: 14, fontWeight: 500, letterSpacing: '0.04em', lineHeight: 1.4 }}
         >
-          İSTANBUL ANADOLU YAKASI CAM BALKON & SİNEKLİK
+          
         </p>
 
         <h1
@@ -85,9 +85,9 @@ export default function Hero() {
             letterSpacing: '-0.02em',
           }}
         >
-          İstanbul Anadolu Yakası
+          İstanbul Cam Balkon
           <br />
-          Cam Balkon &amp; Sineklik Sistemleri
+          &amp; Sineklik Sistemleri
         </h1>
 
         <p

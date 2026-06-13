@@ -359,35 +359,6 @@ export const districtPages: Record<string, DistrictPageData> = {
       },
     ],
   },
-  'adalar-cam-balkon-sineklik': {
-    slug: 'adalar-cam-balkon-sineklik',
-    district: 'Adalar',
-    title: 'Adalar Cam Balkon & Sineklik Sistemleri',
-    description:
-      'Adalar cam balkon, katlanır cam balkon, ısıcamlı cam balkon, pileli sineklik ve kedi sinekliği. Büyükada, Heybeliada, Kınalıada ve Burgazada montaj.',
-    cardDescription: 'Büyükada, Heybeliada ve diğer adalar',
-    heroSubtitle: 'Adalara özel lojistik ve montaj planlaması',
-    intro:
-      'Adalar\'da Büyükada, Heybeliada, Kınalıada ve Burgazada\'da cam balkon ve sineklik işleri yapıyoruz. Ada koşullarına göre malzeme taşıma ve montaj planını önceden birlikte belirliyoruz. Tarihi konaklardan yeni yazlıklara kadar farklı yapı tiplerine uyum sağlıyoruz.',
-    neighborhoods: ['Büyükada', 'Heybeliada', 'Kınalıada', 'Burgazada', 'Nizam', 'Maden'],
-    sections: [
-      {
-        heading: 'Adalar\'da Katlanır Cam Balkon',
-        body:
-          'Ada evlerinin teras ve balkonlarına katlanır cam balkon kuruyoruz. Deniz manzarası korunur, cam tamamen açılabilir. Vapur saatlerine göre montaj planlaması yapıyoruz.',
-      },
-      {
-        heading: 'Isıcamlı Cam Balkon Uygulaması',
-        body:
-          'Adalar\'da rüzgâr ve nem etkisi yüksek. Isıcamlı cam balkon balkonu korur, kış aylarında kullanım süresini uzatır. Profil ve cam seçiminde ada koşullarına uygun malzeme kullanıyoruz.',
-      },
-      {
-        heading: 'Pileli Sineklik ve Kedi Sinekliği',
-        body:
-          'Adalarda yaz aylarında sinek yoğunluğu artar. Pileli sineklik montajı ev konforunu ciddi artırır. Sokak kedisi sahipleri için kedi sinekliği modellerimiz de mevcut.',
-      },
-    ],
-  },
 };
 
 export const districtNavItems = Object.values(districtPages)
