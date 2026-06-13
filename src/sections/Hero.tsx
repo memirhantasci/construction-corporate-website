@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
 import { Link } from 'react-router-dom';
 
@@ -60,7 +59,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <img 
           src="/images/hero-bg.jpg" // RESİM: Şık bir alüminyum/cam yapı uygulaması veya modern bir cephe görseli
-          alt="Akın Yapı Sistemleri Arka Plan" 
+          alt="İstanbul Cam Balkon & Sineklik arka plan" 
           className="w-full h-full object-cover opacity-80"
         />
         <div className="absolute inset-0 bg-black/60"></div>
@@ -73,22 +72,22 @@ export default function Hero() {
           className="text-coral uppercase mb-6 opacity-0"
           style={{ fontSize: 14, fontWeight: 500, letterSpacing: '0.04em', lineHeight: 1.4 }}
         >
-          İSTANBUL'UN LİDER YAPI VE CAM SİSTEMLERİ ÜRETİCİSİ
+          İSTANBUL ANADOLU YAKASI CAM BALKON & SİNEKLİK
         </p>
 
         <h1
           ref={headlineRef}
           className="text-white uppercase"
           style={{
-            fontSize: 'clamp(40px, 6vw, 90px)',
+            fontSize: 'clamp(36px, 5vw, 72px)',
             fontWeight: 600,
             lineHeight: 0.95,
             letterSpacing: '-0.02em',
           }}
         >
-          Modern Yapı
+          İstanbul Anadolu Yakası
           <br />
-          Çözümleri
+          Cam Balkon &amp; Sineklik Sistemleri
         </h1>
 
         <p
