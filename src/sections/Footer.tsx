@@ -1,4 +1,4 @@
-import { useNavigate} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { SITE } from '../config/site';
 
 const footerLinks = [
@@ -8,9 +8,25 @@ const footerLinks = [
   { label: 'İşlerimiz', href: '/islerimiz' },
 ];
 
+// İstediğin yeni formata göre güncellenen SEO link yapısı (/bolgeler/ilce-cam-balkon-sineklik)
+const serviceDistricts = [
+  { label: 'Ataşehir', href: '/bolgeler/atasehir-cam-balkon-sineklik' },
+  { label: 'Beykoz', href: '/bolgeler/beykoz-cam-balkon-sineklik' },
+  { label: 'Çekmeköy', href: '/bolgeler/cekmekoy-cam-balkon-sineklik' },
+  { label: 'Kadıköy', href: '/bolgeler/kadikoy-cam-balkon-sineklik' },
+  { label: 'Kartal', href: '/bolgeler/kartal-cam-balkon-sineklik' },
+  { label: 'Maltepe', href: '/bolgeler/maltepe-cam-balkon-sineklik' },
+  { label: 'Pendik', href: '/bolgeler/pendik-cam-balkon-sineklik' },
+  { label: 'Sancaktepe', href: '/bolgeler/sancaktepe-cam-balkon-sineklik' },
+  { label: 'Sultanbeyli', href: '/bolgeler/sultanbeyli-cam-balkon-sineklik' },
+  { label: 'Şile', href: '/bolgeler/sile-cam-balkon-sineklik' },
+  { label: 'Tuzla', href: '/bolgeler/tuzla-cam-balkon-sineklik' },
+  { label: 'Ümraniye', href: '/bolgeler/umraniye-cam-balkon-sineklik' },
+  { label: 'Üsküdar', href: '/bolgeler/uskudar-cam-balkon-sineklik' },
+];
+
 export default function Footer() {
   const navigate = useNavigate();
-  
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -83,9 +99,27 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Orta Satır: Hizmet Bölgeleri (SEO) */}
+        <div className="mt-12 pt-8" style={{ borderTop: '1px solid rgba(247, 247, 245, 0.08)' }}>
+          <h4 className="text-coral uppercase text-xs font-bold tracking-widest mb-4">HİZMET BÖLGELERİMİZ</h4>
+          <div className="flex flex-wrap gap-x-4 gap-y-2">
+            {serviceDistricts.map((district) => (
+              <a
+                key={district.href}
+                href={district.href}
+                onClick={(e) => handleClick(e, district.href)}
+                className="transition-colors duration-300 hover:text-white text-sm"
+                style={{ color: '#6B6E82' }}
+              >
+                {district.label} Cam Balkon & Sineklik
+              </a>
+            ))}
+          </div>
+        </div>
+
         {/* Ayırıcı Çizgi */}
         <div
-          className="my-12"
+          className="my-8"
           style={{ height: 1, backgroundColor: 'rgba(247, 247, 245, 0.08)' }}
         />
 
