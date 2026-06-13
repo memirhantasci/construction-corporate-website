@@ -1,4 +1,5 @@
 import { useNavigate} from 'react-router-dom';
+import { SITE } from '../config/site';
 
 const footerLinks = [
   { label: 'Hizmetlerimiz', href: '/urunler' },
@@ -35,8 +36,8 @@ export default function Footer() {
           
           {/* Sol: Şirket Bilgisi */}
           <div>
-            <h3 className="text-white text-xl font-medium uppercase tracking-widest mb-6">
-              AKIN YAPI SİSTEMLERİ
+            <h3 className="text-white text-lg sm:text-xl font-medium uppercase tracking-widest mb-6">
+              {SITE.name.toUpperCase()}
             </h3>
             <p className="text-gray-400 max-w-xs leading-relaxed">
               Alüminyum, PVC ve Cam sistemlerinde 18 yılı aşkın tecrübe ile yaşam alanlarınıza değer katıyoruz.
@@ -91,7 +92,7 @@ export default function Footer() {
         {/* Alt Satır */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p style={{ color: '#6B6E82', fontSize: 13, letterSpacing: '0.02em' }}>
-            &copy; 2026 Akın Yapı Sistemleri. Tüm hakları saklıdır.
+            &copy; 2026 {SITE.name}. Tüm hakları saklıdır.
           </p>
           <div className="flex gap-6">
             <a href="#" className="transition-colors duration-300 hover:text-white" style={{ color: '#6B6E82', fontSize: 13 }}>

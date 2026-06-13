@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type';
+import { SITE } from '../config/site';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -47,9 +48,8 @@ export default function Contact() {
   }, []);
 
   const handleWhatsApp = () => {
-    const kendiNumaram = "905441846478"; 
-    const mesaj = encodeURIComponent("Merhaba, yapı sistemleriniz hakkında bilgi almak istiyorum.");
-    window.open(`https://wa.me/${kendiNumaram}?text=${mesaj}`, '_blank');
+    const mesaj = encodeURIComponent('Merhaba, cam balkon ve sineklik hakkında bilgi almak istiyorum.');
+    window.open(`https://wa.me/${SITE.whatsapp}?text=${mesaj}`, '_blank');
   };
 
   return (
@@ -64,12 +64,19 @@ export default function Contact() {
             
             <div className="mt-10 space-y-8">
               <div>
-                <p className="text-navy-muted uppercase mb-1" style={{ fontSize: 12, letterSpacing: '0.1em' }}>Müşteri Hattı</p>
-                <a href="tel:+905441846478" className="text-navy block text-2xl font-medium hover:text-coral transition-colors">0544 184 64 78</a>
+                <p className="text-navy-muted uppercase mb-1" style={{ fontSize: 12, letterSpacing: '0.1em' }}>Dükkan Adı</p>
+                <p className="text-navy text-xl leading-relaxed font-medium">{SITE.name}</p>
               </div>
               <div>
                 <p className="text-navy-muted uppercase mb-1" style={{ fontSize: 12, letterSpacing: '0.1em' }}>Adres</p>
-                <p className="text-navy text-xl leading-relaxed font-light">Küçükbakkalköy, Sümer Sk. 8A,<br />34636 Ataşehir/İstanbul</p>
+                <p className="text-navy text-xl leading-relaxed font-light">{SITE.address}</p>
+              </div>
+              <div>
+                <p className="text-navy-muted uppercase mb-1" style={{ fontSize: 12, letterSpacing: '0.1em' }}>Telefon</p>
+                <p className="text-navy text-xl leading-relaxed font-light">{SITE.phone}</p>
+                <a href={`tel:${SITE.phoneTel}`} className="text-coral text-sm mt-2 inline-block hover:underline">
+                  Hemen Ara
+                </a>
               </div>
             </div>
           </div>
@@ -117,17 +124,17 @@ export default function Contact() {
             </div>
 
             {/* GOOGLE HARİTA */}
-            <div className="w-full h-[350px] rounded-sm overflow-hidden shadow-sm border border-gray-100">
-              <iframe 
-                title="Akın Yapı Google Harita"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.650233433543!2d29.112264!3d40.979249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac636b046097d%3A0x60037f401979b00!2sK%C3%BC%C3%A7%C3%BCkbakkalk%C3%B6y%2C%20S%C3%BCmer%20Sk.%208A%2C%2034636%20Ata%C5%9Fehir%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1715000000000!5m2!1str!2str"
-                width="100%" 
-                height="100%" 
-                style={{ border: 0 }} 
-                allowFullScreen 
-                loading="lazy" 
+            <div className="w-full aspect-[4/3] md:aspect-[16/9] rounded-lg overflow-hidden shadow-sm border border-gray-100">
+              <iframe
+                title="İstanbul Cam Balkon & Sineklik Google Harita"
+                src={SITE.mapsEmbedUrl}
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+              />
             </div>
 
           </div>

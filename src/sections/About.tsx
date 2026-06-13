@@ -131,7 +131,7 @@ export default function About() {
             <img
               ref={imageRef}
               src="/images/about.jpg"
-              alt="Akın Yapı Sistemleri Uygulama"
+              alt="İstanbul Cam Balkon & Sineklik uygulama"
               className="w-full h-auto object-cover"
               style={{ aspectRatio: '3/4' }}
             />
@@ -140,7 +140,7 @@ export default function About() {
           {/* Text */}
           <div ref={contentRef} className="w-full md:w-[55%] flex flex-col justify-center">
             <p className="text-navy-muted" style={{ fontSize: 18, lineHeight: 1.6 }}>
-              Akın Yapı Sistemleri olarak, 2008 yılından bu yana İstanbul genelinde yapı çözümleri sunuyoruz. Sadece bir sineklik üreticisi değil; alüminyum doğramadan cam balkona, motorlu panjurdan modern duşakabin sistemlerine kadar geniş bir yelpazede, mekanlarınıza değer katan projeler geliştiriyoruz.
+              İstanbul Cam Balkon & Sineklik olarak, 2008 yılından bu yana Anadolu Yakası genelinde cam balkon ve sineklik çözümleri sunuyoruz. Katlanır cam balkondan pileli sinekliğe, kedi sinekliğinden ısıcamlı cam balkon sistemlerine kadar geniş bir yelpazede, mekanlarınıza değer katan projeler geliştiriyoruz.
             </p>
             <p className="text-navy-muted mt-7" style={{ fontSize: 18, lineHeight: 1.6 }}>
               Teknolojiyi ve estetiği bir araya getiren üretim anlayışımızla, her projede yüksek kaliteli malzeme ve titiz işçiliği garanti ediyoruz. Mimari ihtiyaçlarınıza modern, dayanıklı ve fonksiyonel yanıtlar vererek, yaşam alanlarınızdaki konforu en üst seviyeye çıkarmayı hedefliyoruz.

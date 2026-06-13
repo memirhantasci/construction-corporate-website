@@ -10,6 +10,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import WorksPage from './pages/WorksPage'; // Yeni ekledik
 import ProductDetail from './pages/ProductDetail'; // Bu satırı ekle
+import DistrictPage from './pages/DistrictPage';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/album" element={<Album />} />
         <Route path="/hakkimizda" element={<AboutPage />} />
         <Route path="/iletisim" element={<ContactPage />} />
+        <Route path="/bolgeler/:slug" element={<DistrictPage />} />
       </Routes>
       <Footer />
     </Router>
