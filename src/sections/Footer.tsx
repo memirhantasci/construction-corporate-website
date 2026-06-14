@@ -53,7 +53,7 @@ export default function Footer() {
           {/* Sol: Şirket Bilgisi */}
           <div>
             <h3 className="text-white text-lg sm:text-xl font-medium uppercase tracking-widest mb-6">
-              {SITE.name.toUpperCase()}
+              {SITE.name.toLocaleUpperCase('tr-TR')}
             </h3>
             <p className="text-gray-400 max-w-xs leading-relaxed">
               Alüminyum, PVC ve Cam sistemlerinde 18 yılı aşkın tecrübe ile yaşam alanlarınıza değer katıyoruz.

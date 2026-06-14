@@ -87,7 +87,7 @@ export default function Navigation() {
           onClick={(e) => handleNavClick(e as React.MouseEvent<HTMLAnchorElement>, '/')}
           className={`font-medium text-xs sm:text-sm tracking-widest transition-colors duration-300 max-w-[200px] sm:max-w-none leading-tight ${isSolidBg ? 'text-navy' : 'text-white'}`}
         >
-          {SITE.name.toUpperCase()}
+          {SITE.name.toLocaleUpperCase('tr-TR')}
         </a>
 
         <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
