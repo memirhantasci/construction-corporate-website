@@ -3,7 +3,6 @@ import gsap from 'gsap';
 import SplitType from 'split-type';
 import { Link } from 'react-router-dom';
 
-
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
   const headlineRef = useRef<HTMLHeadingElement>(null);
@@ -58,11 +57,12 @@ export default function Hero() {
       {/* Arka Plan Görseli & Karartma Katmanı */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/images/hero-bg.jpg" // RESİM: Şık bir alüminyum/cam yapı uygulaması veya modern bir cephe görseli
+          src="/images/hero-bg.jpg"
           alt="İstanbul Cam Balkon & Sineklik arka plan" 
           className="w-full h-full object-cover opacity-80"
         />
-        <div className="absolute inset-0 bg-black/60"></div>
+        {/* Mobilde yazılar daha iyi okunsun diye karartmayı artırdık, md ekranlarda eski haline dönüyor */}
+        <div className="absolute inset-0 bg-black/75 md:bg-black/60"></div>
       </div>
 
       {/* Metin İçeriği */}
@@ -77,11 +77,12 @@ export default function Hero() {
 
         <h1
           ref={headlineRef}
-          className="text-white uppercase"
+          className="text-white uppercase break-words whitespace-pre-line"
           style={{
-            fontSize: 'clamp(36px, 5vw, 72px)',
+            // Mobilde kelimelerin sığması için minimum font boyutunu 28px'e çektik
+            fontSize: 'clamp(28px, 5vw, 72px)',
             fontWeight: 600,
-            lineHeight: 0.95,
+            lineHeight: 1.1, // Kelimeler üst üste binmesin diye line-height'ı hafifçe rahatlattık
             letterSpacing: '-0.02em',
           }}
         >
@@ -98,36 +99,36 @@ export default function Hero() {
           Alüminyum doğramadan cam balkona, motorlu panjurdan sinekliğe kadar yaşam alanlarınız için estetik, dayanıklı ve fonksiyonel çözümler üretiyoruz.
         </p>
 
-       <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10 opacity-0">
-        {/* BİZE ULAŞIN BUTONU */}
-        <Link
-          to="/iletisim"
-          className="inline-block bg-coral text-white font-medium uppercase rounded-full transition-all duration-300 hover:scale-[1.03] hover:bg-[#C85A4A]"
-          style={{ 
-            padding: '14px 32px', 
-            fontSize: 16, 
-            letterSpacing: '0.08em', 
-            fontWeight: 500 
-          }}
-        >
-          BİZE ULAŞIN
-        </Link>
+        <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10 opacity-0">
+          {/* BİZE ULAŞIN BUTONU */}
+          <Link
+            to="/iletisim"
+            className="inline-block bg-coral text-white font-medium uppercase rounded-full transition-all duration-300 hover:scale-[1.03] hover:bg-[#C85A4A]"
+            style={{ 
+              padding: '14px 32px', 
+              fontSize: 16, 
+              letterSpacing: '0.08em', 
+              fontWeight: 500 
+            }}
+          >
+            BİZE ULAŞIN
+          </Link>
 
-        {/* TÜM İŞLERİMİZİ GÖR BUTONU */}
-        <Link
-          to="/islerimiz"
-          className="text-white uppercase text-sm transition-all duration-300 group inline-flex items-center gap-2 hover:text-coral hover:tracking-[0.15em]"
-          style={{ 
-            fontWeight: 500, 
-            letterSpacing: '0.05em' 
-          }}
-        >
-          TÜM İŞLERİMİZİ GÖR 
-          <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-            →
-          </span>
-        </Link>
-      </div>
+          {/* TÜM İŞLERİMİZİ GÖR BUTONU */}
+          <Link
+            to="/islerimiz"
+            className="text-white uppercase text-sm transition-all duration-300 group inline-flex items-center gap-2 hover:text-coral hover:tracking-[0.15em]"
+            style={{ 
+              fontWeight: 500, 
+              letterSpacing: '0.05em' 
+            }}
+          >
+            TÜM İŞLERİMİZİ GÖR 
+            <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
+              →
+            </span>
+          </Link>
+        </div>
       </div>
     </section>
   );
