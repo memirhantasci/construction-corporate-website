@@ -28,12 +28,6 @@ export default function Navigation() {
   }, []);
 
   useEffect(() => {
-    setRegionsOpen(false);
-    setMobileRegionsOpen(false);
-    setMobileOpen(false);
-  }, [location.pathname]);
-
-  useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
         setRegionsOpen(false);
@@ -45,6 +39,7 @@ export default function Navigation() {
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
+    // Sayfa değişirken tüm menü ve dropdown'ları temizce kapatıyoruz
     setMobileOpen(false);
     setMobileRegionsOpen(false);
     setRegionsOpen(false);
