@@ -9,37 +9,37 @@ gsap.registerPlugin(ScrollTrigger);
 // FOTOLARI BURADAN DÜZENLE:
 const portfolioItems = [
   { 
-    image: '/images/aluminyum.jpeg', 
+    image: '/images/aluminyum_result.webp', 
     category: 'Alüminyum Doğrama', 
     location: 'Ofis Bölme — Ataşehir',
     aspect: 'aspect-square' 
   },
   { 
-    image: '/images/cambalkon.jpeg', 
+    image: '/images/cambalkon_result.webp', 
     category: 'Cam Balkon', 
     location: 'Cam Balkon — Kadıköy',
     aspect: 'aspect-video' 
   },
   { 
-    image: '/images/panjur.jpeg', 
+    image: '/images/panjur_result.webp', 
     category: 'Motorlu Panjur', 
     location: 'Otomatik Sistem — Beşiktaş',
     aspect: 'aspect-square' 
   },
   { 
-    image: '/images/sineklik.jpeg', 
+    image: '/images/sineklik_result.webp', 
     category: 'Sineklik', 
     location: 'Pileli Sineklik — Etiler',
     aspect: 'aspect-[3/4]' 
   },
   { 
-    image: '/images/dusakabin.jpeg', 
+    image: '/images/dusakabin_result.webp', 
     category: 'Duşakabin', 
     location: 'Duşakabin — Moda',
     aspect: 'aspect-square' 
   },
   { 
-    image: '/images/korkuluk.jpeg', 
+    image: '/images/korkuluk_result.webp', 
     category: 'Korkuluk', 
     location: 'Merdiven Korkuluk — Bebek',
     aspect: 'aspect-video' 
@@ -91,8 +91,11 @@ export default function Portfolio() {
               <img 
                 src={item.image} 
                 alt={item.category} 
+                // İlk 2 görsel hemen yüklensin (Eager), diğerleri kaydırınca yüklensin (Lazy)
+                loading={i < 2 ? "eager" : "lazy"}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
               />
+
               
               <div className="absolute inset-0 bg-navy/80 opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-8">
                 <p className="text-coral text-xs uppercase font-bold mb-2">{item.category}</p>

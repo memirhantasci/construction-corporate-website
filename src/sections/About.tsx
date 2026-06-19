@@ -131,19 +131,14 @@ export default function About() {
           >
             <img
               ref={imageRef}
-              src="/images/about.jpg"
+              src="/images/about_result.webp"
               alt="İstanbul Cam Balkon & Sineklik uygulama"
+              loading="lazy"
               className="w-full h-auto object-cover"
               style={{ aspectRatio: '3/4' }}
             />
           </div>
-
           {/* Text */}
-
-
-
-
-
           <div ref={contentRef} className="w-full md:w-[55%] flex flex-col justify-center">
             <p className="text-navy-muted" style={{ fontSize: 18, lineHeight: 1.6 }}>
               İstanbul Cam Balkon & Sineklik olarak, 2008 yılından bu yana Anadolu Yakası genelinde cam balkon ve sineklik çözümleri sunuyoruz. Katlanır cam balkondan pileli sinekliğe, kedi sinekliğinden ısıcamlı cam balkon sistemlerine kadar geniş bir yelpazede, mekanlarınıza değer katan projeler geliştiriyoruz.
@@ -168,23 +163,23 @@ export default function About() {
               </div>
             </div>
             <Link
-            to="/iletisim"
-            className="inline-flex items-center gap-2 text-navy uppercase text-sm mt-10 transition-all duration-400 group"
-            style={{ fontWeight: 400, letterSpacing: '0.05em', width: 'fit-content' }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.letterSpacing = '0.15em';
-              e.currentTarget.style.color = '#E06B5A';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.letterSpacing = '0.05em';
-              e.currentTarget.style.color = '#1C1F33';
-            }}
-          >
-            PROJENİZ İÇİN TEKLİF ALIN 
-            <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-              →
-            </span>
-          </Link>
+              to="/iletisim"
+              className="inline-flex items-center gap-2 text-navy uppercase text-sm mt-10 transition-all duration-400 group"
+              style={{ fontWeight: 400, letterSpacing: '0.05em', width: 'fit-content' }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.letterSpacing = '0.15em';
+                e.currentTarget.style.color = '#E06B5A';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.letterSpacing = '0.05em';
+                e.currentTarget.style.color = '#1C1F33';
+              }}
+            >
+              PROJENİZ İÇİN TEKLİF ALIN 
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
+                →
+              </span>
+            </Link>
           </div>
         </div>
       </div>

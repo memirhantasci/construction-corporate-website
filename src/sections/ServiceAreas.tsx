@@ -35,7 +35,7 @@ export default function ServiceAreas() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
-          {serviceAreaCards.map((area) => (
+          {serviceAreaCards.map((area, i) => (
             <Link
               key={area.slug}
               to={`/bolgeler/${area.slug}`}
@@ -45,6 +45,8 @@ export default function ServiceAreas() {
                 <img
                   src={area.image}
                   alt={`${area.district} cam balkon ve sineklik hizmeti`}
+                  // Artık buradaki 'i' değişkeni yukarıdan geldiği için hata vermez ve ilk 2 görsel eager, kalanı lazy yüklenir.
+                  loading={i < 2 ? "eager" : "lazy"}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
