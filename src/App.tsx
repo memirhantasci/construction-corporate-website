@@ -12,6 +12,8 @@ import ContactPage from './pages/ContactPage';
 import WorksPage from './pages/WorksPage';
 import ProductDetail from './pages/ProductDetail';
 import DistrictPage from './pages/DistrictPage';
+import BlogPage from './pages/BlogPage';
+import BlogDetail from './pages/BlogDetail';
 
 export default function App() {
   return (
@@ -23,6 +25,8 @@ export default function App() {
         <Route path="/urunler" element={<ProductsPage />} />
         <Route path="/urunler/:id" element={<ProductDetail />} />
         <Route path="/islerimiz" element={<WorksPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<BlogDetail />} />
         <Route path="/album" element={<Album />} />
         <Route path="/hakkimizda" element={<AboutPage />} />
         <Route path="/iletisim" element={<ContactPage />} />
