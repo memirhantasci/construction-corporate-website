@@ -1,3 +1,23 @@
+/* inter-regular - latin_latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  /* public/fonts klasöründen okunması için url yollarını düzelttik */
+  src: url('/fonts/inter-v20-latin_latin-ext-regular.woff2') format('woff2');
+}
+
+/* inter-500 - latin_latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  /* public/fonts klasöründen okunması için url yollarını düzelttik */
+  src: url('/fonts/inter-v20-latin_latin-ext-500.woff2') format('woff2');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
