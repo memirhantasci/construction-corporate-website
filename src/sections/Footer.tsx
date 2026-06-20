@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import { SITE } from '../config/site';
+import { servicePages } from '../data/servicePages'; // Hizmetleri dinamik çekmek için kullandık[cite: 1]
 
 const footerLinks = [
-  { label: 'Hizmetlerimiz', href: '/urunler' },
   { label: 'Hakkımızda', href: '/hakkimizda' },
-  { label: 'İletişim', href: '/iletisim' },
   { label: 'İşlerimiz', href: '/islerimiz' },
+  { label: 'İletişim', href: '/iletisim' },
 ];
 
 // İstediğin yeni formata göre güncellenen SEO link yapısı (/bolgeler/ilce-cam-balkon-sineklik)
@@ -47,36 +47,44 @@ export default function Footer() {
   return (
     <footer style={{ backgroundColor: '#1C1F33', padding: '80px 0 40px' }}>
       <div className="mx-auto px-8" style={{ maxWidth: 1440 }}>
-        {/* Üst Satır */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
+        {/* Üst Satır - 3 Kolonlu Temiz Düzen */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 md:gap-8">
           
-          {/* Sol: Şirket Bilgisi */}
+          {/* 1. Kolon: Şirket Bilgisi */}
           <div>
             <h3 className="text-white text-lg sm:text-xl font-medium uppercase tracking-widest mb-6">
               {SITE.name.toLocaleUpperCase('tr-TR')}
             </h3>
-            <p className="text-gray-400 max-w-xs leading-relaxed">
-              Alüminyum, PVC ve Cam sistemlerinde 18 yılı aşkın tecrübe ile yaşam alanlarınıza değer katıyoruz.
+            <p className="text-gray-400 max-w-xs leading-relaxed" style={{ fontSize: 14 }}>
+              Alüminyum, PVC and Cam sistemlerinde 18 yılı aşkın tecrübe ile yaşam alanlarınıza değer katıyoruz.
             </p>
           </div>
 
-          {/* Orta: Hızlı Linkler */}
+          {/* 2. Kolon: Kurumsal Linkler */}
           <div className="flex flex-col gap-3">
             <h4 className="text-coral uppercase text-xs font-bold tracking-widest mb-3">KURUMSAL</h4>
+            <a
+              href="/urunler"
+              onClick={(e) => handleClick(e, '/urunler')}
+              className="transition-colors duration-300 hover:text-white"
+              style={{ color: '#F7F7F5', fontSize: 15, lineHeight: 1.6 }}
+            >
+              Tüm Ürünlerimiz
+            </a>
             {footerLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleClick(e, link.href)}
                 className="transition-colors duration-300 hover:text-white"
-                style={{ color: '#F7F7F5', fontSize: 16, lineHeight: 1.6 }}
+                style={{ color: '#F7F7F5', fontSize: 15, lineHeight: 1.6 }}
               >
                 {link.label}
               </a>
             ))}
           </div>
 
-          {/* Sağ: İletişim Bilgileri */}
+          {/* 3. Kolon: İletişim Bilgileri */}
           <div className="flex flex-col gap-4">
             <h4 className="text-coral uppercase text-xs font-bold tracking-widest mb-3">İLETİŞİM</h4>
             <a
@@ -88,7 +96,7 @@ export default function Footer() {
             </a>
             <a
               href="mailto:emirhanekin94@gmail.com"
-              className="transition-colors duration-300 hover:text-white"
+              className="transition-colors duration-300 hover:text-white truncate"
               style={{ color: '#6B6E82', fontSize: 14 }}
             >
               emirhanekin94@gmail.com
@@ -99,8 +107,27 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Orta Satır: Hizmet Bölgeleri (SEO) */}
-        <div className="mt-12 pt-8" style={{ borderTop: '1px solid rgba(247, 247, 245, 0.08)' }}>
+        {/* Orta Satır 1: Hizmetlerimiz (Yatay SEO Blok Yapısı) */}
+        <div className="mt-16 pt-8" style={{ borderTop: '1px solid rgba(247, 247, 245, 0.08)' }}>
+          <h4 className="text-coral uppercase text-xs font-bold tracking-widest mb-4">HİZMETLERİMİZ</h4>
+          <div className="flex flex-wrap gap-x-4 gap-y-2">
+            {servicePages.map((service) => (
+              <a
+                key={service.id}
+                href={`/urunler/${service.id}`}
+                onClick={(e) => handleClick(e, `/urunler/${service.id}`)}
+                className="transition-colors duration-300 hover:text-white text-sm"
+                style={{ color: '#6B6E82' }}
+                title={service.name} // Üzerine gelince tam adı gözüksün[cite: 1]
+              >
+                {service.name}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        {/* Orta Satır 2: Hizmet Bölgeleri (Yatay İlçe SEO Alt Alanı) */}
+        <div className="mt-8 pt-6" style={{ borderTop: '1px solid rgba(247, 247, 245, 0.04)' }}>
           <h4 className="text-coral uppercase text-xs font-bold tracking-widest mb-4">HİZMET BÖLGELERİMİZ</h4>
           <div className="flex flex-wrap gap-x-4 gap-y-2">
             {serviceDistricts.map((district) => (

@@ -12,9 +12,8 @@ import ContactPage from './pages/ContactPage';
 import WorksPage from './pages/WorksPage';
 import ProductDetail from './pages/ProductDetail';
 import DistrictPage from './pages/DistrictPage';
-import BlogPage from './pages/BlogPage';
 import BlogDetail from './pages/BlogDetail';
-
+import BlogPage from './pages/BlogPage';
 export default function App() {
   return (
     <Router>
