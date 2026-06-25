@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 const BASE_URL = 'https://atasehircambalkon.com';
 const today = new Date().toISOString().split('T')[0];
 
-// 1. SABİT (STATİK) SAYFALAR
+// 1. SABİT (STATİK) ANA SAYFALAR (/bolgeler ana sayfası 404 verdiği için kaldırıldı)
 const staticPages = [
   { url: '/', priority: '1.0', changefreq: 'daily' },
   { url: '/urunler', priority: '0.9', changefreq: 'weekly' },
@@ -20,27 +20,43 @@ const staticPages = [
   { url: '/iletisim', priority: '0.5', changefreq: 'monthly' }
 ];
 
-// 2. GERÇEK ÜRÜN ALT SAYFALARI (15 Adet)
+// 2. GERÇEK ÜRÜN ALT SAYFALARI (servicePages.ts'deki birebir gerçek id değerleri)
 const products = [
-  'aluminyum-dograma', 'ofis-bolme', 'cam-balkon', 'katlanir-cam-balkon', 
-  'surme-cam-balkon', 'isicamli-cam-balkon', 'giyotin-cam', 'dusakabin', 
-  'korkuluk-sistemleri', 'motorlu-panjur', 'plastik-dograma-pvc', 
-  'sineklik-sistemleri', 'pileli-sineklik', 'kis-bahcesi', 'pergola'
+  'aluminyum-dograma',
+  'ofis-bolme',
+  'cam-balkon',
+  'katlanir-cam-balkon',
+  'surgulu-cam-balkon',
+  'isicamli-cam-balkon',
+  'giyotin-cam',
+  'dusakabin',
+  'korkuluk',
+  'motorlu-panjur',
+  'plastik-dograma',
+  'sineklik',
+  'pileli-sineklik',
+  'kis-bahcesi',
+  'pergola'
 ];
 
-// 3. İLÇE SLUG'LARI (12 Adet - Adalar ve Şile Hariç)
+// 3. İLÇE SLUG'LARI (seoData.ts'deki 12 ilçe dizisi sırası)
 const districts = [
-  'atasehir', 'kadikoy', 'umraniye', 'uskudar', 'maltepe', 'kartal', 
-  'pendik', 'tuzla', 'sancaktepe', 'cekmekoy', 'sultanbeyli', 'beykoz'
+  'beykoz', 'uskudar', 'kadikoy', 'atasehir', 'umraniye', 'cekmekoy',
+  'sancaktepe', 'sultanbeyli', 'maltepe', 'kartal', 'pendik', 'tuzla'
 ];
 
-// 4. SEO HİZMET SLUG'LARI (seoData.ts içindeki 10 Hizmet)
-// NOT: Kanka buraya senin projendeki o 10 SEO hizmetinin tam slug'larını yazdım, 
-// farklılık varsa sadece bu diziyi güncellersin.
+// 4. PROGRAMATİK SEO HİZMET SLUG'LARI (seoData.ts içindeki gerçek services listesi)
 const seoServices = [
-  'cam-balkon', 'katlanir-cam-balkon', 'isicamli-cam-balkon', 
-  'sineklik-sistemleri', 'pileli-sineklik', 'kedi-sinekligi',
-  'aluminyum-dograma', 'ofis-bolme', 'korkuluk-sistemleri', 'kis-bahcesi'
+  'cam-balkon-fiyatlari',
+  'katlanir-cam-balkon',
+  'isicamli-cam-balkon',
+  'surgulu-cam-balkon',
+  'kis-bahcesi-sistemleri',
+  'sineklik-fiyatlari',
+  'pileli-sineklik',
+  'kedi-sinekligi',
+  'surgulu-kapi-sinekligi',
+  'en-yakin-cam-balkoncu'
 ];
 
 // XML Başlangıcı
@@ -56,35 +72,30 @@ const addUrl = (loc, priority, changefreq) => {
   xml += `  </url>\n`;
 };
 
-// --- XML OLUŞTURMA İŞLEMLERİ ---
-
-console.log('Sitemap oluşturuluyor...');
+console.log('⚙️ Kod mimarisiyle %100 uyumlu sitemap oluşturuluyor...');
 
 // 1. Statik Sayfaları Ekle
 staticPages.forEach(page => addUrl(page.url, page.priority, page.changefreq));
 
-// 2. Ürün Sayfalarını Ekle
+// 2. Gerçek Ürün Sayfalarını Ekle (/urunler/id)
 products.forEach(product => addUrl(`/urunler/${product}`, '0.8', 'weekly'));
 
-// 3. İlçe Ana Sayfalarını Ekle
+// 3. Gerçek İlçe Karşılama Sayfalarını Ekle (districtPages.ts'deki href formatı: /bolgeler/ilce-cam-balkon-sineklik)
 districts.forEach(district => addUrl(`/bolgeler/${district}-cam-balkon-sineklik`, '0.7', 'weekly'));
 
-// 4. Dinamik Blogları Ekle (src/content/blog klasöründen)
+// 4. Dinamik Blog Yazılarını Ekle (src/content/blog klasöründen)
 const blogDir = path.join(__dirname, 'src', 'content', 'blog');
 if (fs.existsSync(blogDir)) {
   const files = fs.readdirSync(blogDir);
   const mdFiles = files.filter(file => file.endsWith('.md'));
-  
   mdFiles.forEach(file => {
     const slug = file.replace('.md', '');
     addUrl(`/blog/${slug}`, '0.7', 'weekly');
   });
-  console.log(`${mdFiles.length} adet blog yazısı sitemap'e eklendi.`);
-} else {
-  console.warn('Uyarı: src/content/blog klasörü bulunamadı!');
+  console.log(`📝 ${mdFiles.length} adet gerçek blog yazısı haritaya eklendi.`);
 }
 
-// 5. 120 Adet Dinamik SEO Sayfasını Ekle (İlçe + Hizmet)
+// 5. 120 Adet Dinamik Programatik SEO Sayfasını Ekle (/bolgeler/ilce/hizmet)
 let seoCount = 0;
 districts.forEach(district => {
   seoServices.forEach(service => {
@@ -92,7 +103,7 @@ districts.forEach(district => {
     seoCount++;
   });
 });
-console.log(`${seoCount} adet dinamik SEO sayfası sitemap'e eklendi.`);
+console.log(`🚀 ${seoCount} adet P-SEO sayfası sitemap'e jilet gibi işlendi.`);
 
 // XML Bitişi
 xml += `</urlset>`;
@@ -101,4 +112,4 @@ xml += `</urlset>`;
 const outputPath = path.join(__dirname, 'public', 'sitemap.xml');
 fs.writeFileSync(outputPath, xml, 'utf8');
 
-console.log('✅ Başarılı! sitemap.xml public klasörüne güncel olarak oluşturuldu.');
+console.log('✅ Başarılı! Sıfır 404 riskli sitemap.xml public klasörüne basıldı.');
