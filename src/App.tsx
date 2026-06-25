@@ -14,6 +14,8 @@ import ProductDetail from './pages/ProductDetail';
 import DistrictPage from './pages/DistrictPage';
 import BlogDetail from './pages/BlogDetail';
 import BlogPage from './pages/BlogPage';
+import DinamikSeoSayfasi from './pages/DinamikSeoSayfasi'; // Yeni SEO Sayfamız
+
 export default function App() {
   return (
     <Router>
@@ -29,7 +31,12 @@ export default function App() {
         <Route path="/album" element={<Album />} />
         <Route path="/hakkimizda" element={<AboutPage />} />
         <Route path="/iletisim" element={<ContactPage />} />
+        
+        {/* İlçe Ana Sayfası (Örn: /bolgeler/atasehir) */}
         <Route path="/bolgeler/:slug" element={<DistrictPage />} />
+        
+        {/* İlçe + Hizmet Gizli SEO Sayfası (Örn: /bolgeler/atasehir/kedi-sinekligi) */}
+        <Route path="/bolgeler/:ilceSlug/:hizmetSlug" element={<DinamikSeoSayfasi />} />
       </Routes>
       
       <Footer />
