@@ -1,6 +1,6 @@
 {
   "rewrites": [
     { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
-    { "source": "/((?!assets/|.*\\.(?:css|js|png|jpg|jpeg|gif|svg|webp|ico|json)).*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

@@ -5,7 +5,8 @@ import { inspectAttr } from "kimi-plugin-inspect-react";
 import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
 export default defineConfig({
-  base: "./",
+  // 🔥 ASSET HATASINI KÖKTEN BİTİREN KRİTİK DOKUNUŞ: Göreceli yolları mutlak kök dizine sabitledik!
+  base: "/", 
   plugins: [
     inspectAttr(),
     react(),
