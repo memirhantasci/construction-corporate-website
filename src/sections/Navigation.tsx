@@ -1,9 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// src/sections/Navigation.tsx  —  TAM YENİLENMİŞ DOSYA
-//
-// Değişiklik: "HİZMETLERİMİZ" linki, serviceNavItems'dan beslenen
-// bir dropdown'a dönüştürüldü. BÖLGELER dropdown'ıyla aynı pattern.
-// Diğer hiçbir şey değişmedi.
+// src/sections/Navigation.tsx
 // ─────────────────────────────────────────────────────────────────────────────
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -13,7 +9,6 @@ import { SITE } from '../config/site';
 
 const navLinks = [
   { label: 'ANA SAYFA', href: '/' },
-  { label: 'İŞLERİMİZ', href: '/islerimiz' },
   { label: 'BLOG', href: '/blog' },
   { label: 'ALBÜM', href: '/album' },
   { label: 'HAKKIMIZDA', href: '/hakkimizda' },
@@ -97,7 +92,7 @@ export default function Navigation() {
   const isServicesActive =
     location.pathname === '/urunler' ||
     serviceNavItems.some((s) => location.pathname === s.href);
-  const isRegionsActive = location.pathname.startsWith('/bolgeler/');
+  const isRegionsActive = location.pathname.startsWith('/bolgeler'); // '/bolgeler' ana sayfasını da kapsasın diye güncellendi
 
   // ── Dropdown paneli ─────────────────────────────────────────────────────
   const dropdownClass =
@@ -195,6 +190,16 @@ export default function Navigation() {
 
             {regionsOpen && (
               <div className={dropdownClass} style={{ width: 224 }}>
+                {/* YENİ EKLENEN: Tüm Bölgelerimiz bağlantısı */}
+                <a
+                  href="/bolgeler"
+                  onClick={(e) => handleNavClick(e, '/bolgeler')}
+                  className="block px-4 py-2.5 text-sm font-semibold transition-colors hover:bg-[#E06B5A]/10 hover:text-[#E06B5A] border-b border-black/5 mb-1"
+                  style={{ color: location.pathname === '/bolgeler' ? '#E06B5A' : '#1C1F33' }}
+                >
+                  Tüm Bölgelerimiz
+                </a>
+
                 {districtNavItems.map((item) => (
                   <a
                     key={item.slug}
@@ -316,6 +321,17 @@ export default function Navigation() {
               </button>
               {mobileRegionsOpen && (
                 <div className="mt-3 pl-2 flex flex-col gap-1">
+                  
+                  {/* YENİ EKLENEN: Mobil için Tüm Bölgelerimiz bağlantısı */}
+                  <a
+                    href="/bolgeler"
+                    onClick={(e) => handleNavClick(e, '/bolgeler')}
+                    className="text-sm py-1.5 font-semibold"
+                    style={{ color: '#1C1F33' }}
+                  >
+                    Tüm Bölgelerimiz
+                  </a>
+
                   {districtNavItems.map((item) => (
                     <a
                       key={item.slug}

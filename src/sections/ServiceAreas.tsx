@@ -1,7 +1,14 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { serviceAreaCards } from '../data/districtPages';
 
 export default function ServiceAreas() {
+  // Başlangıçta tüm bölgelerin gösterilip gösterilmeyeceğini tutan state
+  const [showAll, setShowAll] = useState(false);
+
+  // Eğer showAll true ise tüm listeyi, false ise sadece ilk 4 elemanı al
+  const displayedAreas = showAll ? serviceAreaCards : serviceAreaCards.slice(0, 4);
+
   return (
     <section
       id="bolgeler"
@@ -34,8 +41,9 @@ export default function ServiceAreas() {
           </p>
         </div>
 
+        {/* displayedAreas üzerinden map yapıyoruz (ilk 4 veya hepsi) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
-          {serviceAreaCards.map((area, i) => (
+          {displayedAreas.map((area, i) => (
             <Link
               key={area.slug}
               to={`/bolgeler/${area.slug}`}
@@ -45,7 +53,6 @@ export default function ServiceAreas() {
                 <img
                   src={area.image}
                   alt={`${area.district} cam balkon ve sineklik hizmeti`}
-                  // Artık buradaki 'i' değişkeni yukarıdan geldiği için hata vermez ve ilk 2 görsel eager, kalanı lazy yüklenir.
                   loading={i < 2 ? "eager" : "lazy"}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -67,6 +74,23 @@ export default function ServiceAreas() {
             </Link>
           ))}
         </div>
+
+        {/* Eğer toplam bölge sayısı 4'ten fazlaysa butonu göster */}
+        {serviceAreaCards.length > 4 && (
+          <div className="mt-16 flex justify-center">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="inline-block border border-coral text-coral hover:bg-coral hover:text-white font-medium uppercase rounded-full transition-all duration-300"
+              style={{
+                padding: '12px 32px',
+                fontSize: 15,
+                letterSpacing: '0.08em',
+              }}
+            >
+              {showAll ? 'DAHA AZ GÖSTER' : 'TÜM BÖLGELERİ GÖSTER'}
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

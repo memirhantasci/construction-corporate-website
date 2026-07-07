@@ -4,7 +4,7 @@ import { servicePages } from '../data/servicePages'; // Hizmetleri dinamik çekm
 
 const footerLinks = [
   { label: 'Hakkımızda', href: '/hakkimizda' },
-  { label: 'İşlerimiz', href: '/islerimiz' },
+  // { label: 'İşlerimiz', href: '/islerimiz' }, -> BU SATIR SİLİNDİ
   { label: 'İletişim', href: '/iletisim' },
 ];
 

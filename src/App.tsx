@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './sections/Navigation';
 import Footer from './sections/Footer';
-import FloatingButtons from './components/FloatingButtons'; // Bileşeni import ettik
+import FloatingButtons from './components/FloatingButtons';
 
 // Sayfalar
 import Home from './pages/Home';
@@ -9,12 +9,13 @@ import Album from './pages/Album';
 import ProductsPage from './pages/ProductsPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import WorksPage from './pages/WorksPage';
+import AllDistrictsPage from './pages/AllDistrictsPage';
+// WorksPage importu SİLİNDİ
 import ProductDetail from './pages/ProductDetail';
 import DistrictPage from './pages/DistrictPage';
 import BlogDetail from './pages/BlogDetail';
 import BlogPage from './pages/BlogPage';
-import DinamikSeoSayfasi from './pages/DinamikSeoSayfasi'; // Yeni SEO Sayfamız
+import DinamikSeoSayfasi from './pages/DinamikSeoSayfasi';
 
 export default function App() {
   return (
@@ -25,23 +26,19 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/urunler" element={<ProductsPage />} />
         <Route path="/urunler/:id" element={<ProductDetail />} />
-        <Route path="/islerimiz" element={<WorksPage />} />
+        {/* /islerimiz rotası SİLİNDİ */}
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogDetail />} />
         <Route path="/album" element={<Album />} />
         <Route path="/hakkimizda" element={<AboutPage />} />
         <Route path="/iletisim" element={<ContactPage />} />
-        
-        {/* İlçe Ana Sayfası (Örn: /bolgeler/atasehir) */}
+        <Route path="/bolgeler" element={<AllDistrictsPage />} />
         <Route path="/bolgeler/:slug" element={<DistrictPage />} />
-        
-        {/* İlçe + Hizmet Gizli SEO Sayfası (Örn: /bolgeler/atasehir/kedi-sinekligi) */}
         <Route path="/bolgeler/:ilceSlug/:hizmetSlug" element={<DinamikSeoSayfasi />} />
       </Routes>
       
       <Footer />
       
-      {/* Sabit butonlar tüm sayfalarda görünecek */}
       <FloatingButtons /> 
     </Router>
   );

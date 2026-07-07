@@ -1,6 +1,5 @@
 import Hero from '../sections/Hero';
 import Products from '../sections/Products';
-import Portfolio from '../sections/Portfolio';
 import About from '../sections/About';
 import ServiceAreas from '../sections/ServiceAreas';
 import Contact from '../sections/Contact';
@@ -99,7 +98,6 @@ export default function Home() {
 
       <Hero />
       <Products />
-      <Portfolio />
       <ServiceAreas />
       <About />
       <Contact />

@@ -99,6 +99,8 @@ export default function Hero() {
           Alüminyum doğramadan cam balkona, motorlu panjurdan sinekliğe kadar yaşam alanlarınız için estetik, dayanıklı ve fonksiyonel çözümler üretiyoruz.
         </p>
 
+        // CTA (Butonlar) kısmını bu şekilde güncelleyin:
+
         <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10 opacity-0">
           {/* BİZE ULAŞIN BUTONU */}
           <Link
@@ -112,21 +114,6 @@ export default function Hero() {
             }}
           >
             BİZE ULAŞIN
-          </Link>
-
-          {/* TÜM İŞLERİMİZİ GÖR BUTONU */}
-          <Link
-            to="/islerimiz"
-            className="text-white uppercase text-sm transition-all duration-300 group inline-flex items-center gap-2 hover:text-coral hover:tracking-[0.15em]"
-            style={{ 
-              fontWeight: 500, 
-              letterSpacing: '0.05em' 
-            }}
-          >
-            TÜM İŞLERİMİZİ GÖR 
-            <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-              →
-            </span>
           </Link>
         </div>
       </div>
