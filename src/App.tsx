@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navigation from './sections/Navigation';
 import Footer from './sections/Footer';
 import FloatingButtons from './components/FloatingButtons';
@@ -30,11 +30,14 @@ export default function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogDetail />} />
         {/* <Route path="/album" element={<Album />} /> */}
+        <Route path="/album" element={<Navigate to="/" replace />} />
+        <Route path="/hizmetlerimiz" element={<Navigate to="/" replace />} />
         <Route path="/hakkimizda" element={<AboutPage />} />
         <Route path="/iletisim" element={<ContactPage />} />
         <Route path="/bolgeler" element={<AllDistrictsPage />} />
         <Route path="/bolgeler/:slug" element={<DistrictPage />} />
         <Route path="/bolgeler/:ilceSlug/:hizmetSlug" element={<DinamikSeoSayfasi />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       
       <Footer />
