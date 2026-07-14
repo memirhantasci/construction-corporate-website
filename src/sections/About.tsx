@@ -95,7 +95,7 @@ export function About() {
       ref={sectionRef}
       id="hakkimizda"
       className="py-24 md:py-32"
-      style={{ backgroundColor: '#F5F5F0' }}
+      style={{ backgroundColor: '#1C1F33' }}
     >
       <div className="mx-auto px-8" style={{ maxWidth: 1440 }}>
         {/* Section Header */}
@@ -108,13 +108,14 @@ export function About() {
           </p>
           <h2
             ref={headlineRef}
-            className="text-navy uppercase mx-auto"
+            className="uppercase mx-auto"
             style={{
               fontSize: 'clamp(36px, 4.5vw, 72px)',
               fontWeight: 400,
               lineHeight: 1.0,
               letterSpacing: '-0.03em',
               maxWidth: 900,
+              color: '#F7F7F5',
             }}
           >
             Yaşam Alanlarınıza Estetik ve Konfor Katıyoruz
@@ -140,39 +141,39 @@ export function About() {
           </div>
           {/* Text */}
           <div ref={contentRef} className="w-full md:w-[55%] flex flex-col justify-center">
-            <p className="text-navy-muted" style={{ fontSize: 18, lineHeight: 1.6 }}>
+            <p style={{ fontSize: 18, lineHeight: 1.6, color: '#F7F7F5' }}>
               İstanbul Cam Balkon & Sineklik olarak, 2008 yılından bu yana Anadolu Yakası genelinde cam balkon ve sineklik çözümleri sunuyoruz. Katlanır cam balkondan pileli sinekliğe, kedi sinekliğinden ısıcamlı cam balkon sistemlerine kadar geniş bir yelpazede, mekanlarınıza değer katan projeler geliştiriyoruz.
             </p>
-            <p className="text-navy-muted mt-7" style={{ fontSize: 18, lineHeight: 1.6 }}>
+            <p className="mt-7" style={{ fontSize: 18, lineHeight: 1.6, color: '#F7F7F5' }}>
               Teknolojiyi ve estetiği bir araya getiren üretim anlayışımızla, her projede yüksek kaliteli malzeme ve titiz işçiliği garanti ediyoruz. Mimari ihtiyaçlarınıza modern, dayanıklı ve fonksiyonel yanıtlar vererek, yaşam alanlarınızdaki konforu en üst seviyeye çıkarmayı hedefliyoruz.
             </p>
 
             {/* Stats */}
             <div className="flex flex-wrap gap-10 mt-12">
               <div>
-                <p className="text-coral" style={{ fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>18+</p>
-                <p className="text-navy-muted uppercase mt-1" style={{ fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4 }}>Yıllık Tecrübe</p>
+                <p style={{ color: '#E06B5A', fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>18+</p>
+                <p className="uppercase mt-1" style={{ color: '#F7F7F5', fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4, opacity: 0.8 }}>Yıllık Tecrübe</p>
               </div>
               <div>
-                <p className="text-coral" style={{ fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>10.000+</p>
-                <p className="text-navy-muted uppercase mt-1" style={{ fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4 }}>Tamamlanan Proje</p>
+                <p style={{ color: '#E06B5A', fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>10.000+</p>
+                <p className="uppercase mt-1" style={{ color: '#F7F7F5', fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4, opacity: 0.8 }}>Tamamlanan Proje</p>
               </div>
               <div>
-                <p className="text-coral" style={{ fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>100%</p>
-                <p className="text-navy-muted uppercase mt-1" style={{ fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4 }}>Müşteri Memnuniyeti</p>
+                <p style={{ color: '#E06B5A', fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>100%</p>
+                <p className="uppercase mt-1" style={{ color: '#F7F7F5', fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4, opacity: 0.8 }}>Müşteri Memnuniyeti</p>
               </div>
             </div>
             <Link
               to="/iletisim"
-              className="inline-flex items-center gap-2 text-navy uppercase text-sm mt-10 transition-all duration-400 group"
-              style={{ fontWeight: 400, letterSpacing: '0.05em', width: 'fit-content' }}
+              className="inline-flex items-center gap-2 uppercase text-sm mt-10 transition-all duration-400 group"
+              style={{ color: '#F7F7F5', fontWeight: 400, letterSpacing: '0.05em', width: 'fit-content' }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.letterSpacing = '0.15em';
                 e.currentTarget.style.color = '#E06B5A';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.letterSpacing = '0.05em';
-                e.currentTarget.style.color = '#1C1F33';
+                e.currentTarget.style.color = '#F7F7F5';
               }}
             >
               PROJENİZ İÇİN TEKLİF ALIN 

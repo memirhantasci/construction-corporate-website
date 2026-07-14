@@ -96,7 +96,7 @@ export default function Hero() {
           className="text-gray-200 opacity-0 max-w-lg mt-7"
           style={{ fontSize: 18, lineHeight: 1.6, fontWeight: 400 }}
         >
-          Alüminyum doğramadan cam balkona, motorlu panjurdan sinekliğe kadar yaşam alanlarınız için estetik, dayanıklı ve fonksiyonel çözümler üretiyoruz.
+          Alüminyum doğramadan cam balkona, motorlu panjurdan sinekliğe kadar yaşam alanlarınız için estetik, dayanıklı ve fonksiyonel çözümler ürebiliyoruz.
         </p>
 
         // CTA (Butonlar) kısmını bu şekilde güncelleyin:
