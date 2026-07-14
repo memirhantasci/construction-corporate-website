@@ -43,11 +43,11 @@ const FloatingButtons = () => {
   return (
     <div style={{ position: 'fixed', bottom: '25px', right: '25px', display: 'flex', flexDirection: 'column', gap: '15px', zIndex: 9999 }}>
       
-      {/* WhatsApp Butonu */}
       <a 
         href={`https://wa.me/${SITE.whatsapp}`} 
         target="_blank" 
         rel="noopener noreferrer" 
+        aria-label="Bizimle WhatsApp üzerinden anında iletişime geçin ve ücretsiz keşif randevusu alın"
         style={{
           ...buttonStyle,
           transform: showWhatsappLabel ? 'scale(1.05)' : 'scale(1)'
@@ -56,6 +56,7 @@ const FloatingButtons = () => {
         onMouseLeave={() => setShowWhatsappLabel(false)}
         className="floating-btn"
       >
+        <span className="sr-only">WhatsApp ile İletişime Geçin</span>
         <span className={`btn-label ${showWhatsappLabel ? 'force-show' : ''}`}>
           Ücretsiz Fiyat Al
         </span>
