@@ -103,8 +103,8 @@ export default function Hero() {
 
         <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10 opacity-0">
           {/* BİZE ULAŞIN BUTONU */}
-          <Link
-            to="/iletisim"
+          <a
+            href="https://wa.me/905441846478"
             className="inline-block bg-coral text-white font-medium uppercase rounded-full transition-all duration-300 hover:scale-[1.03] hover:bg-[#C85A4A]"
             style={{ 
               padding: '14px 32px', 
@@ -114,7 +114,7 @@ export default function Hero() {
             }}
           >
             BİZE ULAŞIN
-          </Link>
+          </a>
         </div>
       </div>
     </section>
