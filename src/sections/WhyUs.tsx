@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function WhyUs() {
   return (
-    <section className="py-24 px-8" style={{ backgroundColor: '#252843' }}>
+    <section className="py-24 px-8" style={{ backgroundColor: '#F7F7F5' }}>
       <div className="mx-auto max-w-[1440px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
           
@@ -11,11 +11,11 @@ export default function WhyUs() {
             <p className="uppercase mb-4" style={{ fontSize: 14, fontWeight: 500, letterSpacing: '0.05em', color: '#E06B5A' }}>
               Neden Bizi Seçmelisiniz?
             </p>
-            <h2 className="uppercase mb-6" style={{ fontSize: 'clamp(32px, 4vw, 56px)', fontWeight: 400, lineHeight: 1.1, color: '#F7F7F5' }}>
+            <h2 className="uppercase mb-6" style={{ fontSize: 'clamp(32px, 4vw, 56px)', fontWeight: 400, lineHeight: 1.1, color: '#1C1F33' }}>
               Neden Biz?
             </h2>
-            <p className="mb-8" style={{ fontSize: 18, lineHeight: 1.7, color: 'rgba(247,247,245,0.75)' }}>
-              İstanbul merkezli firmamız, alüminyum doğrama ve cam balkon sektöründe yılların tecrübesine sahip <strong className="text-white">Necati Usta</strong> ve <strong className="text-white">Mustafa Usta</strong> liderliğinde hizmet vermektedir. Her projede en kaliteli malzemeleri kullanarak, evinize milimetrik uyum sağlayan çözümler üretiyoruz.
+            <p className="mb-8" style={{ fontSize: 18, lineHeight: 1.7, color: '#4a4e6a' }}>
+              İstanbul merkezli firmamız, alüminyum doğrama ve cam balkon sektöründe yılların tecrübesine sahip <strong style={{ color: '#1C1F33' }}>Necati Usta</strong> ve <strong style={{ color: '#1C1F33' }}>Mustafa Usta</strong> liderliğinde hizmet vermektedir. Her projede en kaliteli malzemeleri kullanarak, evinize milimetrik uyum sağlayan çözümler üretiyoruz.
             </p>
             <a
               href="tel:+905441846478"
