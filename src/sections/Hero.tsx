@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import SplitType from 'split-type';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -98,8 +98,6 @@ export default function Hero() {
         >
           Alüminyum doğramadan cam balkona, motorlu panjurdan sinekliğe kadar yaşam alanlarınız için estetik, dayanıklı ve fonksiyonel çözümler ürebiliyoruz.
         </p>
-
-        // CTA (Butonlar) kısmını bu şekilde güncelleyin:
 
         <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10 opacity-0">
           {/* BİZE ULAŞIN BUTONU */}

@@ -6,22 +6,22 @@ import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
 export default defineConfig({
   // 🔥 ASSET HATASINI KÖKTEN BİTİREN KRİTİK DOKUNUŞ: Göreceli yolları mutlak kök dizine sabitledik!
-  base: "/", 
+  base: "/",
   plugins: [
     inspectAttr(),
     react(),
     cssInjectedByJsPlugin(),
     // VITE'A MD DOSYALARINI METİN OLARAK OKUMASINI KESİN OLARAK SÖYLÜYORUZ:
     {
-      name: 'markdown-loader',
+      name: "markdown-loader",
       transform(code, id) {
-        if (id.endsWith('.md')) {
+        if (id.endsWith(".md")) {
           return `export default ${JSON.stringify(code)};`;
         }
-      }
-    }
+      },
+    },
   ],
-  assetsInclude: ['**/*.md'],
+  assetsInclude: ["**/*.md"],
   server: {
     port: 3000,
   },
