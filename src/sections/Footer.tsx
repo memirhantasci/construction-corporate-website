@@ -88,11 +88,11 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h4 className="text-coral uppercase text-xs font-bold tracking-widest mb-3">İLETİŞİM</h4>
             <a
-              href="tel:+905441846478"
+              href={`tel:${SITE.phoneTel}`}
               className="transition-colors duration-300 hover:text-white flex items-center gap-2"
               style={{ color: '#6B6E82', fontSize: 14 }}
             >
-              0544 184 64 78
+              {SITE.phone}
             </a>
             <a
               href="mailto:emirhanekin94@gmail.com"
@@ -102,7 +102,7 @@ export default function Footer() {
               emirhanekin94@gmail.com
             </a>
             <p style={{ color: '#6B6E82', fontSize: 14, lineHeight: 1.4 }}>
-              Küçükbakkalköy, Sümer Sk. 8A, <br /> 34636 Ataşehir/İstanbul
+              {SITE.address}
             </p>
           </div>
         </div>

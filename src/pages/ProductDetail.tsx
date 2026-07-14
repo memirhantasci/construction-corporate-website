@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { getServiceById, servicePages } from '../data/servicePages';
 import { SITE } from '../config/site';
 
+import { buildLocalBusinessSchema } from '../lib/localBusinessSchema';
 const SITE_URL = typeof window !== 'undefined' ? window.location.origin : '';
 
 export default function ProductDetail() {
@@ -46,14 +47,7 @@ export default function ProductDetail() {
       name: SITE.name,
       url: SITE.domain,
       telephone: SITE.phoneTel,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: 'Küçükbakkalköy, Sümer Sokak 8A',
-        addressLocality: 'Ataşehir',
-        addressRegion: 'İstanbul',
-        postalCode: '34636',
-        addressCountry: 'TR',
-      },
+      address: buildLocalBusinessSchema().address,
     },
     url: `${SITE_URL}/urunler/${page.id}`,
     image: `${SITE_URL}${page.ogImage}`,
@@ -178,18 +172,14 @@ export default function ProductDetail() {
                 <p id="faq-heading" className="uppercase mb-6" style={{ fontSize: 12, fontWeight: 600, letterSpacing: '0.08em', color: '#E06B5A' }}>
                   SIK SORULAN SORULAR
                 </p>
-                <div className="space-y-3" itemScope itemType="https://schema.org/FAQPage">
+                <div className="space-y-3">
                   {page.faq.map((item, i) => (
                     <details
                       key={i}
-                      itemScope
-                      itemProp="mainEntity"
-                      itemType="https://schema.org/Question"
                       className="group bg-white rounded-sm overflow-hidden"
                       style={{ border: '1px solid rgba(28,31,51,0.08)' }}
                     >
                       <summary
-                        itemProp="name"
                         className="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer select-none"
                         style={{ fontSize: 15, fontWeight: 500, color: '#1C1F33' }}
                       >
@@ -202,13 +192,10 @@ export default function ProductDetail() {
                         </span>
                       </summary>
                       <div 
-                        itemScope 
-                        itemProp="acceptedAnswer" 
-                        itemType="https://schema.org/Answer" 
                         className="px-6 pb-5" 
                         style={{ fontSize: 14, lineHeight: 1.8, color: '#6b6f8a' }}
                       >
-                        <p itemProp="text">{item.answer}</p>
+                        <p>{item.answer}</p>
                       </div>
                     </details>
                   ))}

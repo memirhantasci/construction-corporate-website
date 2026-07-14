@@ -94,7 +94,7 @@ export default function Contact() {
                     <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326z"/>
                   </svg>
                 </div>
-                <h3 className="text-xl font-medium text-navy mb-6">+90 544 184 64 78</h3>
+                <h3 className="text-xl font-medium text-navy mb-6">{SITE.phone}</h3>
                 <button
                   onClick={handleWhatsApp}
                   className="w-full text-white font-medium rounded-full transition-all duration-300 hover:bg-[#20ba5a]"
@@ -111,9 +111,9 @@ export default function Contact() {
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-medium text-navy mb-6">0544 184 64 78</h3>
+                <h3 className="text-xl font-medium text-navy mb-6">{SITE.phone}</h3>
                 <a
-                  href="tel:+905441846478"
+                  href={`tel:${SITE.phoneTel}`}
                   className="w-full text-white font-medium rounded-full transition-all duration-300 hover:bg-navy/90 flex items-center justify-center"
                   style={{ backgroundColor: '#1C1F33', padding: '14px 20px', fontSize: 15 }}
                 >

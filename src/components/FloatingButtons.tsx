@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react';
 import { FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
+import { SITE } from '../config/site';
 
 const FloatingButtons = () => {
-  const phoneNumber = "905441846478";
-  
   // Yazıların görünürlük stateleri
   const [showWhatsappLabel, setShowWhatsappLabel] = useState(false);
   const [showPhoneLabel, setShowPhoneLabel] = useState(false);
@@ -46,7 +45,7 @@ const FloatingButtons = () => {
       
       {/* WhatsApp Butonu */}
       <a 
-        href={`https://wa.me/${phoneNumber}`} 
+        href={`https://wa.me/${SITE.whatsapp}`} 
         target="_blank" 
         rel="noopener noreferrer" 
         style={{
@@ -63,9 +62,8 @@ const FloatingButtons = () => {
         <FaWhatsapp />
       </a>
 
-      {/* Telefon Butonu */}
       <a 
-        href={`tel:+${phoneNumber}`} 
+        href={`tel:${SITE.phoneTel}`} 
         style={{ 
           ...buttonStyle, 
           backgroundColor: '#007bff',

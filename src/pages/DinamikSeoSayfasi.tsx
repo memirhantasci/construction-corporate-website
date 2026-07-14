@@ -22,11 +22,11 @@ import {
 } from '../data/seoData';
 import { servicePages } from '../data/servicePages'; // Gerçek ürün verisi (id, name, desc, image)
 import { allBlogPosts } from '../lib/blog'; // Gerçek blog verisi (.md dosyalarından)
-import { canonicalUrl } from '../config/site';
+import { canonicalUrl, SITE } from '../config/site';
 import { buildLocalBusinessSchema } from '../lib/localBusinessSchema';
 
-const PHONE = '+905441846478';
-const WA_URL = `https://wa.me/905441846478`;
+const PHONE = SITE.phoneTel;
+const WA_URL = `https://wa.me/${SITE.whatsapp}`;
 const MAPS_EMBED = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.1008059316932!2d29.112208076423855!3d40.97927342120971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac7ddfcfb49db%3A0x405e218759df107f!2s%C4%B0stanbul%20Cam%20Balkon%20%26%20Sineklik!5e0!3m2!1str!2str!4v1782349602394!5m2!1str!2str`;
 
 // Renk sabitleri
@@ -421,14 +421,10 @@ export default function DinamikSeoSayfasi() {
               {district.name} {service.shortName} Hakkında
             </h2>
 
-            {/* microdata FAQPage kapsayıcısı eklendi */}
-            <div className="space-y-3" itemScope itemType="https://schema.org/FAQPage">
+            <div className="space-y-3">
               {service.faq.map((item, i) => (
                 <div
                   key={i}
-                  itemScope
-                  itemProp="mainEntity"
-                  itemType="https://schema.org/Question"
                   className="rounded-xl overflow-hidden"
                   style={{ border: '1px solid rgba(28,31,51,0.1)', backgroundColor: '#ffffff' }}
                 >
@@ -437,8 +433,7 @@ export default function DinamikSeoSayfasi() {
                     onClick={() => setOpenFaq(openFaq === i ? null : i)}
                     aria-expanded={openFaq === i}
                   >
-                    {/* Soru metni itemProp="name" ile işaretlendi */}
-                    <span itemProp="name" className="font-medium pr-4" style={{ fontSize: 15, color: NAVY }}>
+                    <span className="font-medium pr-4" style={{ fontSize: 15, color: NAVY }}>
                       {fill(item.question)}
                     </span>
                     <span
@@ -453,16 +448,11 @@ export default function DinamikSeoSayfasi() {
                   </button>
                   
                   {openFaq === i && (
-                    /* Cevap alanı itemProp="acceptedAnswer" ve Answer tipiyle sarmalandı */
                     <div 
-                      itemScope 
-                      itemProp="acceptedAnswer" 
-                      itemType="https://schema.org/Answer" 
                       className="px-6 pb-5 animate-fadeIn" 
                       style={{ fontSize: 14, lineHeight: 1.8, color: '#6b6f8a' }}
                     >
-                      {/* Metin içeriği itemProp="text" ile AI botlarına sunuldu */}
-                      <p itemProp="text">
+                      <p>
                         {fill(item.answer)}
                       </p>
                     </div>
