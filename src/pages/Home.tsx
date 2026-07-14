@@ -3,6 +3,7 @@ import Products from '../sections/Products';
 import Reviews from '../sections/Reviews';
 import { About } from '../sections/About';
 import ServiceAreas from '../sections/ServiceAreas';
+import WhyUs from '../sections/WhyUs';
 import Contact from '../sections/Contact';
 import SeoMeta from '../components/SeoMeta';
 import { SITE } from '../config/site';
@@ -69,6 +70,7 @@ export default function Home() {
       <Products />
       <Reviews />
       <ServiceAreas />
+      <WhyUs />
       <About />
       <Contact />
     </main>
