@@ -65,6 +65,7 @@ const FloatingButtons = () => {
 
       <a 
         href={`tel:${SITE.phoneTel}`} 
+        aria-label="Bizi telefonla arayarak ücretsiz keşif randevusu alın"
         style={{ 
           ...buttonStyle, 
           backgroundColor: '#007bff',
@@ -74,6 +75,7 @@ const FloatingButtons = () => {
         onMouseLeave={() => setShowPhoneLabel(false)}
         className="floating-btn"
       >
+        <span className="sr-only">Hemen Arayın</span>
         <span className={`btn-label ${showPhoneLabel ? 'force-show' : ''}`}>
           Hemen Bilgi Al
         </span>
