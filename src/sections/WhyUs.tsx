@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function WhyUs() {
   return (
-    <section className="py-24 px-8 bg-[#F7F7F5]">
+    <section className="py-24 px-8" style={{ backgroundColor: '#252843' }}>
       <div className="mx-auto max-w-[1440px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
           
@@ -11,16 +11,18 @@ export default function WhyUs() {
             <p className="uppercase mb-4" style={{ fontSize: 14, fontWeight: 500, letterSpacing: '0.05em', color: '#E06B5A' }}>
               Neden Bizi Seçmelisiniz?
             </p>
-            <h2 className="uppercase mb-6" style={{ fontSize: 'clamp(32px, 4vw, 56px)', fontWeight: 400, lineHeight: 1.1, color: '#1C1F33' }}>
+            <h2 className="uppercase mb-6" style={{ fontSize: 'clamp(32px, 4vw, 56px)', fontWeight: 400, lineHeight: 1.1, color: '#F7F7F5' }}>
               Neden Biz?
             </h2>
-            <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              İstanbul merkezli firmamız, alüminyum doğrama ve cam balkon sektöründe yılların tecrübesine sahip <strong>Necati Usta</strong> ve <strong>Mustafa Usta</strong> liderliğinde hizmet vermektedir. Her projede en kaliteli malzemeleri (Avrupa standartlarında alüminyum profiller ve yırtılmaz çelik tüller) kullanarak, evinize milimetrik uyum sağlayan çözümler üretiyoruz. Amacımız sadece montaj yapmak değil, yaşam alanlarınıza uzun ömürlü, şık ve yalıtımlı değerler katmaktır.
+            <p className="mb-8" style={{ fontSize: 18, lineHeight: 1.7, color: 'rgba(247,247,245,0.75)' }}>
+              İstanbul merkezli firmamız, alüminyum doğrama ve cam balkon sektöründe yılların tecrübesine sahip <strong className="text-white">Necati Usta</strong> ve <strong className="text-white">Mustafa Usta</strong> liderliğinde hizmet vermektedir. Her projede en kaliteli malzemeleri kullanarak, evinize milimetrik uyum sağlayan çözümler üretiyoruz.
             </p>
             <a
               href="tel:+905441846478"
-              className="inline-block bg-[#E06B5A] text-white font-medium uppercase rounded-full transition-all duration-300 hover:bg-[#1C1F33]"
-              style={{ padding: '14px 32px', fontSize: 16, letterSpacing: '0.05em' }}
+              className="inline-block font-medium uppercase rounded-full transition-all duration-300"
+              style={{ backgroundColor: '#E06B5A', color: '#fff', padding: '14px 32px', fontSize: 16, letterSpacing: '0.05em' }}
+              onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#1C1F33')}
+              onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#E06B5A')}
             >
               Ücretsiz Keşif İste
             </a>

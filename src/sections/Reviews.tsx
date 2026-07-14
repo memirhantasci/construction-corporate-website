@@ -12,7 +12,7 @@ export default function Reviews() {
   const visibleReviews = reviews.slice(reviewIdx, reviewIdx + VISIBLE);
 
   return (
-    <section className="py-16 px-6 bg-[#F7F7F5]">
+    <section className="py-16 px-6" style={{ backgroundColor: '#FFFFFF' }}>
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-4">
           <div>

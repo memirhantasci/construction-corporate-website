@@ -95,7 +95,7 @@ export function About() {
       ref={sectionRef}
       id="hakkimizda"
       className="py-24 md:py-32"
-      style={{ backgroundColor: '#1C1F33' }}
+      style={{ backgroundColor: '#F5F5F0' }}
     >
       <div className="mx-auto px-8" style={{ maxWidth: 1440 }}>
         {/* Section Header */}
@@ -108,14 +108,13 @@ export function About() {
           </p>
           <h2
             ref={headlineRef}
-            className="uppercase mx-auto"
+            className="text-navy uppercase mx-auto"
             style={{
               fontSize: 'clamp(36px, 4.5vw, 72px)',
               fontWeight: 400,
               lineHeight: 1.0,
               letterSpacing: '-0.03em',
               maxWidth: 900,
-              color: '#F7F7F5',
             }}
           >
             Yaşam Alanlarınıza Estetik ve Konfor Katıyoruz
@@ -141,26 +140,26 @@ export function About() {
           </div>
           {/* Text */}
           <div ref={contentRef} className="w-full md:w-[55%] flex flex-col justify-center">
-            <p style={{ fontSize: 18, lineHeight: 1.6, color: '#F7F7F5' }}>
+            <p className="text-navy-muted" style={{ fontSize: 18, lineHeight: 1.6 }}>
               İstanbul Cam Balkon & Sineklik olarak, 2008 yılından bu yana Anadolu Yakası genelinde cam balkon ve sineklik çözümleri sunuyoruz. Katlanır cam balkondan pileli sinekliğe, kedi sinekliğinden ısıcamlı cam balkon sistemlerine kadar geniş bir yelpazede, mekanlarınıza değer katan projeler geliştiriyoruz.
             </p>
-            <p className="mt-7" style={{ fontSize: 18, lineHeight: 1.6, color: '#F7F7F5' }}>
+            <p className="text-navy-muted mt-7" style={{ fontSize: 18, lineHeight: 1.6 }}>
               Teknolojiyi ve estetiği bir araya getiren üretim anlayışımızla, her projede yüksek kaliteli malzeme ve titiz işçiliği garanti ediyoruz. Mimari ihtiyaçlarınıza modern, dayanıklı ve fonksiyonel yanıtlar vererek, yaşam alanlarınızdaki konforu en üst seviyeye çıkarmayı hedefliyoruz.
             </p>
 
             {/* Stats */}
             <div className="flex flex-wrap gap-10 mt-12">
               <div>
-                <p style={{ color: '#E06B5A', fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>18+</p>
-                <p className="uppercase mt-1" style={{ color: '#F7F7F5', fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4, opacity: 0.8 }}>Yıllık Tecrübe</p>
+                <p className="text-coral" style={{ fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>18+</p>
+                <p className="text-navy-muted uppercase mt-1" style={{ fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4 }}>Yıllık Tecrübe</p>
               </div>
               <div>
-                <p style={{ color: '#E06B5A', fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>10.000+</p>
-                <p className="uppercase mt-1" style={{ color: '#F7F7F5', fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4, opacity: 0.8 }}>Tamamlanan Proje</p>
+                <p className="text-coral" style={{ fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>10.000+</p>
+                <p className="text-navy-muted uppercase mt-1" style={{ fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4 }}>Tamamlanan Proje</p>
               </div>
               <div>
-                <p style={{ color: '#E06B5A', fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>100%</p>
-                <p className="uppercase mt-1" style={{ color: '#F7F7F5', fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4, opacity: 0.8 }}>Müşteri Memnuniyeti</p>
+                <p className="text-coral" style={{ fontSize: 36, fontWeight: 500, lineHeight: 1.15, letterSpacing: '-0.02em' }}>100%</p>
+                <p className="text-navy-muted uppercase mt-1" style={{ fontSize: 14, letterSpacing: '0.02em', lineHeight: 1.4 }}>Müşteri Memnuniyeti</p>
               </div>
             </div>
             <Link

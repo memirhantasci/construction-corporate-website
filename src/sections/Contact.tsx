@@ -53,7 +53,7 @@ export default function Contact() {
   };
 
   return (
-    <section ref={sectionRef} id="iletisim" className="py-24 md:py-32" style={{ backgroundColor: 'transparent' }}>
+    <section ref={sectionRef} id="iletisim" className="py-24 md:py-32" style={{ backgroundColor: '#F0F0EE' }}>
       <div className="mx-auto px-8" style={{ maxWidth: 1440 }}>
         <div className="flex flex-col lg:flex-row gap-12 md:gap-16">
           
