@@ -140,7 +140,7 @@ export default function Products() {
               >
                 <img
                   src={product.image}
-                  alt={product.name}
+                  alt={`Ataşehir ${product.name} montajı — İstanbul Anadolu Yakası`}
                   loading={i < 2 ? "eager" : "lazy"}
                   className="product-img absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out will-change-transform md:group-hover:scale-105"
                   onError={(e) => {
@@ -159,7 +159,7 @@ export default function Products() {
                 {product.desc && (
                   <p className="text-navy-muted mt-2" style={{ fontSize: 16, lineHeight: 1.6 }}>
                     {product.desc}
-             </p>
+                  </p>
                 )}
                 <div className="text-coral mt-4" style={{ fontSize: 14, lineHeight: 1.4, letterSpacing: '0.02em' }}>
                   <span className="hover:underline uppercase text-xs font-bold">Detaylı Bilgi & İncele →</span>

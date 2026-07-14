@@ -1,12 +1,3 @@
-// ─────────────────────────────────────────────────────────────────────────────
-// src/pages/ProductDetail.tsx
-//
-// Mevcut dosyanın güncellenmiş hali.
-// Değişiklikler:
-//   - Veri artık servicePages.ts'den geliyor (merkezi yönetim)
-//   - react-helmet-async ile <title>, <meta description>, OG, JSON-LD (FAQ + Service)
-//   - SSS accordion, avantaj kartları, ilgili hizmetler bölümü eklendi
-// ─────────────────────────────────────────────────────────────────────────────
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { getServiceById, servicePages } from '../data/servicePages';
@@ -53,7 +44,16 @@ export default function ProductDetail() {
     provider: {
       '@type': 'LocalBusiness',
       name: SITE.name,
-      url: SITE_URL,
+      url: SITE.domain,
+      telephone: SITE.phoneTel,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Küçükbakkalköy, Sümer Sokak 8A',
+        addressLocality: 'Ataşehir',
+        addressRegion: 'İstanbul',
+        postalCode: '34636',
+        addressCountry: 'TR',
+      },
     },
     url: `${SITE_URL}/urunler/${page.id}`,
     image: `${SITE_URL}${page.ogImage}`,
@@ -173,19 +173,23 @@ export default function ProductDetail() {
                 </div>
               </section>
 
-              {/* SSS */}
-              <section>
-                <p className="uppercase mb-6" style={{ fontSize: 12, fontWeight: 600, letterSpacing: '0.08em', color: '#E06B5A' }}>
+              {/* SSS (GEO Uyumlu Yapı) */}
+              <section aria-labelledby="faq-heading">
+                <p id="faq-heading" className="uppercase mb-6" style={{ fontSize: 12, fontWeight: 600, letterSpacing: '0.08em', color: '#E06B5A' }}>
                   SIK SORULAN SORULAR
                 </p>
-                <div className="space-y-3">
+                <div className="space-y-3" itemScope itemType="https://schema.org/FAQPage">
                   {page.faq.map((item, i) => (
                     <details
                       key={i}
+                      itemScope
+                      itemProp="mainEntity"
+                      itemType="https://schema.org/Question"
                       className="group bg-white rounded-sm overflow-hidden"
                       style={{ border: '1px solid rgba(28,31,51,0.08)' }}
                     >
                       <summary
+                        itemProp="name"
                         className="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer select-none"
                         style={{ fontSize: 15, fontWeight: 500, color: '#1C1F33' }}
                       >
@@ -197,8 +201,14 @@ export default function ProductDetail() {
                           +
                         </span>
                       </summary>
-                      <div className="px-6 pb-5" style={{ fontSize: 14, lineHeight: 1.8, color: '#6b6f8a' }}>
-                        {item.answer}
+                      <div 
+                        itemScope 
+                        itemProp="acceptedAnswer" 
+                        itemType="https://schema.org/Answer" 
+                        className="px-6 pb-5" 
+                        style={{ fontSize: 14, lineHeight: 1.8, color: '#6b6f8a' }}
+                      >
+                        <p itemProp="text">{item.answer}</p>
                       </div>
                     </details>
                   ))}

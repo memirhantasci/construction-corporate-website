@@ -409,30 +409,36 @@ export default function DinamikSeoSayfasi() {
           </div>
         </section>
 
-        {/* ════════════════════════════════════════════════════════════
-            BÖLÜM 8 — SSS AKORDEON
+       {/* ════════════════════════════════════════════════════════════
+            BÖLÜM 8 — SSS AKORDEON (Semantik GEO Güncellemesi)
         ════════════════════════════════════════════════════════════ */}
-        <section className="py-16 px-6" style={{ backgroundColor: '#f0f0ee' }}>
+        <section className="py-16 px-6" style={{ backgroundColor: '#f0f0ee' }} aria-labelledby="faq-section-heading">
           <div className="max-w-3xl mx-auto">
             <p className="uppercase tracking-widest mb-2 text-center" style={{ fontSize: 11, fontWeight: 600, color: CORAL }}>
               SIK SORULAN SORULAR
             </p>
-            <h2 className="text-center mb-10" style={{ fontSize: 'clamp(20px,2.2vw,32px)', fontWeight: 400, color: NAVY }}>
+            <h2 id="faq-section-heading" className="text-center mb-10" style={{ fontSize: 'clamp(20px,2.2vw,32px)', fontWeight: 400, color: NAVY }}>
               {district.name} {service.shortName} Hakkında
             </h2>
 
-            <div className="space-y-3">
+            {/* microdata FAQPage kapsayıcısı eklendi */}
+            <div className="space-y-3" itemScope itemType="https://schema.org/FAQPage">
               {service.faq.map((item, i) => (
                 <div
                   key={i}
+                  itemScope
+                  itemProp="mainEntity"
+                  itemType="https://schema.org/Question"
                   className="rounded-xl overflow-hidden"
                   style={{ border: '1px solid rgba(28,31,51,0.1)', backgroundColor: '#ffffff' }}
                 >
                   <button
-                    className="w-full flex items-center justify-between px-6 py-5 text-left"
+                    className="w-full flex items-center justify-between px-6 py-5 text-left focus:outline-none"
                     onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                    aria-expanded={openFaq === i}
                   >
-                    <span className="font-medium pr-4" style={{ fontSize: 15, color: NAVY }}>
+                    {/* Soru metni itemProp="name" ile işaretlendi */}
+                    <span itemProp="name" className="font-medium pr-4" style={{ fontSize: 15, color: NAVY }}>
                       {fill(item.question)}
                     </span>
                     <span
@@ -445,9 +451,20 @@ export default function DinamikSeoSayfasi() {
                       +
                     </span>
                   </button>
+                  
                   {openFaq === i && (
-                    <div className="px-6 pb-5" style={{ fontSize: 14, lineHeight: 1.8, color: '#6b6f8a' }}>
-                      {fill(item.answer)}
+                    /* Cevap alanı itemProp="acceptedAnswer" ve Answer tipiyle sarmalandı */
+                    <div 
+                      itemScope 
+                      itemProp="acceptedAnswer" 
+                      itemType="https://schema.org/Answer" 
+                      className="px-6 pb-5 animate-fadeIn" 
+                      style={{ fontSize: 14, lineHeight: 1.8, color: '#6b6f8a' }}
+                    >
+                      {/* Metin içeriği itemProp="text" ile AI botlarına sunuldu */}
+                      <p itemProp="text">
+                        {fill(item.answer)}
+                      </p>
                     </div>
                   )}
                 </div>

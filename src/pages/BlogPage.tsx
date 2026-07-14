@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { allBlogPosts } from "../lib/blog";
+import SeoMeta from "@/components/SeoMeta";
+import { SITE } from "@/config/site";
 
 function formatDate(dateStr: string) {
   if (!dateStr) return "";
@@ -39,6 +41,12 @@ export default function BlogPage() {
   const [featured, ...rest] = posts;
 
   return (
+    <>
+    <SeoMeta
+  title={`Blog | ${SITE.name} — Cam Balkon & Sineklik Rehberi`}
+  description="Ataşehir ve Anadolu Yakası için cam balkon fiyatları, pileli sineklik, kedi sinekliği ve ısıcamlı cam balkon rehberleri. Uzman tavsiyeleri."
+  path="/blog"
+/>
     <div className="pt-24 min-h-screen bg-[#F7F7F5]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Page Header */}
@@ -146,6 +154,7 @@ export default function BlogPage() {
           </>
         )}
       </div>
-    </div>
+      </div>
+      </>
   );
 }

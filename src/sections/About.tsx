@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'; // <--- SADECE BU OLSUN
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function About() {
+export function About() {
   const sectionRef = useRef<HTMLElement>(null);
   const headlineRef = useRef<HTMLHeadingElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);

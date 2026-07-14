@@ -1,9 +1,3 @@
-// ─────────────────────────────────────────────────────────────────────────────
-// src/pages/ProductsPage.tsx
-//
-// /urunler sayfası — tüm 15 kategori grid'de gösterilir.
-// Veri servicePages.ts'den gelir; SEO meta tag'leri react-helmet-async ile yönetilir.
-// ─────────────────────────────────────────────────────────────────────────────
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { servicePages } from '../data/servicePages';
@@ -72,7 +66,7 @@ export default function ProductsPage() {
                   >
                     <img
                       src={product.image}
-                      alt={product.name}
+                      alt={`Ataşehir ${product.name} imalatı ve montajı — İstanbul Cam Balkon & Sineklik`}
                       loading={i < 3 ? 'eager' : 'lazy'}
                       className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out will-change-transform md:group-hover:scale-105"
                     />
