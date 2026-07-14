@@ -1,5 +1,6 @@
 import Hero from '../sections/Hero';
 import Products from '../sections/Products';
+import Reviews from '../sections/Reviews';
 import { About } from '../sections/About';
 import ServiceAreas from '../sections/ServiceAreas';
 import Contact from '../sections/Contact';
@@ -66,6 +67,7 @@ export default function Home() {
 
       <Hero />
       <Products />
+      <Reviews />
       <ServiceAreas />
       <About />
       <Contact />

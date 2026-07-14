@@ -125,10 +125,10 @@ export default function Products() {
         </div>
 
         <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {servicePages.map((product, i) => (
+          {servicePages.slice(0, 9).map((product, i) => (
             <div 
               key={product.id || i} 
-              className="product-card group cursor-pointer"
+              className={`product-card group cursor-pointer ${i >= 3 ? 'hidden md:block' : ''}`}
               onClick={() => {
                 navigate(`/urunler/${product.id}`);
                 window.scrollTo(0, 0);
@@ -172,21 +172,21 @@ export default function Products() {
         <div className="text-center mt-16">
           <button
             onClick={() => {
-              navigate('/iletisim');
+              navigate('/urunler');
               window.scrollTo(0, 0);
             }}
             className="inline-block text-[#F7F7F5] font-medium uppercase rounded-full transition-colors duration-300"
             style={{
-              backgroundColor: '#1C1F33',
+              backgroundColor: '#E06B5A',
               padding: '16px 40px',
               fontSize: 16,
               letterSpacing: '0.08em',
               fontWeight: 500,
             }}
-            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#E06B5A')}
-            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#1C1F33')}
+            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#1C1F33')}
+            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#E06B5A')}
           >
-            TÜM HİZMETLERİMİZ İÇİN BİZE ULAŞIN
+            TÜM HİZMETLERİ GÖR
           </button>
         </div>
       </div>

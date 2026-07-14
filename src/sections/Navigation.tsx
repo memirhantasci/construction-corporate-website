@@ -10,7 +10,7 @@ import { SITE } from '../config/site';
 const navLinks = [
   { label: 'ANA SAYFA', href: '/' },
   { label: 'BLOG', href: '/blog' },
-  { label: 'ALBÜM', href: '/album' },
+  // { label: 'ALBÜM', href: '/album' },
   { label: 'HAKKIMIZDA', href: '/hakkimizda' },
   { label: 'İLETİŞİM', href: '/iletisim' },
 ];

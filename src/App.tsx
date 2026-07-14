@@ -29,7 +29,7 @@ export default function App() {
         {/* /islerimiz rotası SİLİNDİ */}
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogDetail />} />
-        <Route path="/album" element={<Album />} />
+        {/* <Route path="/album" element={<Album />} /> */}
         <Route path="/hakkimizda" element={<AboutPage />} />
         <Route path="/iletisim" element={<ContactPage />} />
         <Route path="/bolgeler" element={<AllDistrictsPage />} />
