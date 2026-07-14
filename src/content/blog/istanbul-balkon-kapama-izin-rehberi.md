@@ -3,7 +3,7 @@ title: "İstanbul'da Balkon Kapatma İzni ve İmar Mevzuatı: Bilmeniz Gereken H
 description: "Balkon kapatma yasal mı? Site yönetimi izni, belediye mevzuatı, ruhsat gereklilikleri ve İstanbul'a özel imar durumu."
 date: "2026-07-01"
 category: "Cam Balkon"
-image: "https://wsrv.nl/?url=https://www.cambalkon.net/wp-content/uploads/2021/05/balkon-kapatma-yasal-mi.jpg&output=webp"
+image: "/images/blog_balkon_izin.webp"
 slug: "istanbul-balkon-kapama-izin-rehberi"
 ---
 

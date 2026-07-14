@@ -3,7 +3,7 @@ title: "Cam Korkuluk ve Fransız Balkon Sistemleri: Estetik, Güvenlik ve Montaj
 description: "İstanbul'da cam korkuluk ve Fransız balkon uygulamaları, temperli lamine cam güvenliği ve montaj detayları."
 date: "2026-07-03"
 category: "Korkuluk"
-image: "https://wsrv.nl/?url=https://www.cambalkon.net/wp-content/uploads/2021/04/cam-korkuluk-sistemleri.jpg&output=webp"
+image: "/images/blog_cam_korkuluk.webp"
 slug: "cam-korkuluk-fransiz-balkon-rehberi"
 ---
 
