@@ -3,59 +3,75 @@ title: "Pileli Sineklik (Akordeon Sineklik) Rehberi: Modeller, Fiyatlar ve Monta
 description: "Cam balkon kapıları ve geniş pencereler için pileli sineklik sistemlerinin avantajları, tül seçenekleri ve İstanbul fiyatları."
 date: "2026-07-09"
 category: "Sineklik"
-image: "/images/sineklik_result.webp"
+image: "https://wsrv.nl/?url=https://www.cambalkon.net/wp-content/uploads/2021/03/pileli-sineklik.jpg&output=webp"
 slug: "pileli-sineklik-rehberi-2026"
 ---
 
 # Pileli Sineklik (Akordeon Sineklik) Rehberi: Modeller, Fiyatlar ve Montaj Detayları
 
-Yaz aylarının gelmesiyle birlikte evimizi havalandırırken en büyük kabusumuz haline gelen sivrisinekler, karasinekler ve diğer haşerelerden korunmanın en modern ve estetik yolu **pileli (akordeon) sineklik** sistemleridir. Geleneksel menteşeli sinekliklerin yer işgal eden ve estetikten uzak yapısının aksine, pileli sineklikler yaşam alanlarınıza şıklık katar.
+Yaz aylarının kavurucu sıcağında evimizin veya ofisimizin pencerelerini ardına kadar açıp taze bir esinti aramak en doğal hakkımızdır. Ancak tam bu rahatlamanın ortasında beliren sivrisinekler, karasinekler, arılar ve havada uçuşan toz partikülleri, o keyifli anları adeta bir kabusa dönüştürebilir. Gece uykularını bölen haşerelere karşı kimyasal spreyler veya tabletler kullanmak ise insan sağlığı ve evdeki çocuklar için uzun vadede ciddi riskler taşır.
 
-Necati Usta ve Mustafa Usta tecrübesiyle, İstanbul Anadolu Yakası'nda sunduğumuz pileli sineklik sistemlerinin teknik detaylarını, avantajlarını ve kullanım ipuçlarını bu rehberde sizlerle paylaşıyoruz.
+İşte tam bu noktada, mekanın havasını bozmadan, tamamen çevreci ve estetik bir çözüm olarak **pileli (akordeon) sineklik sistemleri** devreye girmektedir. İstanbul Cam Balkon & Sineklik firması olarak, Necati Usta ve Mustafa Usta'nın öncülüğünde Anadolu Yakası genelinde uyguladığımız yeni nesil pileli sineklik sistemlerini tüm hatlarıyla inceliyoruz.
 
-## Pileli (Akordeon) Sineklik Nedir? Nasıl Çalışır?
+Geleneksel menteşeli (kapı gibi açılan) sinekliklerin hantallığını, iç mekana girerek daralttığı alanları ve dışarıya sarktığı için yarattığı tehlikeleri unutun. Geleceğin sineklik teknolojisi olan pileli sistemler, evinize değer ve şıklık katar.
 
-Pileli sineklik, özel bir ipe dizilmiş, akordeon şeklinde katlanabilen tüllerin alüminyum bir kasa içerisinde hareket etmesi esasına dayanır. Kasa içerisindeki raylı sistem sayesinde tül, sağa-sola veya aşağı-yukarı kaydırılarak açılıp kapanır.
+## 1. Pileli (Akordeon) Sineklik Nedir? Nasıl Bir Mekanizmaya Sahiptir?
 
-Bu sistemin en büyük özelliği, açıldığında tülün kasanın bir kenarında tamamen toplanması ve mekanda hiçbir yer işgal etmemesidir. Özellikle dar balkonlar, Fransız pencereler ve sürme kapılar için kurtarıcı bir çözümdür.
+Adını, tülünün yapısından alan pileli sineklik (halk arasındaki adıyla akordeon veya plise sineklik); ince ve mukavemetli alüminyum bir kasa içerisine gizlenmiş, zig-zag (pile) şeklinde katlanmış özel tülün, yatay veya dikey raylar üzerinde gerilen ipler vasıtasıyla kayarak hareket ettiği modern bir yalıtım sistemidir.
 
-## Pileli Sinekliğin Sağladığı Avantajlar
+Çalışma prensibi oldukça basittir ancak içinde yüksek bir mühendislik barındırır. Kasanın köşe takozlarından geçen ve tülün her bir pilesini bir arada tutan özel kevlar ipler (paraşüt ipi olarak da bilinir), sistemin mekanizmasını oluşturur. Sineklik açıldığında tüller birbiri üzerine akordeon gibi katlanarak kasanın görünmez profil boşluğuna saklanır. Kapatıldığında ise düzleşerek haşerelere karşı tam bir bariyer oluşturur.
 
-- **Alan Tasarrufu:** Dışarıya veya içeriye doğru açılan bir kanat olmadığı için mobilyalarınızın veya perdelerinizin kullanımını engellemez.
-- **Modern ve Estetik Görünüm:** İnce alüminyum çerçevesi ve gizlenebilir tül yapısıyla pencere ve kapılarınızda kaba bir görüntü oluşturmaz.
-- **Cam Balkon Entegrasyonu:** Katlanır cam balkon sistemleriyle %100 uyumludur. Cam balkon kapılarında geçişi engellemeden sineklerden korunmanızı sağlar.
-- **Uzun Ömürlü Kullanım:** Kış aylarında tülü toplayarak kasanın içinde muhafaza edebilirsiniz, böylece sert hava koşullarından ve UV ışınlarından korunarak ömrü uzar.
-- **Kullanım Kolaylığı:** Ergonomik çekme profili sayesinde çocuklar ve yaşlılar tarafından bile tek parmakla kolayca açılıp kapatılabilir.
+**Bu sistemin devrim yaratan faydaları şunlardır:**
 
-## Model Seçenekleri: Tek Yönlü mü, Çift Yönlü mü?
+*   **İnanılmaz Alan Tasarrufu:** Eski tip menteşeli sineklikler açıldığında odaya doğru bir kapı kanadı kadar alan işgal ederdi. Oysa pileli sineklik, kayarak açıldığı ve kendi içine katlandığı için mekanınızdan tek bir santimetre bile çalmaz. Koltuklarınız, perdeleriniz ve saksılarınız yerinde kalır.
+*   **Gizlenebilir ve Şık Yapı:** Kışın veya sinekliğe ihtiyaç duymadığınız günlerde sistemi açık (katlanmış) konumda bırakabilirsiniz. Tül kasanın içine gizlendiği için pencerenizde veya kapınızda sineklik olduğu dışarıdan belli bile olmaz. Manzaranızı tüllerin arkasından izlemek zorunda kalmazsınız.
+*   **Çocuk ve Yaşlılar İçin Ergonomi:** Sistemi açıp kapatmak için hiçbir güç uygulamaya gerek yoktur. Hafif bir dokunuşla tül sağa, sola veya aşağı yukarı kayar. Ayrıca alt eşik profilinin çok düşük (yaklaşık 1-1.5 cm) olması sayesinde balkona çıkarken ayak takılma riski minimumdur.
 
-Kullanılacak alanın genişliğine göre farklı pileli sineklik modelleri uygulanır:
+## 2. Farklı Kullanım Alanlarına Göre Model Seçenekleri
 
-- **Dikey Pileli Sineklik:** Genellikle standart pencerelerde kullanılır. Tül yukarıdan aşağıya doğru hareket eder.
-- **Yatay Tek Yönlü Pileli Sineklik:** Dar balkon kapıları ve Fransız pencereler için idealdir. Tül tek bir yöne (sağa veya sola) toplanır.
-- **Yatay Çift Yönlü (Ortadan Birleşimli) Pileli Sineklik:** Geniş teras kapıları, büyük cam balkon açıklıkları ve çift kanatlı sürme kapılar için tasarlanmıştır. İki ayrı tül paneli ortada birleşerek kapanır.
+Her pencere ve kapı tipinin açılım şekline ve genişliğine göre farklı pileli sineklik modelleri imal edilmektedir. Ataşehir atölyemizde tamamen siparişe özel milimetrik kesimlerle ürettiğimiz modeller:
 
-## Tül Kalitesi ve Alüminyum Profil Özellikleri
+### A) Dikey Pileli Sineklikler
+Genellikle tuvalet, banyo vasistaslarında veya mutfak tezgah arkası gibi standart yüksekliği geçmeyen pencerelerde uygulanır. Tül yukarıdan aşağıya doğru bir stor perde gibi inerek kilitlenir.
 
-Pileli sinekliklerde kaliteyi belirleyen en temel iki unsur tül ve profildir.
+### B) Yatay Tek Yönlü Pileli Sineklikler
+Balkon kapıları, Fransız pencereler ve dar sürme camlar için en çok tercih edilen modeldir. Tül kasanın sağında veya solunda toplanır, tutamak kısmından çekilerek tek yöne doğru kapatılır. Genişliği 120 cm'ye kadar olan tek kapılar için mükemmel sonuç verir.
 
-- **Tül Kalitesi:** Standart ince plastik tüller güneşi gördüğünde hızla kurur ve yırtılır. Sistemlerimizde **fiberglass (cam elyafı) karışımlı**, UV ışınlarına karşı güçlendirilmiş 1. sınıf ithal tüller kullanıyoruz. Bu tüller esnektir, kolay yırtılmaz ve alev almaz.
-- **Alüminyum Kasa:** Kasa ve ray profilleri, bükülmeye karşı dirençli ekstrüzyon alüminyumdan üretilir. Evinizin dekorasyonuna veya mevcut PVC/Alüminyum doğramalarınıza uyum sağlaması için Antrasit Gri, Ahşap Desen (Altınmeşe, Maun) veya istenilen RAL rengine boyanabilir.
+### C) Yatay Çift Yönlü (Ortadan Birleşimli) Pileli Sineklikler
+Özellikle geniş teras kapıları, geniş cepheli Hebe-Schiebe (kaldır-sür) PVC sistemler veya katlanır cam balkonların dış geçişleri için zorunlu olan sistemdir. Sağdan ve soldan gelen iki ayrı tül paneli sistemin ortasında buluşur ve boydan boya uzanan mıknatıslı fitiller sayesinde birbirine kenetlenerek sızdırmazlığı sağlar. Açıklığı 3 metreye varan cephelerde bile konforlu kullanım sunar.
 
-*(Not: Evcil hayvanınız (kedi, köpek) varsa, pileli tüller yırtılmaya karşı garanti kapsamında değildir. Evcil hayvan sahipleri için özel ürettiğimiz **Çelik Tüllü Kedi Sinekliği** sistemlerimizi incelemenizi tavsiye ederiz.)*
+### D) Duble (İkili) Sistemler
+Cam balkonlarda sıklıkla karşılaştığımız L tipi veya U tipi köşe dönüşlerinde uygulanır. Köşe noktasında birleşen sineklikler, cam balkonunuz açıkken bile köşeli alanın tamamını haşerelerden izole etmenizi sağlar.
 
-## Temizlik ve Bakım Önerileri
+## 3. Uzun Ömürlü Bir Sineklik İçin Malzeme Kalitesi
 
-Pileli sinekliğinizin ömrünü uzatmak için basit ama etkili bakım adımları:
-1. Tül üzerindeki tozları yumuşak uçlu bir fırça veya elektrik süpürgesinin fırçalı ucuyla (düşük devirde) temizleyin.
-2. Kesinlikle çamaşır suyu, tuz ruhu gibi sert kimyasallar kullanmayın. Sadece ılık su ve nemli bir bezle silin.
-3. Kış aylarında veya uzun süre kullanılmayacağı zamanlarda sinekliği katlanmış (kapalı) konumda tutarak tülün tozlanmasını ve yıpranmasını önleyin.
-4. Alt ray kanalında biriken toz ve kirleri düzenli olarak temizleyerek sistemin rahat kaymasını sağlayın.
+Piyasada internet sitelerinde satılan ucuz ve demonte "kendin yap" sineklikler ile profesyonel bir atölyede üretilen sineklikler arasındaki fark malzeme ömründe ortaya çıkar.
 
-## İstanbul Anadolu Yakası Ücretsiz Keşif
+*   **Tül Özellikleri:** Standart naylon tüller güneşin UV ışınlarına maruz kaldıklarında birkaç ay içinde gevrek bir hal alır ve parmağınızı bastırdığınızda bile parçalanır. Bizim sistemlerimizde kullanılan tüller **Fiberglass (cam elyafı) karışımlı, alev almaz ve UV katkılı** özel tüllerdir. Esnektir, zamanla sarkma yapmaz ve rengi solmaz. Sinekliği sık sık katlayıp açmanıza rağmen pile (kat) izleri kırılmaz.
+*   **Kevlar (Paraşüt) İpleri:** Tülü bir arada tutan ve sistemin kaymasını sağlayan ipler sürtünmeye karşı olağanüstü dayanıklı olmalıdır. Aksi takdirde ipler sürtünmeden kopar ve sistem çöker. Kullanılan iplerin iç dokusunun dayanıklılığı, montajın başarısı kadar önemlidir.
+*   **Alüminyum Kasa Çerçeveleri:** Kullanılan profil et kalınlığı, rüzgar esintilerinde tülün kasadan çıkmamasını sağlar. Ayrıca alüminyum kasa, pencerenizin orijinal rengine (Beyaz, Antrasit Gri, Venge, Altınmeşe, Maun) uyum sağlayacak şekilde özel fırın boyama ile renklendirilerek mükemmel mimari bütünlük yakalanır.
 
-Sineklik üretiminde milimetrik ölçü hayati önem taşır. Yanlış alınmış bir ölçü, sineklerin içeri girmesine veya sistemin sıkışmasına neden olabilir.
+*(Not: Fiberglass pileli tüller yüksek kaliteli olsa da kedi veya köpeklerin keskin pençelerine karşı yırtılmaz nitelikte değildir. Evcil hayvanınız varsa mutlaka çelik tel kullanılarak üretilen **Kedi Sinekliği** sistemlerimizi incelemelisiniz.)*
 
-Ataşehir merkezli firmamız; Kadıköy, Ümraniye, Maltepe, Pendik, Kartal, Üsküdar, Tuzla, Sancaktepe, Sultanbeyli ve Çekmeköy dahil tüm Anadolu Yakası'nda **ücretsiz yerinde ölçü ve keşif** hizmeti sunmaktadır.
+## 4. Cam Balkonlar İçin Pileli Sineklik Çözümleri
 
-Pencere ve kapılarınıza tam uyumlu, kaliteli ve estetik pileli sineklik sistemleri için vakit kaybetmeden bizimle iletişime geçin. Sineklerden uzak, konforlu bir yaz geçirin!
+Katlanır cam balkon sistemleri, dışarıya doğru açılan hiçbir sineklik (menteşeli vb.) sistemini kabul etmez. Çünkü camlar içeriye doğru toplanır. Cam balkonu olup da sineklik taktıramayacağını düşünenler için tek yasal ve teknik çözüm pileli sinekliktir.
+
+İstanbul Anadolu Yakası'ndaki projelerimizde; cam balkonun hemen iç kısmına özel dönüştürücü alüminyum kutu profiller (kutu kasa) monte ederek pileli sineklik sistemini bu kasaya entegre ediyoruz. Böylece camları katlayarak balkonunuzu açtığınızda, sinekliği çekerek ortamı havalandırabilir ve böceklerden tam koruma sağlayabilirsiniz.
+
+## 5. Doğru Temizlik ve Mevsimsel Bakım 
+
+Bunca para ödeyerek yaptırdığınız sistemlerin ilk günkü şıklığını koruması için şu adımlara dikkat etmelisiniz:
+
+1.  **Asla Sert Fırça ve Kimyasal Kullanmayın:** Tülleri temizlemek için çamaşır suyu, asitli temizleyiciler kullanmak fiberglass lifleri eritir.
+2.  **Yumuşak Bez ve Su:** Tül yüzeyindeki tozları elektrik süpürgesinin en düşük çekim gücünde, fırçalı ucuyla dikey olarak alın. Ardından sadece sabunlu ılık suya batırılmış nemli ve yumuşak bir bezle narince silin.
+3.  **Kışın Toplayın:** Sineklere ihtiyaç duymadığınız kış aylarında veya yağmurlu havalarda tülü kasanın içine gizleyin (katlayın). Böylece havada uçuşan is, kurum ve tozlar tülün arasına dolmaz.
+4.  **Ray Temizliği:** Alt yatay alüminyum rayın içine dolabilecek ölü böcek, yaprak veya kum tanelerini süpürgeyle çekin. Sistemin rahat kaymasını sağlamak için rayın içi her zaman temiz olmalıdır.
+
+## 6. Ücretsiz Keşif, Ölçü ve Fiyatlandırma Avantajı
+
+Pileli sineklik fiyatları, uygulanacak pencere veya kapının genişlik x yükseklik m² hesaplaması ve seçilen profil rengi üzerinden belirlenir. İnternetteki standart hazır ölçüler, evinizin penceresine hiçbir zaman tam oturmaz. Kenarlarda kalan 2 mm'lik bir açıklık bile, o sivrisineğin gece içeri girmesine yeter.
+
+Bu nedenle Ataşehir, Kadıköy, Ümraniye, Maltepe, Kartal, Pendik, Tuzla, Üsküdar, Sancaktepe, Sultanbeyli ve Çekmeköy ilçelerini kapsayan geniş servis ağımızla **Ücretsiz Yerinde Keşif ve Milimetrik Ölçü Alma** hizmeti sunuyoruz. 
+
+Mekanınızın doğramalarına en uygun rengi belirlemek, yüksek mukavemetli ithal fiberglass tüllü pileli sineklik sistemlerimizle tanışmak ve yaz gecelerinizi konforla geçirmek için bizimle hemen iletişime geçebilirsiniz!

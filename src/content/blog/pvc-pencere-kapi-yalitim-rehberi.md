@@ -3,55 +3,64 @@ title: "PVC Pencere ve Kapı Sistemleri: İstanbul İçin Yalıtım, Dayanıklı
 description: "İstanbul'da PVC pencere ve kapı değişimi rehberi: profil kalınlığı, cam seçenekleri, çift-üçlü cam yalıtım değerleri."
 date: "2026-07-02"
 category: "PVC"
-image: "/images/pvc_result.webp"
+image: "https://wsrv.nl/?url=https://www.pimapen.com.tr/upload/news/pvc-pencere-secimi-1.jpg&output=webp"
 slug: "pvc-pencere-kapi-yalitim-rehberi"
 ---
 
 # PVC Pencere ve Kapı Sistemleri: İstanbul İçin Yalıtım, Dayanıklılık ve Fiyat Rehberi
 
-Evlerimizdeki pencereler sadece manzaraya açılan çerçeveler değil, aynı zamanda kışın sıcağı içeride, yazın serinliği evde tutan, dış dünyanın gürültüsünü engelleyen en önemli yalıtım araçlarıdır. Ülkemizde ve dünyada bu yalıtımı sağlamanın en yaygın, ekonomik ve verimli yollarından biri **PVC (Pimapen olarak da bilinen) Pencere ve Kapı Sistemleri**dir.
+Evlerimiz, dış dünyanın tüm kaosundan kaçıp huzur bulduğumuz sığınaklarımızdır. Ancak dışarıdaki dondurucu soğuk, bunaltıcı sıcak veya şehrin hiç bitmeyen gürültüsü evimizin içine sızıyorsa, o huzuru yakalamak imkansızlaşır. Bir evin dış kabuğunun (duvarlarının) yalıtımı ne kadar iyi olursa olsun, yalıtımın asıl zayıf halkası daima pencerelerdir. Evdeki ısı kaybının yaklaşık %30'u pencerelerden kaynaklanır.
 
-Özellikle İstanbul'un yüksek nemi, kışın denizden esen sert rüzgarları ve bitmeyen trafik gürültüsü hesaba katıldığında, evinize sıradan bir plastik doğrama taktırmak yerine, doğru teknik donanıma sahip bir PVC sistemi seçmek hayati önem taşır. Necati Usta ve Mustafa Usta'nın montaj uzmanlığıyla, evinizi adeta bir yalıtım kapsülüne çevirecek PVC sistemlerinin detaylarını bu rehberde inceliyoruz.
+Dünyada ve Türkiye'de bu yalıtım sorununu çözmenin en yaygın, ulaşılabilir ve verimli yöntemi şüphesiz **PVC (Polivinil Klorür) Pencere ve Kapı Sistemleri**, yani halk arasındaki adıyla Pimapen'dir.
 
-## PVC Profil Sınıfları (A, B, C Kalite Farkları)
+İstanbul gibi deniz kıyısında yer alan, kış aylarında yüksek nem ve sert lodos/poyraz fırtınalarına maruz kalan; yaz aylarında ise güney cephelerinin adeta fırına dönüştüğü bir metropolde, pencere seçimi sıradan bir tadilat kararı değildir. Doğru profil ve camı seçmezseniz, paranızı rüzgara savurmuş olursunuz. Necati Usta ve Mustafa Usta'nın montaj vizyonuyla, Ataşehir ve Anadolu Yakası genelinde uyguladığımız birinci sınıf PVC sistemlerinin şifrelerini, profil sınıflarının (A, B, C) farkını ve yalıtım camlarındaki son teknolojiyi bu dev rehberde açıklıyoruz.
 
-Piyasada fiyat araştırması yaparken birbirine benzeyen beyaz plastik profiller arasında yarı yarıya fiyat farkı olduğunu görebilirsiniz. Bunun sebebi profilin et kalınlığı (kalite sınıfı) ve içindeki destek sacıdır.
+## 1. PVC Profil Sınıfları Nelerdir? Ucuz Pencerenin Gizli Tuzağı
 
-- **A Sınıfı Profil (Önerilen):** Dış duvar et kalınlığı 2.8 mm – 3.0 mm arasındadır. İstanbul'un sert rüzgarlarına, güneşin yıpratıcı etkisine karşı yüksek direnç gösterir. Sarkma yapmaz, uzun yıllar izolasyon özelliğini yitirmez.
-- **B ve C Sınıfı Profiller:** Et kalınlığı 2.5 mm ve daha aşağısında olan profillerdir. Genellikle ucuza mal edilmek istenen inşaatlarda kullanılır. Kapı ve geniş pencerelerde kısa sürede sarkma, esneme ve hava sızdırma sorunları yaratır.
+Eğer evinizin pencerelerini değiştirmek için fiyat araştırması yaptıysanız, muhtemelen "birbirine tıpatıp benzeyen iki beyaz plastik doğrama arasında nasıl yarı yarıya fiyat farkı olabilir?" diye düşünmüşsünüzdür. Fark, plastiğin kalınlığında, yani **"Sınıfında" (Et Kalınlığında)** gizlidir.
 
-Bunun yanı sıra, plastik profilin içine mutlaka korozyona dayanıklı **galvanizli destek sacı** konulmalıdır. Destek sacı eksik veya ince olan pencereler, sıcak havalarda genleşerek bel verir (eğilir). Firmamız tüm projelerde TS EN 12608 standartlarına uygun A sınıfı kalın profiller ve tam ölçü destek sacları kullanır.
+Uluslararası standartlara (EN 12608) göre PVC profiller, dış cidar (et kalınlığı) ölçülerine göre 3 sınıfa ayrılır:
+*   **A Sınıfı Profil (Önerilen Kalite):** Dış duvar (et) kalınlığı 2.8 mm ile 3.0 mm arasındadır. Üretiminde çok daha fazla hammadde kullanıldığı için dayanımı, sertliği, vida tutma kapasitesi (menteşelerin zamanla sarkmaması için çok önemlidir) en yüksek olan sınıftır. Kışın soğuğu kırma, rüzgara direnme ve ses yalıtım gücü maksimumdur.
+*   **B Sınıfı Profil:** Et kalınlığı 2.5 mm ile 2.8 mm arasındadır. Maliyet odaklı orta sınıf projelerde kullanılır. Performansı yeterlidir ancak geniş kanatlarda rüzgar direnci biraz daha zayıftır.
+*   **C Sınıfı Profil:** Dış duvar kalınlığı 2.5 mm'nin altındadır. Piyasada "en ucuz pimapen" olarak satılan ürünler bunlardır. Gözle baktığınızda anlayamazsınız ancak kanatlar 1 yıl içinde sarkar (kapı/pencere kapanmaz olur), kışın soğuk alır, güneşte sararma veya çarpılma (bükülme) yapar. Asla tavsiye edilmez.
 
-## Yalıtımın Kalbi: Cam Seçenekleri (Çift Cam vs. Üçlü Cam)
+Firmamız, tüm projelerinde sadece İstanbul'un sert hava koşullarına direnebilecek **A Sınıfı kalın profiller** ve içlerine en az 1.5 mm kalınlığında **Galvanizli Çelik Destek Sacı** koyarak üretim ve montaj yapmaktadır. Destek sacı, PVC'nin kemiğidir ve sıcakta esnemesini engeller.
 
-PVC profilin kalitesi ne kadar iyi olursa olsun, pencerenin %80'ini cam oluşturur. Yalıtımın asıl yükünü cam çeker.
+## 2. Cam Seçimi: Pencerelerin Yalıtımını Belirleyen Asıl Kahraman
 
-1. **Standart Çift Cam (Isıcam):** İki cam arasındaki boşluk sayesinde temel bir yalıtım sağlar. Ekonomiktir ancak yüksek performans beklemezsiniz.
-2. **Sinerji ve Konfor Cam (Low-E kaplamalı):** İstanbul için en ideal fiyata/performans ürünüdür. Camın bir yüzeyine uygulanan görünmez metalik kaplama, kışın oda içindeki ısıyı geri yansıtarak dışarı kaçmasını önler. Konfor camlar ayrıca yazın güneşin yakıcı sıcağını da dışarıda tutar. Kombi ve klima faturanızda net %30 tasarruf sağlar.
-3. **Üçlü Cam (Isıcam K Tipi):** Üç adet cam ve iki hava/argon gazı boşluğundan oluşur. Kusursuz bir ısı yalıtımı ve yüksek ses yalıtımı isteyenler için en üst düzey çözümdür. Profil genişliğinin üçlü cam kalınlığını (genelde 32mm veya daha kalın) desteklemesi gerekir.
+İnsanlar PVC çerçevelerin kalitesine çok odaklansalar da, unutulan bir gerçek vardır: Bir pencerenin alanının %80'ini cam oluşturur. Yalıtımın ve faturanın kaderini profil değil, cam belirler. 
 
-## Ses Yalıtımı İçin Akustik Çözümler
+### A) Standart Çift Cam (Klasik Isıcam)
+İki adet şeffaf camın arasında nemi alınmış kuru hava hapsedilerek oluşturulur. Tek cama göre elbette yalıtımlıdır ancak günümüz enerji standartlarında "asgari" bir çözüm olarak kalır.
 
-Özellikle E-5, TEM otoyolu veya minibüs caddesi gibi yoğun trafiğe bakan evlerde standart pencereler gürültüyü kesmeye yetmez. Böyle durumlarda, iki cam tabakasının arasına sesi sönümleyen özel akustik PVB film yerleştirilerek üretilen **Akustik Lamine Camlı PVC pencereler** tercih edilmelidir. Gece uykusunu bölen araç korna ve motor seslerini %70'e varan oranda daha fazla filtreler.
+### B) Low-E ve Sinerji/Konfor Camlar (İstanbul İçin İdeal Seçim)
+Evinizi kışın ısıtmakta, yazın soğutmakta zorlanıyorsanız kesin çözüm budur.
+*   **Isıcam Sinerji (Kış Odaklı):** Camın iç yüzeyine fabrikasyon aşamasında görünmez bir gümüş/metalik tabaka (Low-E kaplama) işlenir. Bu kaplama, evdeki peteklerin ürettiği ısı dalgalarını bir ayna gibi tekrar odanın içine geri yansıtır ve ısının dışarı kaçmasını engeller. Standart çift cama göre ısı yalıtımını (kombi tasarrufunu) %50 artırır.
+*   **Isıcam Konfor (Dört Mevsim):** Sinerji camın kışlık performansına ek olarak, yaz güneşinin o bunaltıcı ısısını dışarıda tutma (Solar kontrol) özelliğine sahiptir. Odalarınız kışın sıcacık olurken, temmuz sıcağında klimanız çok daha az elektrik harcayarak odayı soğutur. Anadolu Yakası için en karlı ve mantıklı yatırımdır.
 
-## Açılım Sistemleri: Sürme, Vasistas, Çift Açılım
+### C) Üçlü Cam (Isıcam K Tipi) ve Akustik Cam
+Daha mükemmelini arayanlar veya E-5, TEM, havaalanı rotası gibi yoğun gürültülü caddelerde oturanlar için:
+*   **Üçlü Cam:** 3 cam plaka ve iki hava boşluğundan oluşur (Örn: 32mm veya 40mm kalınlığında Isıcam sistemleri). Yalıtım performansı zirvededir.
+*   **Akustik Cam:** Camların arasına sesi emen ve sönümleyen özel PVB "Akustik Folyo" yerleştirilir. Özellikle motor uğultusu ve korna seslerini %70'e varan oranda keserek (40-45 desibel ses düşüşü) evinizde kütüphane sessizliği yaratır.
 
-Pencerenin kullanım kolaylığını sağlayan sistem donanımıdır:
+## 3. Kullanım Konforunu Artıran Donanımlar ve Açılış Sistemleri
 
-- **Çift Açılım (Tilt & Turn):** Pencerenin hem normal kapı gibi tam açılmasına hem de üstten yarım (vasistas) devrilerek açılmasına olanak tanır. Odayı soğutmadan, çocukların veya kedilerin düşme riski olmadan sürekli havalandırma sağlar. Biz tüm kanatlarda çift açılım sistemini standart olarak öneriyoruz.
-- **Volkswagen (Paralel) Sürme Sistemi:** Fransız balkon veya bahçe çıkış kapıları gibi geniş açıklıklarda kullanılır. İçe doğru açılıp yer kaplamak yerine kanat önce hafifçe öne gelir, sonra yana doğru ray üzerinde kayar. Normal sürgülü camlara göre (Hebe-Schiebe hariç) çok daha yüksek ısı yalıtımı ve sızdırmazlık sunar.
+Bir pencerenin sadece açılıp kapanmaktan fazlasını yapması gerekir.
 
-## Renk Seçenekleri ve Estetik (Laminasyon)
+*   **Çift Açılım (Vasistas) Sistem:** Kanadın hem normal bir kapı gibi yana doğru tam açılmasını, hem de üstünden bir mandal yardımıyla yarım devrilerek (vasistas şeklinde) açılmasını sağlar. Bu sayede kış aylarında odayı buz gibi soğutmadan, yağmurun içeri girmesine izin vermeden sürekli, yavaş ve güvenli bir havalandırma (havanın sirkülasyonu) sağlarsınız. Evde kedi veya çocuk varsa yüksek güvenlik sağlar. Tüm kanatlarda kullanılmasını önemle öneriyoruz.
+*   **Sürme (Kayar) Sistemler:** Dar balkon çıkışlarında veya fransız pencerelerde kanadın içeri açılıp alan işgal etmesini istemiyorsanız, Raylı Sürme veya çok daha yüksek yalıtımlı **Volkswagen (Paralel Çek-Sür) Sürme** sistemlerini tercih etmelisiniz.
 
-PVC denince akla sadece hastane beyazı gelmek zorunda değildir. Profil yüzeylerine kaplanan yüksek dirençli laminasyon folyoları sayesinde:
-- Altınmeşe, Maun, Fındık gibi çok doğal duran ahşap desenleri
-- Modern mimarinin vazgeçilmezi Antrasit Gri veya Mat Siyah
-seçenekleriyle evinizin iç dekorasyonuna ve dış cephesine lüks bir dokunuş yapabilirsiniz. Kaliteli folyolar güneş altında solma veya kabarma yapmaz.
+## 4. Renk ve Laminasyon Folyosu Seçenekleri
 
-## İstanbul Anadolu Yakası Ücretsiz Keşif
+"Pimapen dedin mi beyaz olur" algısı çok eskilerde kaldı. Günümüzde profiller, dış koşullara ve güneşe son derece dayanıklı (solmayan) ithal Alman laminasyon folyoları ile kaplanmaktadır.
+*   Doğal bir görünüm için: Altınmeşe, Maun, Fındık (Ahşap desenleri)
+*   Modern ve mimari konseptler için: Antrasit Gri, Mat Siyah, Gümüş Gri
+gibi onlarca farklı renk seçeneğiyle, dış cephenizle veya evin iç dekorasyonuyla (mobilya ve parke rengi) uyumlu, çok lüks görünen doğramalara sahip olabilirsiniz.
 
-PVC doğrama, milimetrik ölçü ve terazi hassasiyeti isteyen bir montaj işidir. Eski pencerelerin sökülüp yenilerinin takılması sırasında duvarın zarar görmemesi ve yalıtım köpüğü/silikon işçiliğinin eksiksiz yapılması, pencerenin kalitesi kadar önemlidir.
+## İstanbul Anadolu Yakası Ücretsiz Projelendirme ve Keşif
 
-Ataşehir merkezli imalathanemizden hareket eden uzman ekibimiz; Kadıköy, Maltepe, Kartal, Pendik, Tuzla, Ümraniye, Üsküdar, Sancaktepe, Sultanbeyli ve Çekmeköy bölgelerine **ücretsiz yerinde keşif** hizmeti sağlamaktadır. 
+PVC doğrama değişimi basit bir iş değildir. Eski doğramalar sökülürken duvarın, seramiğin veya alçıpanın zarar görmemesi; yeni doğramalar takılırken lazer teraziyle milimetrik gönyeye alınması ve kenar boşluklarının yüksek kaliteli poliüretan köpük/mastik silikon ile yalıtılması ustalık gerektirir. En pahalı pencereyi alsanız bile, kötü bir montaj ustasının elinde o pencere evinizi ısıtamaz.
 
-Eskiyen, soğuk alan ve gürültü geçiren pencerelerinizi yüksek yalıtımlı A kalite PVC sistemleriyle değiştirmek ve avantajlı fiyat teklifi almak için bize bugün ulaşın.
+Ataşehir merkezli imalat parkurumuz ve deneyimli ekiplerimizle; Kadıköy, Ümraniye, Maltepe, Kartal, Pendik, Tuzla, Üsküdar, Sancaktepe, Sultanbeyli ve Çekmeköy bölgelerine %100 sorunsuz montaj garantisiyle hizmet veriyoruz.
+
+Kışın evin ısınmama derdine ve yüksek doğalgaz faturalarına son vermek, yoldan gelen gürültüyü dışarıda bırakmak ve evinize değer katmak için **ücretsiz keşif ve ölçüm** hizmetimizden hemen faydalanın. İhtiyacınıza en uygun pencereyi yerinde planlayalım ve avantajlı fiyat teklifini sunalım!

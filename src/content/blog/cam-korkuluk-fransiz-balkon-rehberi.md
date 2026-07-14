@@ -3,51 +3,62 @@ title: "Cam Korkuluk ve Fransız Balkon Sistemleri: Estetik, Güvenlik ve Montaj
 description: "İstanbul'da cam korkuluk ve Fransız balkon uygulamaları, temperli lamine cam güvenliği ve montaj detayları."
 date: "2026-07-03"
 category: "Korkuluk"
-image: "/images/korkuluk_result.webp"
+image: "https://wsrv.nl/?url=https://www.cambalkon.net/wp-content/uploads/2021/04/cam-korkuluk-sistemleri.jpg&output=webp"
 slug: "cam-korkuluk-fransiz-balkon-rehberi"
 ---
 
 # Cam Korkuluk ve Fransız Balkon Sistemleri: Estetik, Güvenlik ve Montaj Rehberi
 
-Eski demir parmaklıkların kasvetli görünümü, yerini giderek daha fazla şeffaflığa, ışığa ve minimalist modern mimariye bırakıyor. Gerek yeni inşa edilen lüks konutlarda gerekse eski binaların renovasyon projelerinde **Cam Korkuluk ve Fransız Balkon** sistemleri, dış cephelere yepyeni bir kimlik kazandırıyor.
+Yarım asrı aşkın bir süre boyunca binalarımızın balkonlarını, teraslarını ve merdiven boşluklarını çevreleyen, demirci ustalarının ellerinden çıkma ağır ve kasvetli "demir parmaklıklar", modern mimarinin evrimiyle yerini çok daha şık bir alternatife bırakmıştır. Özellikle İstanbul gibi deniz, orman veya tarihi şehir silüetine sahip bölgelerde inşa edilen lüks konutlarda, manzarayı demir çubuklar arasından kesintili olarak izlemek artık tercih edilmemektedir. Şeffaflığı, ışığı ve mekansal derinliği maksimize eden **Cam Korkuluk (Küpeşte)** ve **Fransız Balkon Sistemleri**, dış cephe tasarımlarının vazgeçilmez bir standardı haline gelmiştir.
 
-İstanbul'un eşsiz manzarasını demir parmaklıklar arkasından izlemek yerine kesintisiz bir görüş sağlayan bu sistemlerde, estetik kadar **güvenlik ve statik dayanım** da kritik bir öneme sahiptir. İstanbul Cam Balkon & Sineklik firması olarak, Necati Usta ve Mustafa Usta'nın montaj hassasiyetiyle uyguladığımız korkuluk sistemlerindeki güvenlik standartlarını ve model seçeneklerini inceliyoruz.
+Ancak bir demir parmaklığın verdiği "psikolojik güvenlik hissini", görünmez bir cam plaka ile nasıl sağlayabilirsiniz? O cam rüzgarda kırılmaz mı? Yaslandığımızda aşağı düşer miyiz? Çocuklar için güvenli mi?
 
-## Cam Korkuluk (Küpeşte) Nedir? Model Seçenekleri
+İstanbul Cam Balkon & Sineklik firması olarak, Necati Usta ve Mustafa Usta'nın imalat ve şantiye güvenliği vizyonuyla; Ataşehir, Kadıköy, Maltepe, Kartal ve Pendik sahil şeridinde sıklıkla uyguladığımız bu sistemlerin arkasındaki ileri mühendislik donanımlarını, cam standartlarını ve yasal imar zorunluluklarını derinlemesine inceliyoruz.
 
-Cam korkuluklar, balkon kenarlarında, teraslarda, merdiven boşluklarında ve havuz kenarlarında düşmeyi engelleyici bariyer olarak kullanılan şeffaf mimari elemanlardır. Tasarım özelliklerine göre üçe ayrılırlar:
+## 1. Cam Korkuluk ve Küpeşte Sistemleri Nelerdir? Hangi Modeller Tercih Edilmeli?
 
-1. **Alüminyum veya Paslanmaz Dikmeli (Profilli) Korkuluklar:** Belirli aralıklarla yere sabitlenen dikey alüminyum veya krom direkler arasına camların takıldığı, üstünde tutamak bulunan klasik sistemdir.
-2. **Tabandan Bazalı (Frameless - Çerçevesiz) Korkuluklar:** Zemine gömülen veya zemine ankrajla bağlanan kalın bir alüminyum U-profilin içine camların sıkıştırılmasıyla oluşturulur. Arada hiçbir dikey direk olmadığı için en kesintisiz ve şık görüntüyü sunar. Günümüz lüks konutlarının vazgeçilmezidir.
-3. **Noktasal Tutuculu (Spider / Rotil Bağlantılı) Korkuluklar:** Camların doğrudan balkonun veya merdivenin alın (yan) yüzeyine çelik noktasal tutucularla monte edildiği sistemlerdir. Alanı daraltmaz ve çok fütüristik bir görünüm katar.
+Cam korkuluklar, düşme tehlikesi olan boşlukların (balkon kenarı, çatı terası, havuz başı, asma kat veya merdiven kenarı) etrafını estetik şekilde çevreleyen şeffaf güvenlik bariyerleridir. Mimari konseptinize veya bütçenize göre üç farklı ana sistemle uygulanır:
 
-## Güvenlik Her Şeydir: Lamine + Temperli Cam Zorunluluğu
+### A) Alüminyum veya Paslanmaz Dikmeli (Profilli) Korkuluklar
+En klasik ve en sık karşılaşılan sistemdir. Belirli aralıklarla (örneğin her 80 cm veya 1 metrede bir) zemine çelik ankrajlarla monte edilen alüminyum yuvarlak/kare borular (dikmeler) bulunur. Camlar, bu dikey boruların yanlarındaki oluklara (fitiller aracılığıyla) geçirilerek veya metal klipslerle (cam tutucu rotillerle) sabitlenerek kurulur. Sistemin en üstünde boydan boya uzanan şık bir yatay tutamak (küpeşte borusu) bulunur. Hem ekonomik hem de rüzgara karşı çok dirençlidir.
 
-Korkuluklarda kullanılacak cam, sıradan bir pencere camı olamaz; zira insanların üzerine yaslanabileceği, rüzgar yüküne maruz kalan taşıyıcı bir güvenlik elemanıdır.
+### B) Tabandan Bazalı (Frameless - Çerçevesiz) Korkuluklar
+Günümüzün en lüks rezidanslarında ve villa projelerinde standarttır. Ortada camı bölen hiçbir dikey direk (profil) yoktur. Zeminin (betonun) içine gömülen veya mermerin hemen üzerine çok sağlam şekilde sabitlenen U şeklinde kalın ve ağır bir alüminyum kanal (baza) içerisine cam plakalar sokulur. Camlar, özel poliüretan reçineler, plastik takozlar ve sert sıkıştırma contaları (kama) ile bu U profile kilitlenir. Tüm ağırlığı zemindeki baza taşır. Dışarıdan bakıldığında camlar adeta yerden doğal bir şekilde yükseliyormuş gibi kesintisiz, "sonsuz" bir cam duvar hissi yaratır.
 
-- **Standart Temperli Cam Yeterli mi?** Sadece temperli cam (örneğin 8mm veya 10mm) kullanmak korkuluklarda ciddi bir risk taşır. Temperli cam darbe aldığında patlayıp küçük parçalara ayrılır. Eğer balkon kenarındaki cam patlayıp aşağı dökülürse, o esnada orada yaslanan kişi boşluğa düşme tehlikesi yaşar.
-- **Doğru Çözüm: Temperli Lamine Cam (Örn: 8+8mm Lamine):** Cam korkuluklarda yasal ve teknik olarak **iki adet temperli camın arasına PVB veya SentryGlas (SG) film çekilerek lamine edilmesi** zorunludur. Bu sayede, camlardan biri veya her ikisi birden şiddetli bir darbeyle kırılsa dahi, aradaki film cam parçalarını bir arada tutar. Cam aşağı dökülmez, güvenlik bariyeri görevini yapmaya devam eder.
+### C) Noktasal (Spider / Rotil) Bağlantılı Korkuluklar
+Camların beton zeminin üstüne değil, balkon veya merdivenin alın (yan) yüzeyine, kalın paslanmaz çelik rotillerle (noktasal tutucu vidalarla) dışarıdan "asıldığı" sistemlerdir. Özellikle merdiven basamaklarının alanını (genişliğini) daraltmamak için harika bir fütüristik çözümdür.
 
-## Fransız Balkon Sistemi Nedir ve Nasıl Uygulanır?
+## 2. Hayati Soru: Hangi Cam Kullanılmalı? Güvenlik Nasıl Sağlanır?
 
-Fransız balkon (Juliette Balkon), çıkıntısı olmayan (veya sadece 15-20 cm adım atılacak kadar olan), zeminden tavana kadar tam boy açılabilen pencere veya kapıların önüne çekilen güvenlik bariyeridir. 
+Bir cam korkuluğun kaderini belirleyen tek şey, taşıyıcı zemine atılan çelik dübelin gücü ve camın niteliğidir. O cam, insanın ağırlığına (dinamik yüke) ve İstanbul'un sert fırtınalarına (statik rüzgar yüküne) dayanmak, kırıldığında ise asla aşağı düşmemek zorundadır.
 
-Oda kapısı açıldığında dışarıya düşmeyi önlerken, sanki balkondaymış hissi vererek odaya maksimum temiz hava ve ışık girmesini sağlar. İstanbul gibi metrekarelerin değerli olduğu şehirlerde, iç mekanı geniş hissettirmek için müteahhitler tarafından sıkça tercih edilir.
+**Tek Başına Temperli Cam Asla Kullanılamaz!**
+Piyasadaki bazı ehliyetsiz kişiler, sadece 8mm veya 10mm "Temperli (Kırılmaz)" cam kullanarak korkuluk yapmaktadır. Temperli cam esnektir ve normal cama göre 5 kat dayanıklıdır, evet. Ancak çok sert ve sivri bir cisme denk geldiğinde "patlar" ve küçük, kesici olmayan mısır taneleri gibi parçalanarak yere yığılır. Düşünün ki yüksek bir balkonda o cama yaslanıyorsunuz ve cam patladı. Cam parçalarıyla birlikte o boşluktan siz de aşağı düşersiniz. Bu durum teknik şartnamelerde ve iş güvenliği yasalarında açıkça yasaktır.
 
-**Fransız Balkon Montajında Kritik Detaylar:**
-- Kullanılan cam kesinlikle Lamine + Temperli olmalıdır.
-- Camı veya alüminyum dikmeleri tutan çelik saplamalar, duvarın tuğla kısmına değil, mutlaka beton kiriş veya kolon aksına kimyasal dübel ile sabitlenmelidir. Dış cephe yalıtımından (mantolamadan) dolayı uzun dübeller kullanılması şarttır.
+**Doğru ve Yasal Standart: Lamine + Temperli (Güvenlik) Camı**
+Korkuluk ve cephe camlarında kullanılması gereken tek sistem **"Temperli ve Lamine Edilmiş"** kompozit camlardır. (Örn: 8mm Temperli Cam + PVB Folyo + 8mm Temperli Cam). İki adet temperlenmiş cam plakanın arasına 0.76 mm veya 1.52 mm kalınlığında şeffaf ve yapışkan bir film (Polyvinyl Butyral - PVB veya SentryGlas) preslenerek iki camın tek bir cam gibi davranması sağlanır.
+*Ne İşe Yarar?* Şiddetli bir darbe sonucu camlardan biri veya fırtına nedeniyle her ikisi birden patlasa/kırılsa dahi, aradaki o muazzam güçlü film tabakası sayesinde kırılan cam parçaları yapışık kalır. Cam bir örümcek ağı gibi çatlar ama aşağı dökülmez ve bulunduğu yerde asılı durarak "güvenlik bariyeri" görevini yapmaya devam eder. İnsanların veya evcil hayvanların düşmesini engeller. Lamine temperli camlar, banka şubelerindeki hırsızlık/kurşun geçirmez camlarla aynı güvenlik mantığına sahiptir.
 
-## İmar Mevzuatı, Yükseklik ve Üst Tutamaklar
+## 3. Fransız Balkon Sistemi Nedir? Neden Yapılır?
 
-Balkon ve merdiven korkuluklarında yasal yükseklik standardı, bitmiş zeminden itibaren minimum **90 cm ile 110 cm** arasındadır. Özellikle küçük çocukların bulunduğu evlerde bu yükseklik 110 cm olarak projelendirilmelidir.
+Halk arasında "Juliette Balkonu" olarak da bilinen Fransız balkon; çıkıntısı hiç olmayan veya maksimum 15-20 santimetrelik dar bir çıkıntıya sahip, ancak iç mekandaki penceresi/kapısı zemine kadar tam boy (yere sıfır) açılabilen mimari yapılardır. 
 
-Çerçevesiz (Frameless) taban bazalı cam korkuluklarda, camın üst kenarı açıkta kalabilir. Ancak güvenlik hissini artırmak ve iki cam panelini birbirine bağlayarak esnemeyi sıfıra indirmek için, camın üstüne alüminyum veya paslanmaz çelikten ince bir **üst tutamak (U profil)** geçirilmesini her zaman tavsiye ediyoruz.
+Özellikle büyükşehirlerdeki yeni yapılaşmalarda metrekare kazanmak, odaya sanki kocaman bir balkona açılıyormuş hissi vermek ve odayı doğal ışığa boğmak için müteahhitler tarafından sıkça uygulanır. Odanın boydan boya cam kapısı açıldığında, dışarıya düşmeyi engellemek için dış cepheye hemen pencerenin dibine bir korkuluk çekilmesi zorunludur.
 
-## İstanbul Anadolu Yakası Ücretsiz Keşif ve Montaj
+**Fransız Balkon Montajının Riskleri:**
+Fransız balkon camı veya dikmeleri genellikle binanın yalıtımlı dış cephesine (Mantolama / EPS köpük üzerine) monte edilmek zorunda kalır. Eğer montajcı 10 cm'lik standart bir dübel kullanırsa, o dübel sadece köpüğe veya sıva yüzeyine tutunur, arkadaki ana beton kirişe veya tuğlaya ulaşmaz. İnsan yüklendiği anda sistem duvardan koparak aşağı düşer.
+**Doğru Montaj:** Firmamız, Fransız balkon camı montajında 20-25 cm uzunluğunda özel tij saplamalar ve "Kimyasal Dübel (Epoksi)" (sıvı çelik gibi donarak betona kaynayan bir yapıştırıcı) kullanmaktadır. Bu sayede korkuluk, dış cephedeki mantolamayı pas geçerek ana taşıyıcı betona ankrajlanır ve mükemmel güvenlik sağlanır.
 
-Cam korkuluk sistemleri, binanın cephe estetiğine uygun renk (Şeffaf, Füme, Bronz cam) ve profiller (Eloksal, Mat Siyah, Ahşap desen) ile kişiselleştirilebilir.
+## 4. İmar Yönetmelikleri, Yükseklik Kuralları ve Ekstra Güvenlik (Üst Tutamak)
 
-Ataşehir merkezli İstanbul Cam Balkon & Sineklik firmamız; Kadıköy, Ümraniye, Maltepe, Kartal, Pendik, Tuzla, Üsküdar, Sancaktepe, Sultanbeyli ve Çekmeköy ilçelerinde yer alan villa, site ve müstakil projelerinize özel cam korkuluk çözümleri üretmektedir.
+Ülkemizdeki bina ve imar yönetmeliklerine göre, düşme tehlikesi olan tüm açık alanlarda yapılacak korkulukların (küpeştelerin) yüksekliği, bitmiş döşeme (seramik/mermer) seviyesinden itibaren en az **90 cm ile 110 cm** arasında olmak zorundadır. Özellikle evde veya projede çocuk yaşama ihtimali varsa, bu standart genellikle 110 cm veya 120 cm'ye çıkarılarak riskler minimize edilir.
 
-Dış cephenizi modernize etmek ve güvenliği en üst seviyeye taşımak için **ücretsiz keşif** avantajından faydalanın. Uzman ekibimiz yerinde yapacağı milimetrik ölçüm ve zemin etüdü ile size en uygun, güvenilir korkuluk projesini hazırlayıp fiyatlandırsın.
+Çerçevesiz (Frameless) taban bazalı sistemler çok şık olsa da, sadece dipten tutunan camın rüzgarda çok hafif bir esneme toleransı (salınımı) vardır. Kullanıcıda bu salınım psikolojik güvensizlik yaratabilir. Ayrıca camın açıkta kalan üst (kesim) kenarı ufak darbelere karşı zayıftır. Bunu önlemek için biz her zaman camın en üst seviyesine boydan boya geçen ince ve zarif bir Alüminyum (veya Paslanmaz Çelik) **"U Tutamak (Küpeşte Borusu)"** geçirilmesini tavsiye ediyoruz. Bu tutamak, birbirinden bağımsız duran 3-4 farklı cam panelini üstten birleştirerek bütünleşik, esnemeyen ve üst darbelerden korunan dev bir blok duvar haline getirir.
+
+## İstanbul Anadolu Yakası Ücretsiz Keşif ve Uzman Projelendirme
+
+Cam korkuluk veya Fransız balkon projeleri; cam kalınlığı hesabından, zemindeki mermerin mukavemetine, kullanılacak kimyasal dübellerden çelik bazanın et kalınlığına kadar ciddi mühendislik hesabı gerektiren, insan canının söz konusu olduğu sorumluluğu çok yüksek projelerdir. 
+
+Ataşehir merkezli faaliyet gösteren firmamız; Kadıköy, Ümraniye, Maltepe, Kartal, Pendik, Tuzla, Üsküdar, Sancaktepe, Çekmeköy ve Sultanbeyli ilçelerinde yer alan lüks konut, site, iş merkezi ve müstakil projelerinize yönelik güvenilir cam korkuluk ve küpeşte çözümleri sunmaktadır.
+
+Bina cephenize en çok yakışacak rengi (Şeffaf, Füme, Bronz, Mavi cam) veya alüminyum/inox profil modelini belirlemek; statik rüzgar hesaplamasını yaptırmak ve net maliyeti öğrenmek için hemen **ücretsiz keşif ve projelendirme** hizmetimizden faydalanın. Estetiği güvenlikle birleştirmek için profesyonel ekibimiz bir telefon uzağınızda!

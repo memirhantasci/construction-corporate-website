@@ -3,63 +3,70 @@ title: "Duşakabin Modelleri ve Seçim Rehberi: Temperli Cam, Ölçü ve Montaj 
 description: "Banyonuza en uygun duşakabin modelini seçerken dikkat edilmesi gerekenler, cam kalınlığı, profil çeşitleri ve İstanbul fiyatları."
 date: "2026-07-06"
 category: "Duşakabin"
-image: "/images/dusakabin_result.webp"
+image: "https://wsrv.nl/?url=https://www.dusakabin.gen.tr/wp-content/uploads/2021/01/cam-dusakabin-modelleri-1.jpg&output=webp"
 slug: "dusakabin-modelleri-secim-rehberi"
 ---
 
 # Duşakabin Modelleri ve Seçim Rehberi: Temperli Cam, Ölçü ve Montaj Detayları
 
-Banyolar, evimizde güne başladığımız ve günün yorgunluğunu attığımız en özel kişisel arınma alanlarıdır. Şık ve fonksiyonel bir banyonun kalbinde ise doğru seçilmiş bir **duşakabin sistemi** yer alır. Kötü yalıtılmış, camı titreyen ve zemine su sızdıran bir duşakabin, banyo deneyimini bir çileye dönüştürebilir.
+Banyolar, evimizde güne tazelenerek başladığımız ve günün yorgunluğunu, stresini ılık bir suyla üzerimizden attığımız en kişisel arınma mekanlarıdır. Temiz, şık ve fonksiyonel bir banyonun kalbinde ise doğru projelendirilmiş ve ustalıkla monte edilmiş bir **duşakabin sistemi** yer alır. Kötü silikonlanmış, kenarlarından su sızdıran, kapısını açarken sallanan ve kireç lekelerinden asla arınmayan bir duşakabin, banyo keyfini kelimenin tam anlamıyla bir eziyete dönüştürebilir.
 
-İstanbul Cam Balkon & Sineklik bünyesinde, alüminyum ve cam işleme tecrübemizi banyolarınıza taşıyoruz. Ataşehir merkezli atölyemizden İstanbul Anadolu Yakası'nın tüm ilçelerine özel ölçü duşakabin imalatı ve montajı yapıyoruz. Bu rehberde duşakabin seçerken yapılan hataları ve doğruları uzman gözüyle inceliyoruz.
+İstanbul Cam Balkon & Sineklik firması olarak, Necati Usta ve Mustafa Usta'nın cam ve alüminyum işleme tecrübesini ıslak hacimlerinize, yani banyolarınıza taşıyoruz. Ataşehir merkezli atölyemizden İstanbul Anadolu Yakası'nın tüm bölgelerine sıfır hata prensibiyle uyguladığımız lüks duşakabin sistemlerinin ince detaylarını, yapı marketlerden alınan standart ürünlerin yarattığı riskleri ve ideal duşakabini seçme rehberini bu detaylı yazıda sizlerle paylaşıyoruz.
 
-## Duşakabin Camı Nasıl Olmalı? 8mm mi 10mm mi?
+## 1. Mika mı, Gerçek Cam mı? Duşakabin Camı Nasıl Olmalı?
 
-Duşakabinlerde geçmişte kullanılan mika (pleksi) camlar yerini tamamen estetik ve hijyenik olan gerçek cama bırakmıştır. Ancak banyoda cam kullanımı doğrudan güvenlik demektir. Bu nedenle tüm sistemlerimizde çarpma ve kırılmalara karşı standart cama göre 5 kat daha dayanıklı **Temperli Güvenlik Camı** kullanmaktayız.
+Duşakabin sistemlerinin ilk zamanlarında kullanılan mika (pleksiglas/plastik) levhalar, zamanla sarardığı, kırıldığında kesici parçalara ayrıldığı ve üzerinde bakteri/küf barındırdığı için modern banyolarda tamamen terk edilmiştir. Bugünün standartları, güvenlik ve hijyen açısından kesinlikle **Gerçek Cam** kullanımını emreder.
 
-- **5mm ve 6mm Camlar:** Piyasada satılan standart hazır duşakabinlerde sıklıkla görülür. Kasalı (profilli) sistemlerde kullanılabilir ancak esneme payı yüksektir.
-- **8mm Temperli Cam:** Firmamızın Menteşeli (açılır kanatlı) ve Profilsiz (Frameless) lüks duşakabin serilerinde standart olarak kullandığı kalınlıktır. İnanılmaz rijit bir yapı sunar, kapıyı açıp kapatırken titreme yapmaz ve premium bir hissiyat verir.
-- **10mm Temperli Cam:** Çok geniş alanlara sahip banyolarda ve sabit paravan camlarında (Walk-in Shower) tercih edilir.
+Ancak banyoda, ıslak ve kaygan bir zeminde cam kullanmak büyük bir güvenlik riski barındırır. Biri kayıp cama çarptığında camın parçalanması ölümcül yaralanmalara neden olabilir. Bu yüzden duşakabinlerde asla normal pencere camı kullanılmaz; sadece ve sadece **Temperli (Güvenlikli) Cam** kullanılır. Temperli cam, özel fırınlarda 700 derecelere kadar ısıtılıp şoklanarak soğutulmuş bir camdır. Hem esnekliği artırılmış hem de kırıldığında mısır tanesi gibi küçük, kesici olmayan zarsız parçalara ayrılacak şekilde programlanmıştır.
 
-## Profil Çeşitleri ve Mekanizma Seçenekleri
+### 5mm, 6mm, 8mm ve 10mm Cam Kalınlıkları
+Piyasada satılan ve genellikle profilli (kalın çerçeveli) hazır duşakabinlerde 5mm veya 6mm cam kullanılır. Bu camlar ince olduğu için esneme yapar ve her kapı açılışında bir "titreme" hissi verir.
 
-Banyonuzun büyüklüğüne ve mimari tarzına göre farklı çalışma mekanizmaları tercih edilmelidir:
+Firmamızın lüks, çerçevesiz (frameless) ve menteşeli duşakabin serilerinde **8mm Temperli Cam** standart olarak kullanılmaktadır. 8mm cam, banyonuzda tok bir duvar hissi yaratır. Titreme yapmaz, inanılmaz rijit durur ve kapıyı açıp kapatırken premium bir tokluk hissi (kalite algısı) verir. Sabit camlı Walk-in duşlarda ise **10mm kalınlık** tercih ederek maksimum dengeyi sağlıyoruz.
 
-### 1. Sürgülü (Kayar) Sistemler
-Dar banyoların kurtarıcısıdır. Cam kapı, alt ve üst raylar üzerinde tekerlekler vasıtasıyla kayarak açılır. Alan işgal etmez.
-- *Dikkat Edilmesi Gereken:* Sürgülü sistemlerde paslanmaz çelik veya pirinç rulmanlı çift tekerlek kullanılmalıdır. Ucuz plastik tekerlekler zamanla kireç tutar ve kapı sıkışır.
+## 2. Banyonuzun Mimarisine Göre Profil ve Mekanizma Seçenekleri
 
-### 2. Menteşeli (Açılır Kapılı) Sistemler
-Geniş banyolar için en lüks ve şık çözümdür. Kalın temperli camlar, duvara veya diğer sabit cama paslanmaz krom menteşelerle asılır. Çerçeve (profil) kullanımı minimuma indirildiği için ferah bir görünüm sağlar. Temizliği sürgülü sistemlere göre çok daha kolaydır.
+Banyonuzun metrekaresi, duş teknesinin şekli (dikdörtgen, kare, oval) ve dekorasyon tarzınız, duşakabinin çalışma mekanizmasını belirler.
 
-### 3. Walk-in (Sabit Paravan) Duşlar
-Modern ve minimalist banyoların trendidir. Sadece tek veya iki parça sabit camın özel profillerle zemine ve duvara monte edilmesiyle oluşturulur. Kapı yoktur, direkt giriş yapılır. Zemin eğiminin duş süzgecine doğru kusursuz ayarlandığı banyolarda mükemmel sonuç verir.
+### A) Sürgülü (Kayar Kapılı) Sistemler
+Alan dar ise ve dışarı açılacak bir kapı klozete, banyo dolabına veya çamaşır makinesine çarpıyorsa, tek çözüm sürgülü sistemdir. Cam paneller alt ve üst ray profilleri arasında tekerlekler üzerinde kayar. 
+**Kritik Detay:** Sürgülü sistemlerin Aşil tendonu tekerlekleridir. Suyun ve sabunun aşındırıcı etkisi kalitesiz plastik tekerlekleri kısa sürede bozar ve kapı sıkışır. Bizim kullandığımız sistemlerde tekerlekler **paslanmaz krom veya pirinç gövdeli, çift rulmanlı ağır seri** malzemelerdir. Yıllarca tek parmakla açılıp kapanma garantisi verir.
 
-## Su Sızdırmazlık ve Silikon İşçiliği
+### B) Menteşeli (Açılır Kapılı / Profilsiz) Sistemler
+Geniş banyoların ve modern mimarinin son trendi olan çerçevesiz tasarımlardır. Camın etrafında kalın alüminyum çerçeveler yoktur; 8mm kalınlığındaki ağır cam kapı, doğrudan duvara veya yanındaki sabit cama **paslanmaz 304 kalite pirinç-krom menteşelerle** asılır. Metal profiller olmadığı için banyo çok daha büyük, ferah ve derin görünür. Dışarıya doğru açıldığı için kapı önünde bir manevra alanı gerektirir. Temizlenecek ray kanalı olmadığı için temizliği dünyanın en kolay sistemidir.
 
-Bir duşakabinin en önemli görevi suyu içeride tutmaktır. Piyasada sıkça duyulan "duşakabinin altından su sızıyor" şikayetinin iki temel nedeni vardır: Yanlış fitil kullanımı ve kötü silikon işçiliği.
+### C) Walk-in Shower (Kapısız Sabit Paravanlar)
+Banyo kültüründeki en minimalist devrimdir. Duş teknesi kullanılmaz, zemin seramiği doğru eğimle (gizli süzgeçlere) yönlendirilir ve sadece banyo alanını bölen tek parça dev bir sabit cam (Örn: 100 cm x 200 cm) duvara monte edilir. Kapı, ray veya menteşe yoktur; doğrudan içeri adım atılır. 
 
-- **Mıknatıslı ve Sulu Fitiller:** Camların birleşim noktalarında şeffaf ve UV ışınlarına dayanıklı mıknatıslı fitiller kullanılmalıdır. Bu fitiller kapı kapandığında birbirine tutunarak suyun dışarı sıçramasını engeller.
-- **Silikon Uygulaması:** Montaj sırasında alüminyum profil ile seramik duvar arasına çekilen silikon kesinlikle **%100 solvent içermeyen, anti-bakteriyel (küf önleyici) silikon** olmalıdır. Aksi takdirde 6 ay içinde o silikonlar siyahlaşır ve kötü bir görüntü oluşturur. Montaj ekibimiz bu konuda titiz bir işçilik uygular.
+## 3. Suyun Dışarı Sızmasını Önleyen Teknoloji: Fitil ve Silikon İşçiliği
 
-## Easy-Clean (Nano) Kaplama Teknolojisi
+Duşakabin kullanıcılarının kabusu, duştan sonra banyo zeminine göl gibi yayılan su birikintisidir. Suyun sızması, hatalı yalıtımın eseridir.
 
-Cam yüzeyler ıslandığında su damlacıkları yüzeyde kireç ve sabun lekesi bırakır. Bunu önlemek için duşakabin camlarınıza **Nano Kaplama (Easy-Clean)** işlemi uyguluyoruz. 
-Özel bir kimyasal ile camın yüzeyindeki mikroskobik gözenekler kapatılır ve cam yüzeyi kaygan, su itici bir özellik kazanır. Bu sayede su camda tutunamaz, kireç lekeleri oluşmaz ve duşakabinin temizliği sadece bir su tutarak saniyeler içinde tamamlanır.
+*   **UV Korumalı Şeffaf Fitiller:** Cam kapının kapandığında sabit camla veya duvarla birleştiği noktalara özel profilli (mıknatıslı veya baloncuklu) şeffaf fitiller geçirilir. Mıknatıslı fitiller, kapı tam kapandığında birbirine güçlüce çekilerek suyun milimetrik sızıntısını bile engeller. Zamanla sararan bu plastik fitilleri 2-3 yılda bir yenilemek çok pratik bir işlemdir.
+*   **Anti-Bakteriyel Solvent İçermeyen Silikon:** Duşakabini seramik duvara ve zemine yapıştıran kimyasal malzemedir. Merdiven altı firmalar maliyeti düşürmek için standart akvaryum veya inşaat silikonu kullanır. Bu silikonlar suya maruz kaldıkça 6 ay içinde simsiyah küf bağlar. Firmamız montajlarında sadece ithal **%100 anti-bakteriyel, solvent içermeyen profesyonel duşakabin mastikleri** kullanır. Yıllar geçse de silikon hattı beyaz ve temiz kalır.
 
-## Renk ve Cam Desen Seçenekleri
+## 4. Kireç ve Su Lekesine Son: Easy-Clean (Nano) Kaplama Teknolojisi
 
-Duşakabin sadece şeffaf olmak zorunda değildir. Banyonuzun seramik renklerine ve batarya grubunuza (musluklara) göre profil rengini seçebilirsiniz:
-- Parlak Krom (Klasik ve ışıltılı)
-- Mat Siyah veya Antrasit Gri (Modern ve endüstriyel)
-- Altın veya Rose Gold (Lüks ve gösterişli)
+Cam yüzeyler ıslandığında, su damlacıkları yerçekimiyle süzülürken geride sudaki mineralleri (kireci) ve sabun artıklarını bırakır. Camda beyaz, mat ve kötü görünümlü kireç lekeleri oluşur.
 
-Mahremiyet isteyenler için kumlama deseni uygulanmış, yarı mat (füme, bronz) veya tamamen opak cam seçeneklerimiz de mevcuttur.
+Bunu önlemek için temperleme işleminden sonra cama uyguladığımız **Nano Teknoloji (Easy-Clean) Su İtici Kaplama** devreye girer. Lotus (nilüfer) çiçeği yaprağının suyu itmesi prensibiyle çalışan bu teknoloji sayesinde, camın mikroskobik gözenekleri özel bir solüsyonla kapatılır. Su cam yüzeyinde tutunamaz, boncuklanarak hızla akıp gider. Kireç ve sabun lekesi oluşumu %80-90 oranında azalır. Temizlik için sadece duş başlığıyla cama su tutmanız yeterli olur.
 
-## Ücretsiz Banyo Ölçümü ve Keşif Hizmeti
+## 5. Renk ve Dekoratif Desen Seçenekleri (Kumlama)
 
-Yapı marketlerden alınan standart "90x90" duşakabinler, duvar eğriliğinin veya seramik çıkıntılarının hesaba katılmaması nedeniyle montajda büyük sorunlar yaratır. Mükemmel su sızdırmazlığı ve sorunsuz kullanım için her duşakabin **banyonuza özel (milimetrik) ölçülerde** üretilmelidir.
+Artık banyolar standart beyaz veya krom metalik renklerle sınırlı değil. Batarya (musluk) grubunuz ve seramik konseptinize uyumlu olarak duşakabin profillerini ve menteşelerini;
+*   Modern tasarımlar için **Mat Siyah** veya **Antrasit Gri**
+*   Klasik ve Avangard tasarımlar için **Rose Gold (Bakır)** veya **Altın (Gold)**
+*   Zamansız ferahlık için **Parlak Krom (Gümüş)**
+renklerinde üretebilmekteyiz.
 
-İstanbul Anadolu Yakası'nda (Kadıköy, Ümraniye, Ataşehir, Maltepe, Kartal, Pendik, Tuzla, Üsküdar, Sancaktepe, Sultanbeyli, Çekmeköy) ikamet ediyorsanız, banyonuza en uygun modeli belirlemek için **ücretsiz keşif ve ölçü alma** hizmetimizden faydalanabilirsiniz. 
+Mahremiyet endişesi yaşayan aileler için veya klozet/duş alanının yakın olduğu durumlarda, şeffaf cam yerine **Füme (Duman rengi) cam, Bronz cam** veya camın orta hizasına (belden omuza kadar) uygulanan **Kumlama (Buzlu cam) şerit deseni** gibi çok şık gizlilik çözümlerimiz bulunmaktadır.
 
-Uzman ekibimiz adresinize gelir, banyonuzun yerleşim planına göre en uygun modeli size sunar ve net fiyat teklifini iletir. Su sızıntısı ve kireç lekelerinden uzak, şık bir banyo deneyimi için hemen bizimle iletişime geçin.
+## İstanbul Anadolu Yakası Ücretsiz Özel Ölçü ve Keşif Hizmeti
+
+Yapı marketlerden kutu içinde alınan "90x90", "100x100" gibi standart ölçülü duşakabinler, evinizin banyo duvarlarındaki çarpıklıkları, seramik çıkıntılarını veya zemin eğimindeki dengesizlikleri hesaba katmaz. Montaj sırasında duvarla arada kalan büyük boşluklar aşırı silikon basılarak kapatılmaya çalışılır ve bu iğreti görüntü ilk günden itibaren su sızdırma problemlerine yol açar.
+
+Mükemmel bir duşakabin, tıpkı ısmarlama bir takım elbise gibi banyonuza **milimetrik ölçülerde özel olarak üretilmelidir.**
+
+Ataşehir merkezli İstanbul Cam Balkon & Sineklik firmamız; Kadıköy, Ümraniye, Maltepe, Kartal, Pendik, Tuzla, Üsküdar, Sancaktepe, Sultanbeyli ve Çekmeköy bölgelerinde banyonuza özel lüks duşakabin çözümleri sunmaktadır. Duvarlarınızın terazisini lazer ölçüm cihazlarıyla alıyor, tavan yüksekliğine ve mekanınızın şekline göre en uygun (Sürgülü veya Menteşeli) tasarımı hazırlıyoruz.
+
+Su sızdırmayan, kireç tutmayan ve yıllarca sarsılmadan açılıp kapanan premium bir banyo deneyimi yaşamak, ölçü aldırmak ve ücretsiz fiyat teklifi istemek için hemen bugün bize ulaşın!
