@@ -97,7 +97,7 @@ export function About({ variant = 'dark' }: { variant?: 'light' | 'dark' }) {
       ref={sectionRef}
       id="hakkimizda"
       className="py-24 md:py-32"
-      style={{ backgroundColor: variant === 'light' ? '#F5F5F0' : '#6B6F99' }}
+      style={{ backgroundColor: variant === 'light' ? '#F5F5F0' : '#1C1F33' }}
     >
       <div className="mx-auto px-8" style={{ maxWidth: 1440 }}>
         {/* Section Header */}
