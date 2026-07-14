@@ -8,6 +8,8 @@
     "types": ["vite/client"],
     "skipLibCheck": true,
 
+    // 👇 Eski baseUrl kaldırıldı, uyarıyı susturmak için deprecation filtresi eklendi
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@/*": [

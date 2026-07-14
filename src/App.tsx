@@ -5,7 +5,7 @@ import FloatingButtons from './components/FloatingButtons';
 
 // Sayfalar
 import Home from './pages/Home';
-import Album from './pages/Album';
+//import Album from './pages/Album';
 import ProductsPage from './pages/ProductsPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
