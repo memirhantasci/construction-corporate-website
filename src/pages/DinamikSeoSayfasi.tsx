@@ -22,6 +22,8 @@ import {
 } from '../data/seoData';
 import { servicePages } from '../data/servicePages'; // Gerçek ürün verisi (id, name, desc, image)
 import { allBlogPosts } from '../lib/blog'; // Gerçek blog verisi (.md dosyalarından)
+import { canonicalUrl } from '../config/site';
+import { buildLocalBusinessSchema } from '../lib/localBusinessSchema';
 
 const PHONE = '+905441846478';
 const WA_URL = `https://wa.me/905441846478`;
@@ -80,6 +82,8 @@ export default function DinamikSeoSayfasi() {
   const visibleReviews = reviews.slice(reviewIdx, reviewIdx + VISIBLE);
 
   const advantageBadges = ['✅ 2 Yıl Garanti', '📐 Ücretsiz Keşif', '⚡ Hızlı Montaj', '🏅 CE Belgeli'];
+  const pagePath = `/bolgeler/${ilceSlug}/${hizmetSlug}`;
+  const pageUrl = canonicalUrl(pagePath);
 
   return (
     <>
@@ -87,9 +91,10 @@ export default function DinamikSeoSayfasi() {
       <Helmet>
         <title>{fill(service.metaTitleTemplate)}</title>
         <meta name="description" content={fill(service.metaDescTemplate)} />
-        <link rel="canonical" href={`https://istanbulcambalkon.com/bolgeler/${ilceSlug}/${hizmetSlug}`} />
+        <link rel="canonical" href={pageUrl} />
         <meta property="og:title" content={fill(service.metaTitleTemplate)} />
         <meta property="og:description" content={fill(service.metaDescTemplate)} />
+        <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
@@ -100,15 +105,12 @@ export default function DinamikSeoSayfasi() {
             acceptedAnswer: { '@type': 'Answer', text: fill(f.answer) },
           })),
         })}</script>
-        <script type="application/ld+json">{JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'LocalBusiness',
-          name: 'İstanbul Cam Balkon & Sineklik',
-          telephone: PHONE,
-          address: { '@type': 'PostalAddress', addressLocality: district.name, addressCountry: 'TR' },
-          areaServed: district.name,
-          url: `https://istanbulcambalkon.com/bolgeler/${ilceSlug}/${hizmetSlug}`,
-        })}</script>
+        <script type="application/ld+json">{JSON.stringify(
+          buildLocalBusinessSchema({
+            areaServed: district.name,
+            pageUrl,
+          }),
+        )}</script>
       </Helmet>
 
       <div className="min-h-screen pt-20" style={{ backgroundColor: CREAM }}>
