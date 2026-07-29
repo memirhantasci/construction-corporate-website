@@ -61,6 +61,7 @@ export default function Hero() {
           alt="Ataşehir'de rüzgara ve zorlu hava koşullarına dayanıklı, modern tasarımlı cam balkon ve sineklik sistemleri uygulaması" 
           title="İstanbul Cam Balkon Sistemleri"
           className="w-full h-full object-cover opacity-80"
+          fetchpriority="high"
         />
         {/* Mobilde yazılar daha iyi okunsun diye karartmayı artırdık, md ekranlarda eski haline dönüyor */}
         <div className="absolute inset-0 bg-black/75 md:bg-black/60"></div>
@@ -70,7 +71,7 @@ export default function Hero() {
       <div className="relative z-10 w-full md:w-2/3 flex flex-col justify-center px-8 md:pl-[120px] md:pr-8 py-24">
         <p
           ref={eyebrowRef}
-          className="text-coral uppercase mb-6 opacity-0"
+          className="text-coral uppercase mb-6"
           style={{ fontSize: 14, fontWeight: 500, letterSpacing: '0.04em', lineHeight: 1.4 }}
         >
           
@@ -94,13 +95,13 @@ export default function Hero() {
 
         <p
           ref={subRef}
-          className="text-gray-200 opacity-0 max-w-lg mt-7"
+          className="text-gray-200 max-w-lg mt-7"
           style={{ fontSize: 18, lineHeight: 1.6, fontWeight: 400 }}
         >
           2008'den beri İstanbul ve Ataşehir'in zorlu rüzgar ve iklim koşullarına tam dayanıklı; yüksek ısı yalıtımlı cam balkon ve yırtılmaya dirençli yeni nesil sineklik sistemleriyle yaşam alanlarınıza kalıcı estetik ve güven katıyoruz.
         </p>
 
-        <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10 opacity-0">
+        <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10">
           {/* BİZE ULAŞIN BUTONU */}
           <a
             href="https://wa.me/905441846478"
