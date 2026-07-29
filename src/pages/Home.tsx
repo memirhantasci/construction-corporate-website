@@ -8,7 +8,7 @@ import Contact from '../sections/Contact';
 import SeoMeta from '../components/SeoMeta';
 import { SITE } from '../config/site';
 import { Helmet } from 'react-helmet-async';
-import { buildLocalBusinessSchema } from '../lib/localBusinessSchema';
+import { buildLocalBusinessSchema, buildOrganizationSchema } from '../lib/localBusinessSchema';
 
 export default function Home() {
   return (
@@ -17,11 +17,9 @@ export default function Home() {
         title={SITE.defaultTitle}
         description={SITE.defaultDescription}
         path="/"
-      />
-      
-      <Helmet>
-        <script type="application/ld+json">
-          {JSON.stringify({
+        schemas={[
+          buildOrganizationSchema(),
+          {
             ...buildLocalBusinessSchema(),
             openingHoursSpecification: [
               {
@@ -62,9 +60,9 @@ export default function Home() {
                 "reviewBody": "Necati Usta ve Mustafa Usta’ya teşekkür ederiz. Evimize bu kış bahçesini yaptırdık, sonuç beklediğimizden de güzel oldu."
               }
             ]
-          })}
-        </script>
-      </Helmet>
+          }
+        ]}
+      />
 
       <Hero />
       <Products />

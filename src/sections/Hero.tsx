@@ -58,7 +58,8 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <img 
           src="/images/hero-bg.jpg"
-          alt="İstanbul Cam Balkon & Sineklik arka plan" 
+          alt="Ataşehir'de rüzgara ve zorlu hava koşullarına dayanıklı, modern tasarımlı cam balkon ve sineklik sistemleri uygulaması" 
+          title="İstanbul Cam Balkon Sistemleri"
           className="w-full h-full object-cover opacity-80"
         />
         {/* Mobilde yazılar daha iyi okunsun diye karartmayı artırdık, md ekranlarda eski haline dönüyor */}
@@ -96,7 +97,7 @@ export default function Hero() {
           className="text-gray-200 opacity-0 max-w-lg mt-7"
           style={{ fontSize: 18, lineHeight: 1.6, fontWeight: 400 }}
         >
-          Alüminyum doğramadan cam balkona, motorlu panjurdan sinekliğe kadar yaşam alanlarınız için estetik, dayanıklı ve fonksiyonel çözümler ürebiliyoruz.
+          2008'den beri İstanbul ve Ataşehir'in zorlu rüzgar ve iklim koşullarına tam dayanıklı; yüksek ısı yalıtımlı cam balkon ve yırtılmaya dirençli yeni nesil sineklik sistemleriyle yaşam alanlarınıza kalıcı estetik ve güven katıyoruz.
         </p>
 
         <div ref={ctaRef} className="flex flex-wrap items-center gap-4 mt-10 opacity-0">

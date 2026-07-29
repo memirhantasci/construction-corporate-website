@@ -122,6 +122,12 @@ export default function Products() {
           >
             Yaşam Alanlarınıza Değer Katan Dokunuşlar
           </h2>
+          <p
+            className="text-navy-muted mt-6 max-w-2xl"
+            style={{ fontSize: 18, lineHeight: 1.6, fontWeight: 400 }}
+          >
+            Ataşehir ve Anadolu Yakası'ndaki tüm projelerimizde standartların ötesine geçiyoruz. Her bir ürünümüz; maksimum enerji tasarrufu sağlayan yalıtım özellikleri, zorlu hava koşullarına direnç gösteren alüminyum aksamlar ve yıllara meydan okuyan sağlamlıkla mekanlarınızın ihtiyacına özel olarak üretilmektedir.
+          </p>
         </div>
 
         <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">

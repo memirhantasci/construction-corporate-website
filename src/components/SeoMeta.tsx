@@ -5,9 +5,11 @@ interface SeoMetaProps {
   title: string;
   description: string;
   path?: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  schemas?: any[];
 }
 
-export default function SeoMeta({ title, description, path = '/' }: SeoMetaProps) {
+export default function SeoMeta({ title, description, path = '/', schemas = [] }: SeoMetaProps) {
   const url = canonicalUrl(path);
 
   return (
@@ -23,6 +25,11 @@ export default function SeoMeta({ title, description, path = '/' }: SeoMetaProps
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
+      {schemas.map((schema, index) => (
+        <script key={index} type="application/ld+json">
+          {JSON.stringify(schema)}
+        </script>
+      ))}
     </Helmet>
   );
 }

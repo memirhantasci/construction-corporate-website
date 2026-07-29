@@ -51,3 +51,46 @@ export function buildLocalBusinessSchema(options?: {
     },
   };
 }
+
+export function buildOrganizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE.domain}/#organization`,
+    name: SITE.name,
+    url: SITE.domain,
+    logo: `${SITE.domain}/images/Logo.png`,
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: SITE.phoneTel,
+      contactType: "customer service",
+      areaServed: "TR",
+      availableLanguage: "Turkish",
+    },
+  };
+}
+
+export function buildProductSchema(product: {
+  name: string;
+  description: string;
+  image: string;
+  url: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    image: product.image,
+    description: product.description,
+    brand: {
+      "@type": "Brand",
+      name: SITE.name,
+    },
+    offers: {
+      "@type": "AggregateOffer",
+      url: product.url,
+      priceCurrency: "TRY",
+      availability: "https://schema.org/InStock",
+    },
+  };
+}

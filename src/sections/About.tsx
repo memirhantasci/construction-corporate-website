@@ -135,7 +135,8 @@ export function About({ variant = 'dark' }: { variant?: 'light' | 'dark' }) {
             <img
               ref={imageRef}
               src="/images/about_result.webp"
-              alt="İstanbul Cam Balkon & Sineklik uygulama"
+              alt="Ataşehir'de tamamlanmış, estetik ve ısı yalıtımlı modern cam balkon uygulaması"
+              title="Yüksek Kaliteli Cam Balkon Uygulamalarımız"
               loading="lazy"
               className="w-full h-auto object-cover"
               style={{ aspectRatio: '3/4' }}
@@ -144,10 +145,10 @@ export function About({ variant = 'dark' }: { variant?: 'light' | 'dark' }) {
           {/* Text */}
           <div ref={contentRef} className="w-full md:w-[55%] flex flex-col justify-center">
             <p style={{ fontSize: 18, lineHeight: 1.6, color: variant === 'light' ? '#4a4e6a' : '#F7F7F5' }}>
-              İstanbul Cam Balkon & Sineklik olarak, 2008 yılından bu yana Anadolu Yakası genelinde cam balkon ve sineklik çözümleri sunuyoruz. Katlanır cam balkondan pileli sinekliğe, kedi sinekliğinden ısıcamlı cam balkon sistemlerine kadar geniş bir yelpazede, mekanlarınıza değer katan projeler geliştiriyoruz.
+              İstanbul Cam Balkon & Sineklik olarak, 2008 yılından bu yana Ataşehir başta olmak üzere tüm Anadolu Yakası'nda mekanlarınıza değer katan projeler geliştiriyoruz. İstanbul'un değişken nem oranlarına ve yüksek binalardaki rüzgar yüküne tam dayanıklı, paslanmaz alüminyum profillerden ürettiğimiz katlanır ve ısıcamlı cam balkon sistemlerimizle uzun ömürlü kullanım garantisi sunuyoruz.
             </p>
             <p className="mt-7" style={{ fontSize: 18, lineHeight: 1.6, color: variant === 'light' ? '#4a4e6a' : '#F7F7F5' }}>
-              Teknolojiyi ve estetiği bir araya getiren üretim anlayışımızla, her projede yüksek kaliteli malzeme ve titiz işçiliği garanti ediyoruz. Mimari ihtiyaçlarınıza modern, dayanıklı ve fonksiyonel yanıtlar vererek, yaşam alanlarınızdaki konforu en üst seviyeye çıkarmayı hedefliyoruz.
+              Sadece estetik değil, aynı zamanda evcil hayvanlarınızın güvenliği için özel güçlendirilmiş yırtılmaz kedi sinekliği ve kullanım kolaylığı sağlayan plise (pileli) sineklik modellerimizle yaşam alanlarınızı daha ferah hale getiriyoruz. Her projemizde ezbere montaj yapmak yerine; mekanın rüzgar açısı, cephe yönü ve mimari yapısını analiz ederek, en yüksek ısı yalıtımı ve sızdırmazlığı sağlayacak özel çözümler üretiyoruz.
             </p>
 
             {/* Stats */}
