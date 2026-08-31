@@ -3,7 +3,7 @@ title: "Ofis ve Evlerde Alan Tasarrufu: Ataşehir Sürgülü Cam Balkon ve Eşik
 description: "Dar balkonlarda ve ofis bölmelerinde alan tasarrufu sağlayan sürgülü cam balkonların kullanım kolaylığı ve teknik karşılaştırması."
 date: "2026-07-12"
 category: "Cam Balkon"
-image: "https://wsrv.nl/?url=https://scottishstainedglass.com/wp-content/uploads/2026/01/f42ed493-e643-453b-b447-8576d368a295.png&output=webp"
+image: "/images/cambalkon-2.jpeg"
 slug: "surgulu-cam-balkon-farklari"
 ---
 

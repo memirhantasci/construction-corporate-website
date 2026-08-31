@@ -2,7 +2,7 @@
 title: "2026 Kapsamlı Cam Balkon ve Sineklik Rehberi: Hangi Sistemi Seçmelisiniz?"
 description: "Isıcamlı, katlanır ve sürme cam balkon modelleri arasındaki farklar nelerdir? Cam balkon alırken dikkat edilmesi gerekenler, malzeme kalitesi ve m² fiyat hesaplama detayları."
 date: "2026-07-08"
-image: "/images/cambalkon_result.webp"
+image: "/images/cambalkon.jpeg"
 slug: "kapsamli-cam-balkon-ve-sineklik-rehberi"
 category: "Cam Balkon & Sineklik"
 ---

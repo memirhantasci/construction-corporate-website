@@ -2,7 +2,38 @@ interface DistrictGalleryProps {
   district: string;
 }
 
-const PLACEHOLDER_COUNT = 6;
+const galleryItems = [
+  {
+    image: '/images/cambalkon-1.jpeg',
+    title: 'Katlanır Cam Balkon Montajı',
+    category: 'Cam Balkon',
+  },
+  {
+    image: '/images/cambalkon-3.jpeg',
+    title: 'Isıcamlı Cam Balkon Uygulaması',
+    category: 'Isıcamlı Sistem',
+  },
+  {
+    image: '/images/sineklik-1.png',
+    title: 'Pileli Sineklik Sistemi',
+    category: 'Sineklik',
+  },
+  {
+    image: '/images/cambalkon-2.jpeg',
+    title: 'Sürme Cam Balkon Kapatma',
+    category: 'Sürme Sistem',
+  },
+  {
+    image: '/images/kis_bahcesi.jpeg',
+    title: 'Teras & Kış Bahçesi',
+    category: 'Kış Bahçesi',
+  },
+  {
+    image: '/images/aluminyum_dograma.jpeg',
+    title: 'Alüminyum Doğrama Çözümü',
+    category: 'Alüminyum',
+  },
+];
 
 export default function DistrictGallery({ district }: DistrictGalleryProps) {
   return (
@@ -17,41 +48,34 @@ export default function DistrictGallery({ district }: DistrictGalleryProps) {
         className="text-navy uppercase mb-3"
         style={{ fontSize: 'clamp(22px, 2.5vw, 28px)', fontWeight: 500, lineHeight: 1.2 }}
       >
-        {district}&apos;de Yaptığımız İşlerden
+        {district}&apos;de Yaptığımız İşlerden Örnekler
       </h2>
       <p className="text-navy-muted mb-8 leading-relaxed">
-        Aşağıdaki alanlara {district} bölgesinde tamamladığımız cam balkon ve sineklik uygulama
-        fotoğraflarını ekleyebilirsiniz.
+        {district} genelinde tamamladığımız cam balkon, pileli sineklik, alüminyum doğrama ve kış bahçesi montajlarımızdan bazı kareler:
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-        {Array.from({ length: PLACEHOLDER_COUNT }, (_, index) => (
+        {galleryItems.map((item, index) => (
           <div
             key={index}
-            className="group relative overflow-hidden rounded-sm border border-dashed border-navy/20 bg-white aspect-[4/3] flex flex-col items-center justify-center transition-colors duration-300 hover:border-coral/40"
+            className="group relative overflow-hidden rounded-sm border border-navy/10 bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:border-coral/40"
           >
-            <div className="w-12 h-12 rounded-full bg-cream flex items-center justify-center mb-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="22"
-                height="22"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="text-navy-muted"
-                viewBox="0 0 24 24"
-              >
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <path d="m21 15-5-5L5 21" />
-              </svg>
+            <div className="overflow-hidden aspect-[4/3]">
+              <img
+                src={item.image}
+                alt={`${district} ${item.title}`}
+                loading="lazy"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
             </div>
-            <p className="text-navy-muted text-xs uppercase tracking-widest font-medium">
-              Fotoğraf {index + 1}
-            </p>
-            <p className="text-navy-muted/60 text-xs mt-1 px-4 text-center">
-              {district} — cam balkon / sineklik
-            </p>
+            <div className="p-4 bg-white">
+              <span className="text-[11px] font-bold uppercase tracking-widest text-coral">
+                {item.category}
+              </span>
+              <h3 className="text-navy text-sm font-medium mt-1">
+                {district} — {item.title}
+              </h3>
+            </div>
           </div>
         ))}
       </div>

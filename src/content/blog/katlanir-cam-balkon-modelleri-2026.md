@@ -3,7 +3,7 @@ title: "2026 Katlanır Cam Balkon Modelleri: Fiyat, Montaj ve Model Karşılaşt
 description: "İstanbul'da katlanır cam balkon yaptırmak isteyenler için 8mm ve 10mm temperli cam farkları, profil seçenekleri ve montaj süreci."
 date: "2026-07-10"
 category: "Cam Balkon"
-image: "/images/blog_katlanir_cam.webp"
+image: "/images/cambalkon-1.jpeg"
 slug: "katlanir-cam-balkon-modelleri-2026"
 ---
 

@@ -67,6 +67,11 @@ export default function DinamikSeoSayfasi() {
   const h1 = fill(service.h1Template);
   const intro = fill(service.introTemplate);
 
+  const matchingService = servicePages.find(
+    (p) => p.id === service.slug || p.id.includes(service.slug) || service.slug.includes(p.id)
+  );
+  const serviceImage = matchingService?.image || '/images/cambalkon.jpeg';
+
   // MADDE 2: Sahte blog üretimi yok — gerçek allBlogPosts'tan alakalı/yedek bloglar çekiliyor.
   // Havuzda kaç blog varsa o kadarı listelenir; "bulunamadı" mesajı basılmaz.
   const relatedBlogs = getRelatedBlogs(allBlogPosts, service, 6);
@@ -197,6 +202,17 @@ export default function DinamikSeoSayfasi() {
                 >
                   2026 Hizmet Odaklı Sayfa
                 </span>
+
+                {serviceImage && (
+                  <div className="overflow-hidden rounded-xl mb-5 aspect-[16/9] shadow-xs border border-navy/10">
+                    <img
+                      src={serviceImage}
+                      alt={`${district.name} ${service.name}`}
+                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    />
+                  </div>
+                )}
 
                 <h2 className="mb-4" style={{ fontSize: 'clamp(20px,2vw,28px)', fontWeight: 600, color: NAVY }}>
                   {service.shortName} Hakkında Detaylı Bilgi

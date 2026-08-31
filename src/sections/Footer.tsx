@@ -52,11 +52,20 @@ export default function Footer() {
           
           {/* 1. Kolon: Şirket Bilgisi */}
           <div>
-            <h3 className="text-white text-lg sm:text-xl font-medium uppercase tracking-widest mb-6">
-              {SITE.name.toLocaleUpperCase('tr-TR')}
-            </h3>
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white/20 bg-white shadow-sm shrink-0 flex items-center justify-center">
+                <img
+                  src="/favicon.png"
+                  alt={SITE.name}
+                  className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+              <h3 className="text-white text-base sm:text-lg font-medium uppercase tracking-widest leading-tight">
+                {SITE.name.toLocaleUpperCase('tr-TR')}
+              </h3>
+            </div>
             <p className="text-gray-400 max-w-xs leading-relaxed" style={{ fontSize: 14 }}>
-              Alüminyum, PVC and Cam sistemlerinde 18 yılı aşkın tecrübe ile yaşam alanlarınıza değer katıyoruz.
+              Alüminyum, PVC ve Cam sistemlerinde 18 yılı aşkın tecrübe ile yaşam alanlarınıza değer katıyoruz.
             </p>
           </div>
 

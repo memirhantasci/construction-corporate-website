@@ -3,7 +3,7 @@ title: "Alüminyum Doğrama mı PVC mi? İstanbul İçin Kapsamlı Pencere Seçi
 description: "Alüminyum doğrama ve PVC pencere sistemleri arasındaki teknik farklar, yalıtım değerleri, ömür ve maliyet karşılaştırması."
 date: "2026-07-08"
 category: "Alüminyum Doğrama"
-image: "/images/blog_aluminyum_pencere.webp"
+image: "/images/aluminyum_dograma.jpeg"
 slug: "aluminyum-dograma-pencere-secim-rehberi"
 ---
 

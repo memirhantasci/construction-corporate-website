@@ -3,7 +3,7 @@ title: "İstanbul'da Evcil Hayvan Sahiplerinin Tercihi: Dayanıklı Çelik Tüll
 description: "Evcil hayvan sahiplerinin en çok sorduğu plastik tül ile dayanıklı çelik tel örgülü kedi sineklikleri arasındaki mukavemet farkları."
 date: "2026-07-13"
 category: "Sineklik"
-image: "https://wsrv.nl/?url=https://www.formosascreens.com.au/wp-content/uploads/IMG_7113-scaled.jpg&output=webp"
+image: "/images/sineklik-3.png"
 slug: "kedi-sinekligi-tercihi"
 ---
 

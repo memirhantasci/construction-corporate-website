@@ -2,7 +2,7 @@
 title: "Pileli ve Stor Sineklik Temizliği Nasıl Yapılır? Ömrünü Uzatan Pratik Yollar"
 description: "Pileli sinekliklerin bakımı, yırtılmaları önleme yolları ve kışın sineklik bakımı hakkında pratik bilgiler. Sineklik sistemleri tamiri ve Ataşehir sineklik montajı."
 date: "2024-01-20"
-image: "/images/cambalkon_result.webp"
+image: "/images/sineklik-2.jpeg"
 slug: "pileli-sineklik-temizligi"
 category: "Sineklik"
 ---

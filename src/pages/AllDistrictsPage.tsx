@@ -37,7 +37,7 @@ export default function AllDistrictsPage() {
               {serviceAreaCards.map((area, i) => (
                 <Link
                   key={area.slug}
-                  to={`/bolgeler/${area.slug}-cam-balkon-sineklik`}
+                  to={`/bolgeler/${area.slug}`}
                   onClick={() => window.scrollTo(0, 0)}
                   // Kartları beyaz yaptık, hafif gölge ve yukarı kayma (hover) efekti ekledik
                   className="group block bg-white border border-gray-200/60 rounded-sm overflow-hidden transition-all duration-300 hover:border-coral/50 hover:shadow-xl hover:-translate-y-1"

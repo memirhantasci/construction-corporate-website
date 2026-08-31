@@ -3,7 +3,7 @@ title: "Duşakabin Modelleri ve Seçim Rehberi: Temperli Cam, Ölçü ve Montaj 
 description: "Banyonuza en uygun duşakabin modelini seçerken dikkat edilmesi gerekenler, cam kalınlığı, profil çeşitleri ve İstanbul fiyatları."
 date: "2026-07-06"
 category: "Duşakabin"
-image: "/images/blog_dusakabin.webp"
+image: "/images/dusakabin.jpeg"
 slug: "dusakabin-modelleri-secim-rehberi"
 ---
 

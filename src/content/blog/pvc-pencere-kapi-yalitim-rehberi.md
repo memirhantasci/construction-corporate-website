@@ -3,7 +3,7 @@ title: "PVC Pencere ve Kapı Sistemleri: İstanbul İçin Yalıtım, Dayanıklı
 description: "İstanbul'da PVC pencere ve kapı değişimi rehberi: profil kalınlığı, cam seçenekleri, çift-üçlü cam yalıtım değerleri."
 date: "2026-07-02"
 category: "PVC"
-image: "/images/blog_pvc_pencere.webp"
+image: "/images/pimapen.jpeg"
 slug: "pvc-pencere-kapi-yalitim-rehberi"
 ---
 

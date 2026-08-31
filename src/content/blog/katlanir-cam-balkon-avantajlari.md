@@ -3,7 +3,7 @@ title: "Katlanır Cam Balkon Sistemlerinin Evinize Sağladığı 5 Büyük Avant
 description: "İstanbul'un değişen hava koşullarında evinizde fazladan bir yaşam alanı oluşturmak ve ısı yalıtımı sağlamak için katlanır cam balkonların faydaları."
 date: "2026-06-19"
 category: "Cam Balkon"
-image: "/images/cambalkon_result.webp"
+image: "/images/cambalkon-5.jpeg"
 slug: "katlanir-cam-balkon-avantajlari"
 ---
 

@@ -2,7 +2,7 @@
 title: "İstanbul Anadolu Yakası Cam Balkon Fiyatları ve Doğru Model Seçimi"
 description: "Isıcamlı, katlanır ve sürme cam balkon sistemleri arasındaki farkları öğrenin. Ataşehir, Kadıköy, Ümraniye cam balkon fiyatları ve ücretsiz keşif avantajlarımız."
 date: "2024-01-15"
-image: "/images/cambalkon_result.webp"
+image: "/images/cambalkon-4.jpeg"
 slug: "istanbul-cam-balkon-fiyatlari"
 category: "Cam Balkon"
 ---

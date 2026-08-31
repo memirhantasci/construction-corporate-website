@@ -3,7 +3,7 @@ title: "Ataşehir ve Anadolu Yakası İçin Isıcamlı Cam Balkon Rehberi: 4 Mev
 description: "Isıcamlı cam balkon sistemlerinin kışın yakıt tasarrufuna, yazın ise serin kalmaya katkısını teknik değerlerle açıklayan rehber."
 date: "2026-07-14"
 category: "Cam Balkon"
-image: "https://wsrv.nl/?url=https://www.tbkmetal.com/wp-content/uploads/2024/05/Ultimate-Guide-to-Modern-Glass-Railing-Designs-for-Balcony-Transformations.jpg&output=webp"
+image: "/images/cambalkon-3.jpeg"
 slug: "isicamli-cam-balkon-konforu"
 ---
 

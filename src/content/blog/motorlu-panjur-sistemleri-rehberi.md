@@ -3,7 +3,7 @@ title: "Motorlu Panjur Sistemleri: Güvenlik, Enerji Tasarrufu ve Akıllı Ev En
 description: "İstanbul'da motorlu panjur çeşitleri, alüminyum vs PVC panjur farkları, akıllı ev uyumlu uzaktan kumanda sistemleri."
 date: "2026-07-07"
 category: "Panjur"
-image: "/images/blog_motorlu_panjur.webp"
+image: "/images/panjur_balkon.jpeg"
 slug: "motorlu-panjur-sistemleri-rehberi"
 ---
 

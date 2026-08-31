@@ -2,7 +2,7 @@
 title: "Kedi Sinekliği ve Pileli Sineklik Rehberi: Hangisi Daha Güvenli ve Kullanışlı?"
 description: "Evcil hayvanlar için çelik telli kedi sinekliği ile balkon kapıları için pileli sineklik karşılaştırması. Anadolu Yakası sineklik m² fiyatları ve montajı."
 date: "2026-06-25"
-image: "/images/sineklik_result.webp"
+image: "/images/sineklik-4.png"
 slug: "kedi-sinekligi-ve-pileli-sineklik-rehberi"
 category: "Sineklik"
 ---

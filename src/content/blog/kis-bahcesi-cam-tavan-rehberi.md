@@ -3,7 +3,7 @@ title: "İstanbul'da Kış Bahçesi ve Cam Tavan Sistemleri: Tasarım, Yalıtım
 description: "İstanbul Anadolu Yakası'nda cam kış bahçesi yapımı, çatı cam tavan seçenekleri, ısı yalıtımı ve maliyet analizi."
 date: "2026-07-05"
 category: "Cam Balkon"
-image: "/images/blog_kis_bahcesi.webp"
+image: "/images/kis_bahcesi.jpeg"
 slug: "kis-bahcesi-cam-tavan-rehberi"
 ---
 

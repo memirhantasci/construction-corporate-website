@@ -3,7 +3,7 @@ title: "Pileli Sineklik (Akordeon Sineklik) Rehberi: Modeller, Fiyatlar ve Monta
 description: "Cam balkon kapıları ve geniş pencereler için pileli sineklik sistemlerinin avantajları, tül seçenekleri ve İstanbul fiyatları."
 date: "2026-07-09"
 category: "Sineklik"
-image: "/images/blog_sineklik.webp"
+image: "/images/sineklik-1.png"
 slug: "pileli-sineklik-rehberi-2026"
 ---
 

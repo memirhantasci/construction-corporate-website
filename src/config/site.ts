@@ -1,9 +1,9 @@
 export const SITE = {
   name: 'İstanbul Cam Balkon & Sineklik',
   domain: 'https://atasehircambalkon.com',
-  defaultTitle: 'Ataşehir İstanbul Cam Balkon & Sineklik | Ücretsiz Keşif',
+  defaultTitle: 'İstanbul Cam Balkon & Sineklik | Ücretsiz Keşif',
   defaultDescription:
-    'Ataşehir merkezli İstanbul Cam Balkon & Sineklik. Anadolu Yakası\'nda katlanır cam balkon ve pileli sineklik montajı. Ücretsiz keşif.',
+    'İstanbul Cam Balkon & Sineklik. Anadolu Yakası\'nda katlanır cam balkon ve pileli sineklik montajı. Ücretsiz keşif.',
   phone: '0544 184 64 78',
   phoneTel: '+905441846478',
   whatsapp: '905441846478',

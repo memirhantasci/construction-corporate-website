@@ -3,7 +3,7 @@ title: "Cam Balkon Temizliği ve Bakım Rehberi: Yıllar Boyu İlk Günkü Parla
 description: "Cam balkon camlarını lekesiz temizleme teknikleri, alüminyum profil bakımı, fitil değişimi ve mevsimsel bakım takvimi."
 date: "2026-07-04"
 category: "Cam Balkon"
-image: "/images/blog_temizlik.webp"
+image: "/images/cambalkon-4.jpeg"
 slug: "cam-balkon-temizlik-bakim-rehberi"
 ---
 

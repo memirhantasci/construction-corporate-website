@@ -2,7 +2,7 @@
 title: "Alüminyum Doğrama mı, PVC mi? Ev ve Ofisler İçin Hangisi Daha Avantajlı?"
 description: "Isı yalıtımı, dayanıklılık ve fiyat açısından alüminyum ile plastik doğrama karşılaştırması. Ofis bölme, alüminyum korkuluk imalatı İstanbul."
 date: "2024-01-25"
-image: "/images/cambalkon_result.webp"
+image: "/images/aluminyum_dograma-1.jpeg"
 slug: "aluminyum-dograma-pvc-farklari"
 category: "Doğrama"
 ---

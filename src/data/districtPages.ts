@@ -409,15 +409,19 @@ export const districtPages: Record<string, DistrictPageData> = {
     ],
   },
 };
-const districtImages = {
-  atasehir: "/images/cambalkon_result.webp",
-  kadikoy: "/images/sineklik_result.webp",
-  umraniye: "/images/panjur_result.webp",
-  maltepe: "/images/pvc_result.webp",
-  kartal: "/images/aluminyum_result.webp",
-  pendik: "/images/dusakabin_result.webp",
-  sancaktepe: "/images/korkuluk_result.webp",
-  cekmekoy: "/images/cambalkon-1_result.webp",
+const districtImages: Record<string, string> = {
+  "atasehir-cam-balkon-sineklik": "/images/cambalkon.jpeg",
+  "kadikoy-cam-balkon-sineklik": "/images/cambalkon-1.jpeg",
+  "umraniye-cam-balkon-sineklik": "/images/cambalkon-2.jpeg",
+  "maltepe-cam-balkon-sineklik": "/images/cambalkon-3.jpeg",
+  "uskudar-cam-balkon-sineklik": "/images/cambalkon-4.jpeg",
+  "beykoz-cam-balkon-sineklik": "/images/kis_bahcesi.jpeg",
+  "kartal-cam-balkon-sineklik": "/images/cambalkon-5.jpeg",
+  "pendik-cam-balkon-sineklik": "/images/giyotin.jpeg",
+  "sancaktepe-cam-balkon-sineklik": "/images/pergola.jpeg",
+  "sultanbeyli-cam-balkon-sineklik": "/images/panjur_balkon.jpeg",
+  "tuzla-cam-balkon-sineklik": "/images/korkuluk.jpeg",
+  "cekmekoy-cam-balkon-sineklik": "/images/kis_bahcesi-2.jpeg",
 };
 
 // Geri getirdiğimiz ve dışa aktardığımız (export) kısım:
@@ -433,5 +437,5 @@ export const serviceAreaCards = Object.values(districtPages).map((item) => ({
   district: item.district,
   slug: item.slug,
   description: districtPages[item.slug].cardDescription,
-  image: districtImages[item.slug] || "/images/cambalkon_result.webp",
+  image: districtImages[item.slug] || "/images/cambalkon.jpeg",
 }));

@@ -2,7 +2,7 @@
 title: "Modern Yaşama Konfor Katan Çözümler: Motorlu Panjur ve Duşakabin Seçimi"
 description: "Akıllı evlere uygun motorlu panjur sistemleri ve modern duşakabin modelleri. Otomatik kepenk tamiri, banyo cam bölme ve yalıtım tüyoları."
 date: "2024-01-30"
-image: "/images/cambalkon_result.webp"
+image: "/images/panjur-1_result.webp"
 slug: "motorlu-panjur-ve-dusakabin"
 category: "Panjur & Duşakabin"
 ---
